@@ -1,0 +1,15 @@
+Bilder aus den Prompts in konzept/03_Bild-Prompts.md hier ablegen.
+
+Erwartete Dateinamen:
+  hero.png                 Wimmelbild für den Kopfbereich
+  wappen-ctsv.png          eigenes Maskottchen (Schwan)
+  gegner-dcbv.png          Deutsch-Chinesischer BV II
+  gegner-vorspiel.png      Vorspiel QSB
+  gegner-dibvm.png         DIBVM V
+  gegner-svbb.png          SV Berliner Brauereien VIII
+  gegner-tusli.png         TuS Lichterfelde
+  gegner-tempelhof.png     SG BC Tempelhof/Friedenau V
+  gegner-gaselan.png       SG Gaselan Fürstenwalde II
+  spieler-jens.png         usw. für Hiep, Robert, Alex, Nils, Karo, Cathy
+
+Eintragen dann in data/teams.js ("maskottchen") bzw. data/kader.js ("comic").

@@ -1,0 +1,20 @@
+# Netlify-Konfiguration für die Mannschaftsseite CTSV II
+#
+# Hier wird nichts gebaut. Die Seite ist fertiges HTML/CSS/JS.
+# Der "Build" besteht nur aus: Abhängigkeit für die Function installieren,
+# die Function bündeln, den Ordner site/ unverändert ausliefern.
+# Deshalb ist der Command absichtlich ein reines echo — das verhindert auch,
+# dass Netlify ein Framework zu erkennen glaubt und etwas anderes ausführt.
+
+[build]
+  command = "echo 'Statische Seite - nichts zu bauen'"
+  publish = "site"                    # genau dieser Ordner geht online
+  functions = "netlify/functions"     # der Anwesenheitscheck
+
+[functions]
+  node_bundler = "esbuild"
+
+[[headers]]
+  for = "/data/*"
+  [headers.values]
+    Cache-Control = "public, max-age=60"

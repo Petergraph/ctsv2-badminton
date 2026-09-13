@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Charlottenburger TSV II – Badminton Saison 2026/27</title>
+<meta name="description" content="Spielplan, Vorberichte und Anfahrt für die Badmintonmannschaft des Charlottenburger TSV II, D-Klasse 2, Saison 2026/27.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🏸</text></svg>">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;700;800&family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<a class="skip" href="#spielplan">Zum Spielplan springen</a>
+
+<div class="wrap">
+
+  <header class="hero">
+    <svg class="bahn" viewBox="0 0 1000 300" preserveAspectRatio="none" aria-hidden="true">
+      <path d="M-20 250 C 180 60, 380 60, 560 180 S 880 280, 1020 90" fill="none" stroke="#FF6B5B" stroke-width="3" stroke-dasharray="9 11" stroke-linecap="round"/>
+      <path d="M-20 90 C 200 210, 420 230, 640 120 S 900 40, 1020 190" fill="none" stroke="#2FA36B" stroke-width="3" stroke-dasharray="5 13" stroke-linecap="round"/>
+      <g transform="translate(640,118) rotate(24)">
+        <path d="M0 0 l-11 -7 l0 14 z" fill="#FFC53D" stroke="#1C1B1A" stroke-width="2.5"/>
+        <path d="M0 0 l16 -12 M0 0 l19 0 M0 0 l16 12" stroke="#1C1B1A" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+      </g>
+    </svg>
+
+    <div class="hero-kopf">
+      <div class="wappen" aria-hidden="true">🦢</div>
+      <div>
+        <p class="eyebrow">BVBB Mannschaftsmeisterschaft · D-Klasse 2</p>
+        <h1>Charlottenburger&nbsp;TSV&nbsp;<em>II</em></h1>
+        <p class="unter">Saison 2026/27 · 14 Spiele · 7 Heim, 7 Auswärts · Halle Kuno-Fischer-Straße</p>
+      </div>
+    </div>
+
+    <div class="naechstes">
+      <div class="ns-haupt">
+        <p class="eyebrow">Nächstes Spiel</p>
+        <p class="gegner" id="ns-gegner">—</p>
+        <div class="ns-meta" id="ns-meta"></div>
+        <div class="knopfreihe">
+          <button class="knopf voll" type="button" id="ns-kalender">📅 In den Kalender</button>
+          <a class="knopf" id="ns-anfahrt" href="#" target="_blank" rel="noopener">📍 Anfahrt</a>
+          <button class="knopf" type="button" id="ns-bericht">📰 Vorbericht</button>
+        </div>
+      </div>
+      <div class="countdown">
+        <p class="eyebrow">Anwurf in</p>
+        <div class="cd-zahlen" id="cd">
+          <div><b id="cd-t">–</b><span>Tage</span></div>
+          <div><b id="cd-s">–</b><span>Std</span></div>
+          <div><b id="cd-m">–</b><span>Min</span></div>
+        </div>
+        <p id="cd-wann" style="margin:2px 0 0;font-weight:700;font-size:.95rem"></p>
+      </div>
+    </div>
+  </header>
+
+  <section id="spielplan">
+    <div class="abschnitt-kopf">
+      <h2>Kommende Spiele</h2>
+      <p class="eyebrow" id="zaehler-kommend"></p>
+    </div>
+    <div class="filter" role="group" aria-label="Spiele filtern">
+      <button class="knopf" type="button" data-f="alle" aria-pressed="true">Alle</button>
+      <button class="knopf" type="button" data-f="heim" aria-pressed="false">Nur Heim</button>
+      <button class="knopf" type="button" data-f="ausw" aria-pressed="false">Nur Auswärts</button>
+      <button class="knopf" type="button" id="alle-termine">📅 Alle Termine als Datei</button>
+    </div>
+    <div class="spiele" id="spiele-kommend"></div>
+  </section>
+
+  <section id="ergebnisse">
+    <div class="abschnitt-kopf">
+      <h2>Gespielt</h2>
+      <p class="eyebrow" id="zaehler-gespielt"></p>
+    </div>
+    <div class="spiele" id="spiele-gespielt"></div>
+  </section>
+
+  <section id="zahlen-abschnitt">
+    <div class="abschnitt-kopf">
+      <h2>Zahlen der Saison</h2>
+      <p class="eyebrow">wächst mit jedem Spieltag</p>
+    </div>
+    <div class="kacheln" id="zahlen"></div>
+    <p class="platzhalter">Sobald die ersten Spielberichte da sind, kommen hier die richtigen Auswertungen hin:
+      Bilanz pro Person und Disziplin, beste Doppelpaarung, Dritt-Satz-Quote, Ballpunkte gegen Spielpunkte —
+      und die Frage, ob wir mittwochs um halb acht wirklich besser spielen als sonntags um zehn.</p>
+  </section>
+
+  <section id="tabelle-abschnitt">
+    <div class="abschnitt-kopf">
+      <h2>Tabelle</h2>
+      <p class="eyebrow" id="tabellen-stand"></p>
+    </div>
+    <div class="tabelle-huelle">
+      <table id="tabelle"></table>
+    </div>
+  </section>
+
+  <section id="gegner-abschnitt">
+    <div class="abschnitt-kopf">
+      <h2>Die Gegner</h2>
+      <p class="eyebrow">Sieben Vereine, elf Hallen</p>
+    </div>
+    <div class="gitter" id="gegner"></div>
+  </section>
+
+  <section id="mannschaft">
+    <div class="abschnitt-kopf">
+      <h2>Die Mannschaft</h2>
+      <p class="eyebrow">Charlottenburger TSV II</p>
+    </div>
+    <div class="kader" id="kader"></div>
+  </section>
+
+  <footer>
+    <p>Spielplan und Hallendaten: <a href="https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupPage?championship=BBMM+26%2F27&amp;group=42121" target="_blank" rel="noopener">nuLiga / Badminton-Verband Berlin-Brandenburg</a>, D-Klasse 2. Karten: OpenStreetMap.</p>
+    <p>Alle Angaben ohne Gewähr — maßgeblich ist der offizielle Spielplan des BVBB. Inoffizielle Mannschaftsseite, keine Seite des Vereins.</p>
+  </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+<script src="data/hallen.js"></script>
+<script src="data/teams.js"></script>
+<script src="data/kader.js"></script>
+<script src="data/spielplan.js"></script>
+<script src="data/vorberichte.js"></script>
+<script src="data/anwesenheit.js"></script>
+<script src="data/tabelle.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

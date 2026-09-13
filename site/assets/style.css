@@ -1,0 +1,231 @@
+/* Charlottenburger TSV II - Saison 2026/27 */
+
+:root{
+  --blau:#1B3A8C; --gelb:#FFC53D; --koralle:#FF6B5B; --gruen:#2FA36B;
+  --papier:#FFFDF6; --papier-2:#F6F0DF; --karte:#FFFFFF;
+  --tinte:#1C1B1A; --tinte-weich:#5A5448; --linie:#1C1B1A;
+  --schatten:rgba(28,27,26,.22); --muster:rgba(27,58,140,.07);
+  --display:"Baloo 2","Trebuchet MS",system-ui,sans-serif;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --papier:#14182A; --papier-2:#1B2038; --karte:#1E2440;
+    --tinte:#F2EFE4; --tinte-weich:#A9A798; --linie:#F2EFE4;
+    --blau:#7FA0F5; --schatten:rgba(0,0,0,.5); --muster:rgba(255,197,61,.07);
+  }
+}
+:root[data-theme="dark"]{
+  --papier:#14182A; --papier-2:#1B2038; --karte:#1E2440;
+  --tinte:#F2EFE4; --tinte-weich:#A9A798; --linie:#F2EFE4;
+  --blau:#7FA0F5; --schatten:rgba(0,0,0,.5); --muster:rgba(255,197,61,.07);
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0; background:var(--papier); color:var(--tinte);
+  font-family:var(--body); font-size:17px; line-height:1.6;
+  background-image:radial-gradient(var(--muster) 1.5px,transparent 1.6px);
+  background-size:26px 26px;
+}
+.wrap{max-width:1060px;margin:0 auto;padding-inline:20px;padding-block:0 72px}
+h1,h2,h3,h4{font-family:var(--display);font-weight:800;line-height:1.15;text-wrap:balance;margin:0}
+a{color:inherit}
+img{max-width:100%}
+.eyebrow{font-family:var(--body);font-weight:700;font-size:.74rem;letter-spacing:.14em;
+  text-transform:uppercase;color:var(--tinte-weich);margin:0}
+
+/* Sprungmarke fuer Tastatur */
+.skip{position:absolute;left:-9999px}
+.skip:focus{left:20px;top:10px;z-index:99;background:var(--gelb);color:#1C1B1A;
+  padding:8px 14px;border:2.5px solid #1C1B1A;border-radius:999px;font-weight:700}
+
+/* ---------- Hero ---------- */
+.hero{position:relative;margin-top:26px;border:3px solid var(--linie);border-radius:22px;
+  background:linear-gradient(165deg,var(--papier-2),var(--karte));
+  box-shadow:8px 8px 0 var(--schatten);padding:34px 28px 28px;overflow:hidden}
+.hero .bahn{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;opacity:.5}
+.hero-kopf{position:relative;display:flex;flex-wrap:wrap;align-items:flex-end;gap:14px 22px}
+.wappen{width:78px;height:78px;flex:none;border:3px solid var(--linie);border-radius:50%;
+  background:var(--gelb);display:grid;place-items:center;font-size:2.1rem;overflow:hidden;
+  box-shadow:3px 3px 0 var(--schatten);transform:rotate(-6deg)}
+.wappen img{width:100%;height:100%;object-fit:cover}
+.hero h1{font-size:clamp(2rem,6.5vw,3.4rem);color:var(--blau)}
+.hero h1 em{font-style:normal;color:var(--koralle)}
+.hero .unter{margin:4px 0 0;font-weight:600;color:var(--tinte-weich)}
+
+.naechstes{position:relative;margin-top:26px;display:grid;gap:18px;
+  grid-template-columns:minmax(0,1.25fr) minmax(0,1fr)}
+@media(max-width:720px){.naechstes{grid-template-columns:1fr}}
+.ns-haupt{border:3px solid var(--linie);border-radius:18px;background:var(--karte);
+  padding:20px 22px;box-shadow:5px 5px 0 var(--schatten)}
+.ns-haupt .gegner{font-family:var(--display);font-weight:800;
+  font-size:clamp(1.4rem,4.2vw,2rem);margin:6px 0 4px;line-height:1.15}
+.ns-meta{display:flex;flex-wrap:wrap;gap:6px 18px;font-weight:600;font-variant-numeric:tabular-nums}
+.countdown{border:3px dashed var(--linie);border-radius:18px;background:var(--gelb);
+  color:#1C1B1A;padding:18px 20px;display:flex;flex-direction:column;justify-content:center;gap:8px}
+.countdown .eyebrow{color:#5A5448}
+.cd-zahlen{display:flex;gap:16px;font-variant-numeric:tabular-nums}
+.cd-zahlen div{text-align:center}
+.cd-zahlen b{display:block;font-family:var(--display);font-size:2rem;line-height:1}
+.cd-zahlen span{font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;font-weight:700}
+
+/* ---------- Knoepfe ---------- */
+.knopfreihe{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
+.knopf{display:inline-flex;align-items:center;gap:7px;border:2.5px solid var(--linie);
+  border-radius:999px;background:var(--karte);color:var(--tinte);padding:7px 15px;
+  font-family:var(--body);font-weight:700;font-size:.92rem;text-decoration:none;cursor:pointer;
+  box-shadow:3px 3px 0 var(--schatten)}
+.knopf:hover{transform:translate(1px,1px);box-shadow:2px 2px 0 var(--schatten)}
+.knopf:focus-visible{outline:3px solid var(--koralle);outline-offset:3px}
+.knopf.voll{background:var(--blau);color:#FFFDF6}
+.filter button[aria-pressed="true"]{background:var(--blau);color:#FFFDF6}
+
+/* ---------- Abschnitte ---------- */
+section{margin-top:56px;scroll-margin-top:20px}
+.abschnitt-kopf{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;
+  gap:12px;border-bottom:3px solid var(--linie);padding-bottom:8px;margin-bottom:22px}
+.abschnitt-kopf h2{font-size:clamp(1.5rem,4vw,2rem)}
+
+/* ---------- Spielplan ---------- */
+.filter{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.spiele{display:flex;flex-direction:column;gap:14px}
+.eintrag[hidden]{display:none}
+.spiel{display:grid;grid-template-columns:74px minmax(0,1fr) auto;gap:16px;align-items:center;
+  border:2.5px solid var(--linie);border-radius:14px;background:var(--karte);padding:12px 16px;
+  box-shadow:4px 4px 0 var(--schatten);text-align:left;width:100%;font:inherit;color:inherit;cursor:pointer}
+.spiel:hover{transform:translate(1px,1px);box-shadow:3px 3px 0 var(--schatten)}
+.spiel:focus-visible{outline:3px solid var(--koralle);outline-offset:3px}
+.spiel[aria-expanded="true"]{border-bottom-left-radius:0;border-bottom-right-radius:0;box-shadow:none}
+.datum{text-align:center;border-right:2.5px dotted var(--linie);padding-right:12px;
+  font-variant-numeric:tabular-nums}
+.datum b{display:block;font-family:var(--display);font-size:1.5rem;line-height:1}
+.datum span{font-size:.72rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;
+  color:var(--tinte-weich)}
+.spiel h3{font-size:1.1rem;font-family:var(--display)}
+.spiel p{margin:2px 0 0;font-size:.9rem;color:var(--tinte-weich);font-variant-numeric:tabular-nums}
+.marke{font-size:.7rem;font-weight:800;letter-spacing:.1em;text-transform:uppercase;
+  border:2.5px solid var(--linie);border-radius:999px;padding:4px 11px;white-space:nowrap}
+.marke.heim{background:var(--blau);color:#FFFDF6}
+.marke.ausw{background:var(--koralle);color:#1C1B1A}
+.ergebnis{font-family:var(--display);font-size:1.2rem;font-variant-numeric:tabular-nums}
+@media(max-width:600px){
+  .spiel{grid-template-columns:60px minmax(0,1fr);gap:12px}
+  .spiel .marke{grid-column:2;justify-self:start}
+}
+
+/* ---------- Detail ---------- */
+.detail{border:2.5px solid var(--linie);border-top:0;border-radius:0 0 14px 14px;
+  background:var(--karte);box-shadow:4px 4px 0 var(--schatten);overflow:hidden}
+.detail[hidden]{display:none}
+.detail-koerper{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr)}
+@media(max-width:760px){.detail-koerper{grid-template-columns:1fr}}
+.detail-text{padding:20px 22px}
+.detail-text h4{font-size:1.15rem;margin:0 0 8px}
+.detail-text p{margin:0 0 12px}
+.fuffzig{border:2.5px solid var(--linie);border-left-width:9px;border-left-color:var(--gelb);
+  border-radius:12px;background:var(--papier-2);padding:12px 15px;margin-top:6px}
+.fuffzig b{font-family:var(--display);font-size:1.05rem}
+.fuffzig p{margin:4px 0 0}
+.detail-karte-alt{border-left:2.5px solid var(--linie);padding:20px 22px;background:var(--papier-2)}
+@media(max-width:760px){.detail-karte-alt{border-left:0;border-top:2.5px solid var(--linie)}}
+.karte-flaeche{border:2.5px solid var(--linie);border-radius:12px;overflow:hidden;
+  aspect-ratio:4/3;max-width:100%;background:var(--papier);position:relative}
+.karte-flaeche .hinweis{position:absolute;inset:0;display:grid;place-items:center;
+  text-align:center;padding:16px;color:var(--tinte-weich);font-size:.9rem}
+.adresse{margin:14px 0 0;font-weight:700;line-height:1.45}
+.adresse span{display:block;font-weight:400;color:var(--tinte-weich);font-size:.93rem}
+.leaflet-container{font-family:var(--body)}
+
+/* ---------- Tabelle ---------- */
+.tabelle-huelle{overflow-x:auto;border:2.5px solid var(--linie);border-radius:14px;
+  background:var(--karte);box-shadow:4px 4px 0 var(--schatten)}
+table{border-collapse:collapse;width:100%;min-width:440px}
+th,td{padding:9px 14px;text-align:left;border-bottom:1.5px solid rgba(128,120,100,.3)}
+th{font-family:var(--display);font-size:.9rem;letter-spacing:.02em;background:var(--papier-2)}
+td:not(:nth-child(2)),th:not(:nth-child(2)){text-align:center;font-variant-numeric:tabular-nums}
+tr:last-child td{border-bottom:0}
+tr.wir{background:var(--gelb);color:#1C1B1A}
+tr.wir td{font-weight:700}
+
+/* ---------- Gegner & Kader ---------- */
+.gitter{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:14px}
+.gegner-karte{border:2.5px solid var(--linie);border-radius:14px;background:var(--karte);
+  padding:14px;box-shadow:4px 4px 0 var(--schatten);display:flex;gap:12px;align-items:flex-start}
+.gegner-karte:nth-child(3n){transform:rotate(-.7deg)}
+.gegner-karte:nth-child(3n+2){transform:rotate(.6deg)}
+.maskottchen{width:54px;height:54px;flex:none;border:2.5px solid var(--linie);border-radius:50%;
+  display:grid;place-items:center;font-size:1.6rem;background:var(--gelb);overflow:hidden}
+.maskottchen img{width:100%;height:100%;object-fit:cover}
+.gegner-karte h3{font-size:1rem}
+.gegner-karte p{margin:3px 0 0;font-size:.85rem;color:var(--tinte-weich)}
+.kader{display:grid;grid-template-columns:repeat(auto-fill,minmax(145px,1fr));gap:12px}
+.spieler{border:2.5px dashed var(--linie);border-radius:14px;background:var(--karte);
+  padding:14px 12px;text-align:center}
+.portrait{width:68px;height:68px;margin:0 auto 8px;border:2.5px solid var(--linie);
+  border-radius:50%;background:var(--papier-2);display:grid;place-items:center;
+  font-size:1.5rem;color:var(--tinte-weich);overflow:hidden}
+.portrait img{width:100%;height:100%;object-fit:cover}
+.spieler b{font-family:var(--display);font-size:1.15rem;display:block}
+.spieler span{font-size:.78rem;color:var(--tinte-weich)}
+
+footer{margin-top:56px;border-top:3px solid var(--linie);padding-top:16px;
+  font-size:.86rem;color:var(--tinte-weich)}
+footer a{color:var(--blau)}
+
+@media print{
+  body{background:#fff;font-size:11pt}
+  .hero .bahn,.countdown,.knopfreihe,.filter,.detail-karte,nav{display:none!important}
+  .spiel{box-shadow:none;break-inside:avoid}
+  .detail{display:block!important}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+
+/* ---------- Ergänzungen: Anwesenheit, Zahlen, gespielte Spiele ---------- */
+.detail-seite{border-left:2.5px solid var(--linie);padding:20px 22px;background:var(--papier-2)}
+@media(max-width:760px){.detail-seite{border-left:0;border-top:2.5px solid var(--linie)}}
+.detail-koerper > .detail-seite{min-width:0}
+.spiel p em{font-style:normal;font-weight:700;color:var(--blau)}
+.ergebnis.sieg{color:var(--gruen)}
+.ergebnis.niederlage{color:var(--koralle)}
+h4.nach{margin-top:18px}
+.leer{border:2.5px dashed var(--linie);border-radius:14px;padding:18px;
+  color:var(--tinte-weich);background:var(--karte);margin:0}
+
+.anwesenheit{border:2.5px solid var(--linie);border-radius:12px;background:var(--karte);
+  padding:14px 16px;margin-bottom:16px}
+.anwesenheit h4{font-size:1.05rem;margin:0 0 2px}
+.anwesenheit .zaehler{margin:0 0 10px;font-size:.85rem;color:var(--tinte-weich);
+  font-variant-numeric:tabular-nums}
+.anwesenheit ul{list-style:none;margin:0;padding:0;display:grid;
+  grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:6px}
+.zusage{display:flex;align-items:baseline;gap:6px;font-weight:700;font-size:.95rem}
+.zusage small{font-weight:400;font-size:.78rem;color:var(--tinte-weich)}
+.zusage.z-offen{opacity:.55}
+.zusage.z-ja{color:var(--gruen)}
+.zusage.z-nein{color:var(--koralle)}
+.treffpunkt{margin:12px 0 0;font-weight:700;font-size:.9rem}
+.noch-nicht{margin:10px 0 0;font-size:.78rem;color:var(--tinte-weich);font-style:italic}
+
+.kacheln{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px}
+.kachel{border:2.5px solid var(--linie);border-radius:14px;background:var(--karte);
+  padding:16px 18px;box-shadow:4px 4px 0 var(--schatten)}
+.kachel b{display:block;font-family:var(--display);font-size:1.9rem;line-height:1.05;
+  color:var(--blau);font-variant-numeric:tabular-nums}
+.kachel span{font-size:.85rem;color:var(--tinte-weich)}
+.platzhalter{margin:18px 0 0;padding:14px 16px;border-left:9px solid var(--gelb);
+  border-radius:0 12px 12px 0;background:var(--papier-2);color:var(--tinte-weich);font-size:.93rem}
+
+/* Anwesenheit: anklickbare Namen */
+.anwesenheit li{display:block}
+button.zusage{width:100%;text-align:left;font:inherit;font-weight:700;font-size:.95rem;
+  background:transparent;color:inherit;border:2px solid transparent;border-radius:9px;
+  padding:4px 7px;cursor:pointer;display:flex;align-items:baseline;gap:6px}
+button.zusage:hover{border-color:var(--linie);background:var(--papier-2)}
+button.zusage:focus-visible{outline:3px solid var(--koralle);outline-offset:2px}
+button.zusage small{font-weight:400;font-size:.78rem;color:var(--tinte-weich)}
+.karte-ersatz{flex-direction:column;gap:6px;display:flex!important;text-align:center;
+  background:var(--papier-2);line-height:1.4}
+.karte-ersatz span:first-child{font-size:2rem}
+.karte-ersatz b{font-family:var(--display);font-size:1.05rem;color:var(--tinte)}

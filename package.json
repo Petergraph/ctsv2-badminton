@@ -1,0 +1,9 @@
+{
+  "name": "ctsv2-badminton",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mannschaftsseite Charlottenburger TSV II, Badminton D-Klasse 2, Saison 2026/27",
+  "dependencies": {
+    "@netlify/blobs": "^8.1.0"
+  }
+}
