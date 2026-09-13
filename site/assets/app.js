@@ -7,9 +7,9 @@
   var MEIN = "Charlottenburger TSV II";
   var MONATE = ["Jan", "Feb", "Mär", "Apr", "Mai", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dez"];
   var TAGE = { Mo: "Montag", Di: "Dienstag", Mi: "Mittwoch", Do: "Donnerstag", Fr: "Freitag", Sa: "Samstag", So: "Sonntag" };
-  var API = "/api/anwesenheit";          /* Netlify-Function, siehe netlify/functions/ */
-  var live = false;                      /* true, sobald der Server antwortet */
-  var DAUER_MS = 3 * 36e5;               /* ein Spieltag dauert ca. 3 Stunden */
+  var API = "/api/anwesenheit";
+  var DAUER_MS = 3 * 36e5;
+  var live = false;
   var EMOJI = {
     "Deutsch-Chinesischer BV II": "🐼",
     "Vorspiel QSB": "🦎",
@@ -20,19 +20,46 @@
     "SG Gaselan Fürstenwalde II": "🐻",
     "Charlottenburger TSV II": "🦢"
   };
-  var STATUS = {
-    ja:        { zeichen: "✅", text: "dabei" },
-    nein:      { zeichen: "❌", text: "raus" },
-    vielleicht:{ zeichen: "❓", text: "unklar" },
-    "":        { zeichen: "·",  text: "keine Rückmeldung" }
-  };
+  var WAHL = [
+    { wert: "ja",         zeichen: "✓", titel: "dabei" },
+    { wert: "vielleicht", zeichen: "?", titel: "unklar" },
+    { wert: "nein",       zeichen: "✕", titel: "raus" }
+  ];
 
   var spiele   = (window.SPIELPLAN.spiele || []).filter(function (s) { return s.eigenesSpiel; });
   var hallen   = window.HALLEN;
   var berichte = window.VORBERICHTE || {};
-  var anwes    = window.ANWESENHEIT || {};
+  var kaderRoh = window.KADER;
   var teams    = window.TEAMS.teams || [];
-  var kader    = [].concat(window.KADER.herren, window.KADER.damen);
+  var SOLL     = kaderRoh.sollstaerke || { herren: 4, damen: 2, ausnahmenProSaison: 2 };
+
+  /* Eine flache Personenliste mit Geschlecht und Gruppe */
+  function sammle(liste, dame, ersatz) {
+    return (liste || []).map(function (p) {
+      return { name: p.vorname, comic: p.comic, rolle: p.rolle, dame: dame, ersatz: ersatz };
+    });
+  }
+  var stamm = sammle(kaderRoh.herren, false, false).concat(sammle(kaderRoh.damen, true, false));
+  var ersatzleute = sammle((kaderRoh.ersatz || {}).herren, false, true)
+    .concat(sammle((kaderRoh.ersatz || {}).damen, true, true));
+  var personen = stamm.concat(ersatzleute);
+
+  /* ---------- Zustand der Zusagen ----------
+     zustand[datum][name] = "ja" | "vielleicht" | "nein" | ""
+     Startwerte aus data/anwesenheit.js, danach hat der Server das letzte Wort —
+     aber nur für Namen, zu denen er tatsächlich etwas weiß. */
+  var zustand = {};
+  var treffpunkte = {};
+  (function seed() {
+    var datei = window.ANWESENHEIT || {};
+    spiele.forEach(function (s) {
+      var e = datei[s.datum] || {};
+      zustand[s.datum] = Object.assign({}, e.status || {});
+      treffpunkte[s.datum] = e.treffpunkt || "";
+    });
+  })();
+
+  function status(datum, name) { return (zustand[datum] || {})[name] || ""; }
 
   function esc(s) {
     return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) {
@@ -51,9 +78,28 @@
   }
 
   var kommend  = spiele.filter(function (s) { return !vorbei(s); });
-  var gespielt = spiele.filter(vorbei).reverse();   /* jüngstes Spiel zuerst */
+  var gespielt = spiele.filter(vorbei).reverse();
 
-  /* ---------- Nächstes Spiel im Kopfbereich ---------- */
+  /* ---------- Sollstärke ---------- */
+  function bilanz(datum) {
+    var h = 0, d = 0, unklar = 0, offen = 0, raus = 0;
+    personen.forEach(function (p) {
+      var st = status(datum, p.name);
+      if (st === "ja") { p.dame ? d++ : h++; }
+      else if (st === "vielleicht") unklar++;
+      else if (st === "nein") raus++;
+      else offen++;
+    });
+    var lage = "knapp";
+    if (h >= SOLL.herren && d >= SOLL.damen) lage = "komplett";
+    else if ((h === SOLL.herren - 1 && d >= SOLL.damen) || (h >= SOLL.herren && d === SOLL.damen - 1)) lage = "ausnahme";
+    return { herren: h, damen: d, unklar: unklar, raus: raus, offen: offen, lage: lage };
+  }
+  function ausnahmenVerplant() {
+    return spiele.filter(function (s) { return bilanz(s.datum).lage === "ausnahme"; }).length;
+  }
+
+  /* ---------- Nächstes Spiel ---------- */
   var naechstes = kommend[0];
   if (naechstes) {
     var h0 = hallen[naechstes.halle];
@@ -104,7 +150,8 @@
           '<span class="datum"><b>' + teil[2] + "</b><span>" + MONATE[+teil[1] - 1] + " " + teil[0].slice(2) + "</span></span>" +
           "<span><h3>" + (s.heimspiel ? "gegen " : "bei ") + esc(s.gegner) + "</h3>" +
           "<p>" + esc(s.tag) + " · " + esc(s.zeit) + " Uhr · " + esc(h.name) + " · " + esc(h.ort) +
-          (istVorbei ? "" : zusageKurz(anwes[s.datum] || { status: {} })) + "</p></span>" +
+          (istVorbei ? "" : '<span class="kurzlage" data-kurz="' + s.datum + '">' + kurzlage(s.datum) + "</span>") +
+          "</p></span>" +
           rechts +
         "</button>" +
         '<div class="detail" id="d-' + s.id + '" hidden>' +
@@ -119,7 +166,7 @@
               (h.hinweis ? '<div class="fuffzig"><b>🔑 Die letzten 50 Meter</b><p>' + esc(h.hinweis) + "</p></div>" : "") +
             "</div>" +
             '<div class="detail-seite">' +
-              (istVorbei ? "" : anwesenheitsBlock(s)) +
+              (istVorbei ? "" : '<div class="anwesenheit" data-datum="' + s.datum + '">' + blockInhalt(s.datum) + "</div>") +
               '<div class="karte-flaeche" data-lat="' + h.lat + '" data-lon="' + h.lon + '" data-name="' + esc(h.name) + '">' +
                 '<div class="hinweis">Karte wird geladen …</div>' +
               "</div>" +
@@ -141,107 +188,135 @@
     if (p.length !== 2) return false;
     return s.heimspiel ? +p[0] > +p[1] : +p[1] > +p[0];
   }
-
-  function zusagen(a) {
-    var z = { ja: 0, nein: 0, vielleicht: 0, offen: 0 };
-    kader.forEach(function (p) {
-      var st = (a.status || {})[p.vorname] || "";
-      if (st === "ja") z.ja++; else if (st === "nein") z.nein++;
-      else if (st === "vielleicht") z.vielleicht++; else z.offen++;
-    });
-    return z;
-  }
-  function zusageKurz(a) {
-    var z = zusagen(a);
-    if (z.ja === 0 && z.nein === 0 && z.vielleicht === 0) return " · <em>noch keine Rückmeldungen</em>";
-    return " · <em>" + z.ja + " von " + kader.length + " dabei</em>";
+  function absaetze(text) {
+    return String(text).split(/\n\n+/).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("");
   }
 
-  function anwesenheitsBlock(s) {
-    return '<div class="anwesenheit" id="anw-' + s.datum + '" data-datum="' + s.datum + '">' +
-      anwesenheitsInhalt(s.datum) + "</div>";
+  function kurzlage(datum) {
+    var b = bilanz(datum);
+    if (b.herren + b.damen === 0) return " · noch keine Zusagen";
+    var symbol = b.lage === "komplett" ? "✅" : b.lage === "ausnahme" ? "⚠️" : "🔴";
+    return " · " + symbol + " " + b.herren + " H / " + b.damen + " D";
   }
 
-  function anwesenheitsInhalt(datum) {
-    var a = anwes[datum] || { status: {}, treffpunkt: "" };
-    var z = zusagen(a);
-    var reihen = kader.map(function (p) {
-      var st = (a.status || {})[p.vorname] || "";
-      return '<li><button type="button" class="zusage z-' + (st || "offen") +
-        '" data-zusage data-name="' + esc(p.vorname) + '" data-datum="' + datum +
-        '" aria-label="' + esc(p.vorname) + ": " + STATUS[st].text + ', klicken zum Ändern">' +
-        '<span aria-hidden="true">' + STATUS[st].zeichen + "</span> " + esc(p.vorname) +
-        " <small>" + STATUS[st].text + "</small></button></li>";
-    }).join("");
+  /* ---------- Anwesenheitsblock ---------- */
+  function blockInhalt(datum) {
+    var b = bilanz(datum);
+    var meldung, klasse;
+    if (b.lage === "komplett") {
+      meldung = "Komplett — " + b.herren + " Herren, " + b.damen + " Damen";
+      klasse = "gut";
+    } else if (b.lage === "ausnahme") {
+      var verplant = ausnahmenVerplant();
+      meldung = "Ausnahme — " + b.herren + " Herren, " + b.damen + (b.damen === 1 ? " Dame" : " Damen") +
+        " · " + verplant + " von " + SOLL.ausnahmenProSaison + " Ausnahmen der Saison" +
+        (verplant > SOLL.ausnahmenProSaison ? " (zu viele!)" : "");
+      klasse = verplant > SOLL.ausnahmenProSaison ? "schlecht" : "warnung";
+    } else {
+      meldung = "Noch nicht spielfähig — " + b.herren + " von " + SOLL.herren + " Herren, " +
+        b.damen + " von " + SOLL.damen + " Damen";
+      klasse = "schlecht";
+    }
+
     return '<h4>Wer ist dabei?</h4>' +
-      '<p class="zaehler">' + z.ja + " dabei · " + z.vielleicht + " unklar · " + z.nein +
-      " raus · " + z.offen + " ohne Antwort</p>" +
-      "<ul>" + reihen + "</ul>" +
-      (a.treffpunkt ? '<p class="treffpunkt">📌 ' + esc(a.treffpunkt) + "</p>" : "") +
+      '<p class="lage ' + klasse + '">' + esc(meldung) + "</p>" +
+      gruppe(datum, "Herren", stamm.filter(function (p) { return !p.dame; })) +
+      gruppe(datum, "Damen", stamm.filter(function (p) { return p.dame; })) +
+      (ersatzleute.length
+        ? gruppe(datum, "Einspringer", ersatzleute)
+        : '<p class="ersatz-leer">Einspringer stehen noch keine in <code>data/kader.js</code>. ' +
+          "Wer aushelfen kann, wird dort eingetragen und taucht dann hier auf.</p>") +
+      (treffpunkte[datum] ? '<p class="treffpunkt">📌 ' + esc(treffpunkte[datum]) + "</p>" : "") +
       '<p class="noch-nicht">' + (live
-        ? "Klick auf den Namen: dabei → unklar → raus → keine Angabe. Gilt für alle."
-        : "Noch nicht mit dem Server verbunden — die Werte stehen in data/anwesenheit.js.") +
-      "</p>";
+        ? "Ein Klick pro Person, für alle sichtbar."
+        : "Nicht mit dem Server verbunden — Änderungen bleiben nur in diesem Browser.") + "</p>";
   }
 
-  /* Zusagen vom Server holen und die Blöcke auffrischen */
-  function ladeAnwesenheit() {
+  function gruppe(datum, titel, leute) {
+    if (!leute.length) return "";
+    return '<p class="gruppen-titel">' + esc(titel) + "</p><ul class=\"zusagen\">" +
+      leute.map(function (p) {
+        var st = status(datum, p.name);
+        return '<li class="z-' + (st || "offen") + '"><span class="wer">' + esc(p.name) + "</span>" +
+          '<span class="wahl" role="group" aria-label="Zusage ' + esc(p.name) + '">' +
+          WAHL.map(function (w) {
+            return '<button type="button" class="w' + (st === w.wert ? " aktiv" : "") +
+              '" data-zusage data-datum="' + datum + '" data-name="' + esc(p.name) +
+              '" data-wert="' + w.wert + '" aria-pressed="' + (st === w.wert) +
+              '" title="' + esc(p.name) + ": " + w.titel + '">' + w.zeichen + "</button>";
+          }).join("") + "</span></li>";
+      }).join("") + "</ul>";
+  }
+
+  /* Nur den betroffenen Block neu zeichnen — nicht die ganze Seite.
+     Das war die Ursache dafür, dass die Liste heruntersprang. */
+  function zeichneBlock(datum) {
+    var el = document.querySelector('.anwesenheit[data-datum="' + datum + '"]');
+    if (el) el.innerHTML = blockInhalt(datum);
+    var kurz = document.querySelector('[data-kurz="' + datum + '"]');
+    if (kurz) kurz.innerHTML = kurzlage(datum);
+  }
+  function zeichneAlles() {
+    document.querySelectorAll(".anwesenheit[data-datum]").forEach(function (el) {
+      el.innerHTML = blockInhalt(el.dataset.datum);
+    });
+    document.querySelectorAll("[data-kurz]").forEach(function (el) {
+      el.innerHTML = kurzlage(el.dataset.kurz);
+    });
+  }
+
+  /* ---------- Server ----------
+     Serverwerte gewinnen, aber nur für Namen, zu denen der Server etwas weiß.
+     Vorher wurde der ganze Tag ersetzt — dabei sind fremde Zusagen verschwunden. */
+  function uebernehmen(daten) {
+    if (!daten) return;
+    Object.keys(daten).forEach(function (d) {
+      var vomServer = (daten[d] && daten[d].status) || {};
+      zustand[d] = zustand[d] || {};
+      Object.keys(vomServer).forEach(function (name) { zustand[d][name] = vomServer[name]; });
+    });
+  }
+
+  function ladeZusagen() {
     if (!window.fetch || location.protocol === "file:") return;
     fetch(API, { headers: { accept: "application/json" } })
       .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
-      .then(function (daten) {
-        live = true;
-        Object.keys(daten).forEach(function (d) {
-          anwes[d] = Object.assign({}, anwes[d], daten[d],
-            { status: Object.assign({}, (anwes[d] || {}).status, daten[d].status) });
-        });
-        aktualisiereAlleBloecke();
-      })
-      .catch(function () { /* Function nicht da: stille Rückfallebene */ });
+      .then(function (daten) { live = true; uebernehmen(daten); zeichneAlles(); })
+      .catch(function () { /* Function nicht erreichbar: stille Rückfallebene */ });
   }
 
-  function aktualisiereAlleBloecke() {
-    document.querySelectorAll(".anwesenheit[data-datum]").forEach(function (el) {
-      el.innerHTML = anwesenheitsInhalt(el.dataset.datum);
-    });
-    document.querySelectorAll(".spiel[data-id]").forEach(function (b) {
-      var s = spiele.filter(function (x) { return x.id === b.dataset.id; })[0];
-      var em = b.querySelector("p em");
-      if (s && em && !vorbei(s)) em.outerHTML = zusageKurz(anwes[s.datum] || { status: {} }).replace(" · ", "");
-    });
-  }
-
-  function naechsterStatus(st) {
-    var folge = ["", "ja", "vielleicht", "nein"];
-    return folge[(folge.indexOf(st) + 1) % folge.length];
-  }
-
-  function setzeZusage(datum, name, status) {
-    var vorher = ((anwes[datum] || {}).status || {})[name] || "";
-    anwes[datum] = anwes[datum] || { status: {} };
-    anwes[datum].status = anwes[datum].status || {};
-    anwes[datum].status[name] = status;                 /* sofort anzeigen */
-    aktualisiereAlleBloecke();
+  /* Alle Schreibvorgänge hintereinander, nie parallel.
+     Zwei gleichzeitige Anfragen haben sich vorher gegenseitig überschrieben. */
+  var kette = Promise.resolve();
+  function setzeZusage(datum, name, wert) {
+    var vorher = status(datum, name);
+    if (vorher === wert) wert = "";                 /* nochmal klicken = zurücknehmen */
+    zustand[datum] = zustand[datum] || {};
+    zustand[datum][name] = wert;
+    zeichneBlock(datum);
     if (!live) return;
 
-    var nutzlast = { datum: datum, name: name, status: status, code: teamCode() };
-    fetch(API, {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify(nutzlast)
-    }).then(function (r) {
-      if (r.status === 403) {
-        var eingabe = window.prompt("Mannschaftscode:");
-        if (eingabe) { teamCode(eingabe); setzeZusage(datum, name, status); return; }
-      }
-      if (!r.ok) throw new Error(r.status);
-      return r.json();
-    }).then(function (daten) {
-      if (daten) { Object.keys(daten).forEach(function (d) { anwes[d] = daten[d]; }); aktualisiereAlleBloecke(); }
-    }).catch(function () {
-      anwes[datum].status[name] = vorher;               /* zurückdrehen */
-      aktualisiereAlleBloecke();
-      window.alert("Konnte nicht gespeichert werden. Noch mal versuchen?");
+    kette = kette.then(function () {
+      return fetch(API, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ datum: datum, name: name, status: wert, code: teamCode() })
+      }).then(function (r) {
+        if (r.status === 403) {
+          var eingabe = window.prompt("Mannschaftscode:");
+          if (eingabe) { teamCode(eingabe); return setzeZusage(datum, name, wert); }
+          throw new Error("kein Code");
+        }
+        if (!r.ok) throw new Error(r.status);
+        return r.json();
+      }).then(function (daten) {
+        uebernehmen(daten);
+        zeichneBlock(datum);
+      }).catch(function () {
+        zustand[datum][name] = vorher;
+        zeichneBlock(datum);
+        window.alert("Konnte nicht gespeichert werden. Bitte noch einmal versuchen.");
+      });
     });
   }
 
@@ -252,10 +327,7 @@
     } catch (e) { return ""; }
   }
 
-  function absaetze(text) {
-    return String(text).split(/\n\n+/).map(function (p) { return "<p>" + esc(p) + "</p>"; }).join("");
-  }
-
+  /* ---------- Listen aufbauen ---------- */
   var listeKommend = document.getElementById("spiele-kommend");
   var listeGespielt = document.getElementById("spiele-gespielt");
   listeKommend.innerHTML = kommend.map(karte).join("") ||
@@ -267,25 +339,25 @@
   document.getElementById("zaehler-gespielt").textContent =
     gespielt.length + " von " + spiele.length + " gespielt";
 
-  ladeAnwesenheit();
+  ladeZusagen();
 
-  /* ---------- Auf- und zuklappen ---------- */
   [listeKommend, listeGespielt].forEach(function (liste) {
     liste.addEventListener("click", function (ev) {
-      var knopf = ev.target.closest(".spiel");
-      if (knopf) { oeffne(knopf.dataset.id); return; }
       var zus = ev.target.closest("[data-zusage]");
       if (zus) {
         ev.stopPropagation();
-        var jetztSt = ((anwes[zus.dataset.datum] || {}).status || {})[zus.dataset.name] || "";
-        setzeZusage(zus.dataset.datum, zus.dataset.name, naechsterStatus(jetztSt));
+        setzeZusage(zus.dataset.datum, zus.dataset.name, zus.dataset.wert);
         return;
       }
       var ics = ev.target.closest("[data-ics]");
       if (ics) {
+        ev.stopPropagation();
         var s = spiele.filter(function (x) { return x.id === ics.dataset.ics; })[0];
         if (s) icsFuer([s]);
+        return;
       }
+      var knopf = ev.target.closest(".spiel");
+      if (knopf) oeffne(knopf.dataset.id);
     });
   });
 
@@ -302,7 +374,7 @@
     }
   }
 
-  /* ---------- Karten (Leaflet, mit Rückfallebene) ---------- */
+  /* ---------- Karten ---------- */
   function karteAn(el) {
     if (!el || el.dataset.fertig) return;
     el.dataset.fertig = "1";
@@ -339,19 +411,17 @@
     var gefahren = gespielt.filter(function (s) { return !s.heimspiel; }).length;
     var siege = spiele.filter(function (s) { return s.ergebnis && ergebnisGut(s); }).length;
     var frueh = spiele.filter(function (s) { return s.zeit < "12:00"; }).length;
-    var el = document.getElementById("zahlen");
-    var kacheln = [
+    document.getElementById("zahlen").innerHTML = [
       { wert: gespielt.length + " / " + spiele.length, label: "Spiele absolviert" },
       { wert: siege + (siege === 1 ? " Sieg" : " Siege"), label: "bisher" },
       { wert: gefahren + " / 7", label: "Auswärtsfahrten hinter uns" },
       { wert: frueh + "×", label: "Anwurf vor 12 Uhr" }
-    ];
-    el.innerHTML = kacheln.map(function (k) {
+    ].map(function (k) {
       return '<div class="kachel"><b>' + esc(k.wert) + "</b><span>" + esc(k.label) + "</span></div>";
     }).join("");
   })();
 
-  /* ---------- Kalender-Export ---------- */
+  /* ---------- Kalender ---------- */
   function icsZeit(d) { return d.toISOString().replace(/[-:]/g, "").split(".")[0] + "Z"; }
   function icsFuer(auswahl, dateiname) {
     var zeilen = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//CTSV II//Badminton//DE", "CALSCALE:GREGORIAN"];
@@ -407,10 +477,11 @@
     }).join("");
 
   /* ---------- Kader ---------- */
-  document.getElementById("kader").innerHTML = kader.map(function (p) {
-    var portrait = bild(p.comic, p.vorname) || "🏸";
-    return '<div class="spieler"><div class="portrait" aria-hidden="true">' + portrait + "</div><b>" +
-      esc(p.vorname) + "</b><span>" + esc(p.rolle || p.steckbrief || "Kader 26/27") + "</span></div>";
+  document.getElementById("kader").innerHTML = personen.map(function (p) {
+    var portrait = bild(p.comic, p.name) || "🏸";
+    return '<div class="spieler' + (p.ersatz ? " ist-ersatz" : "") + '"><div class="portrait" aria-hidden="true">' +
+      portrait + "</div><b>" + esc(p.name) + "</b><span>" +
+      esc(p.rolle || (p.ersatz ? "Einspringer" : "Kader 26/27")) + "</span></div>";
   }).join("");
 
   /* ---------- Deep-Link ---------- */

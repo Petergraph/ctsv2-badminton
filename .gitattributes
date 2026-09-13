@@ -1,0 +1,21 @@
+# Zeilenenden einheitlich halten.
+#
+# Windows-Git wandelt Zeilenenden standardmäßig beim Auschecken in CRLF um und
+# beim Committen zurück in LF. Das funktioniert, erzeugt aber genau die Meldung
+# "This file uses 'LF' line endings, but Git is configured to convert them".
+# Mit dieser Datei bleibt es überall bei LF — im Repository und im Arbeitsordner.
+# Für uns ist das die richtige Wahl: Die Seite läuft auf einem Linux-Server,
+# und alle Werkzeuge unter Windows (GitHub Desktop, VS Code, Editor) kommen
+# mit LF einwandfrei zurecht.
+
+* text=auto eol=lf
+
+# Binärdateien bleiben unangetastet
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.webp binary
+*.gif  binary
+*.ico  binary
+*.zip  binary
+*.pdf  binary

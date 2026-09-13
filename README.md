@@ -44,6 +44,25 @@ Das erledigt normalerweise die wöchentliche automatische Aktualisierung.
 dann eintragen: Spieler-Comic in `site/data/kader.js` als `"comic": "spieler-jens.png"`,
 Gegner-Maskottchen in `site/data/teams.js` als `"maskottchen": "gegner-dcbv.png"`.
 
+
+## Einspringer und Sollstärke
+
+Pro Spiel brauchen wir **4 Herren und 2 Damen**. Zweimal in der Saison darf mit
+3 Herren oder mit 1 Dame angetreten werden — der Anwesenheitsblock zählt mit und warnt,
+wenn diese zwei Ausnahmen verbraucht sind.
+
+Wer aushelfen kann, wird in `site/data/kader.js` unter `ersatz` eingetragen:
+
+```js
+ersatz: {
+  herren: [ { vorname: "Tobias", comic: "", rolle: "Einspringer" } ],
+  damen:  [ { vorname: "Anne",   comic: "", rolle: "Einspringerin" } ]
+}
+```
+
+Die Person taucht dann in jedem Spiel als eigene Gruppe „Einspringer" auf und zählt
+bei der Sollstärke ganz normal mit.
+
 ## Regeln beim Bearbeiten
 
 - **Kommas am Zeilenende nicht löschen** — fehlt eines, bleibt die Seite leer.

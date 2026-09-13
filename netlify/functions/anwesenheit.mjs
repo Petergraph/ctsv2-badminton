@@ -13,7 +13,11 @@
 
 import { getStore } from "@netlify/blobs";
 
-const KADER = ["Jens", "Hiep", "Robert", "Alex", "Nils", "Karo", "Cathy"];
+/* Namen werden nur auf eine harmlose Form geprüft, nicht gegen eine feste Liste:
+   Einspringer kommen im Laufe der Saison dazu, und die Seite zeigt ohnehin nur
+   Namen an, die in data/kader.js stehen. Unbekanntes landet zwar im Speicher,
+   ist aber nirgends sichtbar. */
+const NAME = /^\p{L}[\p{L}\p{M} .'\-]{0,29}$/u;
 const STATI = ["ja", "nein", "vielleicht", ""];
 const DATUM = /^\d{4}-\d{2}-\d{2}$/;
 const SCHLUESSEL = "saison";
@@ -52,8 +56,8 @@ export default async (req) => {
   if (!DATUM.test(String(body.datum || ""))) {
     return fehler("Datum fehlt oder hat das falsche Format", 400);
   }
-  if (!KADER.includes(body.name)) {
-    return fehler("Unbekannter Name", 400);
+  if (typeof body.name !== "string" || !NAME.test(body.name)) {
+    return fehler("Name fehlt oder ist nicht zulässig", 400);
   }
   if (!STATI.includes(body.status)) {
     return fehler("Unbekannter Status", 400);

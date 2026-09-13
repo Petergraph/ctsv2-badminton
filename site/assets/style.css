@@ -217,15 +217,32 @@ h4.nach{margin-top:18px}
 .platzhalter{margin:18px 0 0;padding:14px 16px;border-left:9px solid var(--gelb);
   border-radius:0 12px 12px 0;background:var(--papier-2);color:var(--tinte-weich);font-size:.93rem}
 
-/* Anwesenheit: anklickbare Namen */
-.anwesenheit li{display:block}
-button.zusage{width:100%;text-align:left;font:inherit;font-weight:700;font-size:.95rem;
-  background:transparent;color:inherit;border:2px solid transparent;border-radius:9px;
-  padding:4px 7px;cursor:pointer;display:flex;align-items:baseline;gap:6px}
-button.zusage:hover{border-color:var(--linie);background:var(--papier-2)}
-button.zusage:focus-visible{outline:3px solid var(--koralle);outline-offset:2px}
-button.zusage small{font-weight:400;font-size:.78rem;color:var(--tinte-weich)}
-.karte-ersatz{flex-direction:column;gap:6px;display:flex!important;text-align:center;
-  background:var(--papier-2);line-height:1.4}
-.karte-ersatz span:first-child{font-size:2rem}
-.karte-ersatz b{font-family:var(--display);font-size:1.05rem;color:var(--tinte)}
+/* ---------- Anwesenheit ---------- */
+.anwesenheit .lage{margin:0 0 12px;font-weight:700;font-size:.9rem;
+  border-radius:9px;padding:7px 11px;border:2px solid var(--linie)}
+.anwesenheit .lage.gut{background:rgba(47,163,107,.16);color:var(--tinte)}
+.anwesenheit .lage.warnung{background:var(--gelb);color:#1C1B1A}
+.anwesenheit .lage.schlecht{background:rgba(255,107,91,.2);color:var(--tinte)}
+.gruppen-titel{margin:12px 0 4px;font-family:var(--display);font-weight:700;
+  font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--tinte-weich)}
+ul.zusagen{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:4px}
+ul.zusagen li{display:flex;align-items:center;justify-content:space-between;gap:10px;
+  padding:3px 0 3px 4px;border-radius:8px}
+ul.zusagen li.z-offen .wer{color:var(--tinte-weich)}
+ul.zusagen li.z-ja .wer{color:var(--gruen)}
+ul.zusagen li.z-nein .wer{text-decoration:line-through;color:var(--tinte-weich)}
+.wer{font-weight:700;font-size:.95rem;min-width:0;overflow:hidden;text-overflow:ellipsis}
+.wahl{display:flex;gap:4px;flex:none}
+.wahl .w{width:30px;height:30px;flex:none;border:2px solid var(--linie);border-radius:8px;
+  background:var(--karte);color:var(--tinte-weich);font:700 .95rem/1 var(--body);
+  cursor:pointer;display:grid;place-items:center;padding:0}
+.wahl .w:hover{background:var(--papier-2);color:var(--tinte)}
+.wahl .w:focus-visible{outline:3px solid var(--koralle);outline-offset:2px}
+.wahl .w.aktiv{color:#FFFDF6}
+.wahl .w:nth-child(1).aktiv{background:var(--gruen)}
+.wahl .w:nth-child(2).aktiv{background:var(--gelb);color:#1C1B1A}
+.wahl .w:nth-child(3).aktiv{background:var(--koralle);color:#1C1B1A}
+.ersatz-leer{margin:12px 0 0;font-size:.82rem;color:var(--tinte-weich);line-height:1.45}
+.ersatz-leer code{font-size:.95em;background:var(--papier-2);padding:1px 4px;border-radius:4px}
+.kurzlage{white-space:nowrap;font-weight:700;color:var(--blau)}
+.spieler.ist-ersatz{border-style:dotted;opacity:.9}
