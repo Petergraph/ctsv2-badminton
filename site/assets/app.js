@@ -300,7 +300,9 @@
       return fetch(API, {
         method: "POST",
         headers: { "content-type": "application/json" },
-        body: JSON.stringify({ datum: datum, name: name, status: wert, code: teamCode() })
+        /* kompletter Stand des Spieltags, nicht nur der eine Name:
+           so repariert der nächste Klick einen verlorenen Schreibvorgang */
+        body: JSON.stringify({ datum: datum, status: zustand[datum], code: teamCode() })
       }).then(function (r) {
         if (r.status === 403) {
           var eingabe = window.prompt("Mannschaftscode:");
