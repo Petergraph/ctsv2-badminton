@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Intern · Charlottenburger TSV — Aufstellungsplanung</title>
+<style>
+:root{
+  --papier:#FBFAF7; --karte:#FFFFFF; --linie:#D9D4C7; --kante:#2A2723;
+  --tinte:#23211D; --weich:#6C665B;
+  --blau:#1B3A8C; --gruen:#1F7A4D; --gelb:#C98A00; --rot:#C0392B;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --papier:#16181C; --karte:#1E2126; --linie:#343941; --kante:#E7E4DC;
+    --tinte:#E7E4DC; --weich:#9AA0A8;
+    --blau:#8AA6F0; --gruen:#5FC98E; --gelb:#E8B54A; --rot:#F08579;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--tinte);font:16px/1.55 var(--body)}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
+h1,h2,h3{line-height:1.2;margin:0;font-weight:700}
+h1{font-size:1.6rem}
+h2{font-size:1.2rem}
+a{color:var(--blau)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:6px 10px;text-align:left;border-bottom:1px solid var(--linie);vertical-align:top}
+th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--weich);font-weight:700}
+.huelle{overflow-x:auto;border:1px solid var(--linie);border-radius:8px;background:var(--karte)}
+header.kopf{border-bottom:2px solid var(--kante);padding-block:22px 14px;margin-bottom:8px}
+.marke{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  background:var(--rot);color:#fff;padding:3px 9px;border-radius:4px}
+.hinweis{border-left:4px solid var(--gelb);background:var(--karte);border:1px solid var(--linie);
+  border-left:4px solid var(--gelb);border-radius:0 8px 8px 0;padding:12px 15px;margin:14px 0;font-size:.93rem}
+section{margin-top:40px}
+section > h2{border-bottom:1px solid var(--linie);padding-bottom:6px;margin-bottom:6px}
+.unterzeile{color:var(--weich);font-size:.86rem;margin:0 0 14px}
+tr.doppelt td{background:color-mix(in srgb,var(--gelb) 14%,transparent)}
+.t{display:inline-block;min-width:26px;text-align:center;font-weight:700;font-size:.78rem;
+  border:1px solid var(--kante);border-radius:4px;padding:1px 5px}
+.t.I{background:#1B3A8C;color:#fff;border-color:#1B3A8C}
+.t.II{background:#C98A00;color:#161616;border-color:#C98A00}
+.t.III{background:#1F7A4D;color:#fff;border-color:#1F7A4D}
+.t.IV{background:#7A3E9D;color:#fff;border-color:#7A3E9D}
+.warn{color:var(--rot);font-weight:700}
+.ok{color:var(--gruen);font-weight:700}
+.klein{font-size:.83rem;color:var(--weich)}
+.kacheln{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:8px}
+.kachel{border:1px solid var(--linie);border-radius:8px;background:var(--karte);padding:12px 14px}
+.kachel b{display:block;font-size:1.5rem;line-height:1.1}
+.kachel span{font-size:.8rem;color:var(--weich)}
+.leer{padding:16px;color:var(--weich);font-size:.92rem}
+details{border:1px solid var(--linie);border-radius:8px;background:var(--karte);padding:10px 14px;margin-top:10px}
+summary{cursor:pointer;font-weight:700}
+code{background:color-mix(in srgb,var(--weich) 16%,transparent);padding:1px 4px;border-radius:3px;font-size:.92em}
+@media(max-width:600px){ th,td{padding:5px 7px;font-size:.88rem} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="kopf">
+  <span class="marke">Intern — nicht veröffentlicht</span>
+  <h1 style="margin-top:10px">Charlottenburger TSV · Aufstellungsplanung 2026/27</h1>
+  <p class="unterzeile" id="kopfzeile"></p>
+</header>
+
+<p class="hinweis">Diese Seite liegt im Ordner <code>intern/</code> und wird von Netlify
+<strong>nicht</strong> ausgeliefert — veröffentlicht wird nur <code>site/</code>. Sie enthält
+Klarnamen aus der Vereinsrangliste und ist zum Öffnen von der Festplatte gedacht:
+<code>intern/index.html</code> doppelklicken.</p>
+
+<section id="halle">
+  <h2>Halle Kuno-Fischer-Straße</h2>
+  <p class="unterzeile">Alle Heimspiele der vier Mannschaften. Gelb markiert: zwei Mannschaften am selben Tag.</p>
+  <div class="kacheln" id="halle-kacheln"></div>
+  <div class="huelle"><table id="halle-tabelle"></table></div>
+  <p class="hinweis" style="border-left-color:var(--rot)"><strong>Regelfolge:</strong> An den gelb
+  markierten Terminen beginnen beide Begegnungen zur selben Uhrzeit. Nach Anlage III F Abs. 2 ist
+  ein Einsatz „gleichzeitig", wenn der erste Wettkampf noch nicht beendet ist, bevor der zweite
+  angesetzt ist — an diesen Abenden kann also <strong>niemand in beiden Mannschaften spielen</strong>.</p>
+</section>
+
+<section id="kollisionen">
+  <h2>Weitere Terminüberschneidungen</h2>
+  <p class="unterzeile">Zwei oder mehr Mannschaften am selben Tag, unabhängig von der Halle.</p>
+  <div class="huelle"><table id="kollisions-tabelle"></table></div>
+</section>
+
+<section id="konto">
+  <h2>Festspiel-Konto</h2>
+  <p class="unterzeile">Gezählt wird, wer laut Spielbericht <strong>tatsächlich</strong> gespielt hat.
+    Die gemeldete Rangliste liefert nur den Maßstab: für welche Mannschaft jemand gemeldet ist.
+    Grenze: zwei Einsätze pro Saison nach oben — beim dritten geht die Spielberechtigung für die
+    untere Mannschaft verloren.</p>
+  <div class="huelle" id="konto-inhalt"></div>
+</section>
+
+<section id="rangliste">
+  <h2>Gemeldete Rangliste</h2>
+  <p class="unterzeile">Das ist die beim Verband gemeldete Liste — taktisch aufgestellt und nicht
+    identisch mit den Leuten, die tatsächlich zusammen spielen. Sie steht hier trotzdem, weil der
+    Spielausschuss genau an ihr misst: Aufstellungsreihenfolge, Stammspieler-Bindung und
+    Festspiel-Konto hängen an dieser Liste, nicht an der gelebten Mannschaft.</p>
+  <p class="unterzeile" id="rl-stand"></p>
+  <div class="huelle"><table id="rl-herren"></table></div>
+  <div class="huelle" style="margin-top:14px"><table id="rl-damen"></table></div>
+  <p class="hinweis" style="border-left-color:var(--rot)">Zwei Folgen, die sich aus dieser Liste
+  ergeben, ganz gleich wie sie zustande kam: Wer hier als Stammspieler*in einer Mannschaft steht,
+  darf in <strong>keiner niedrigeren</strong> Mannschaft spielen — das ist ein Verbot, kein
+  Kontingent (Anlage III E Abs. 1). Und wer nach oben aushilft, hat dafür
+  <strong>zwei Einsätze pro Saison</strong> frei (Anlage III F Abs. 2). Je weiter die gemeldete
+  Liste von der gelebten Aufstellung abweicht, desto schneller ist dieses Kontingent verbraucht.</p>
+</section>
+
+<section id="zuordnung">
+  <h2>Namenszuordnung</h2>
+  <p class="unterzeile">Damit das Konto rechnen kann, muss jeder Rufname aus unserer Planung einem
+    Ranglistennamen zugeordnet sein. Einzutragen in <code>intern/daten/zuordnung.js</code>.
+    Die Spalte rechts sagt nicht, wer zu uns gehört — sie sagt, was die gemeldete Liste für einen
+    Einsatz in der Zweiten bedeutet.</p>
+  <div class="huelle"><table id="zuordnungs-tabelle"></table></div>
+</section>
+
+<section id="regeln">
+  <h2>Regeln</h2>
+  <p class="unterzeile">Vollständig mit Zitaten in <code>intern/REGELN.md</code>.</p>
+  <details><summary>Festspielen — die Grenze</summary>
+    <p>Mehr als <strong>zwei Einsätze pro Saison</strong> in höheren Mannschaften kosten die
+    Spielberechtigung für die untere Mannschaft. Die Zwei gilt insgesamt über alle höheren
+    Mannschaften, nicht je Mannschaft. <span class="klein">Anlage III F Abs. 2</span></p></details>
+  <details><summary>Unvollständig antreten — was es wirklich kostet</summary>
+    <p>Es gibt <strong>kein Recht</strong>, zweimal pro Saison mit drei Herren oder einer Dame
+    anzutreten. Jedes unvollständige Antreten kostet <strong>mindestens ein Spiel</strong> kampflos.
+    Ab dem <strong>dritten Mal</strong> in der Saison sind es zwei Spiele. Dass ein Herr im Einzel
+    und im Mixed spielt, ist in der D-Klasse zulässig, muss dem Gegner aber vor dessen Aufstellung
+    mitgeteilt werden. <span class="klein">Anlage III H</span></p></details>
+  <details><summary>Aufstellung nach Rangliste</summary>
+    <p>Herreneinzel aufsteigend nach gemeldeter Rangfolge; Herrendoppel nach Summe der
+    Ranglistenplätze, kleinere Summe spielt das erste Doppel. Auch Ersatzspieler*innen müssen an
+    dem Platz spielen, der ihrer Rangfolge entspricht.
+    <span class="klein">Anlage III E Abs. 2 und 3, F Abs. 1</span></p></details>
+  <details><summary>Fristen</summary>
+    <p>Ersatzspieler*innen nachmelden: bis <strong>15. Februar</strong>, spielberechtigt sieben Tage
+    nach Eingang. Ummeldungen in der Rangliste: vor Beginn der Rückrunde, mit Genehmigung.
+    <span class="klein">Anlage III F Abs. 6, E Abs. 1</span></p></details>
+</section>
+
+<footer style="margin-top:44px;border-top:1px solid var(--linie);padding-top:12px" class="klein">
+  Daten: nuLiga BVBB (Spielpläne, Vereinsrangliste). Regeln: BVBB Satzung und Ordnungen,
+  Stand 04.04.2025, Anlage III zur Spielordnung. Ohne Gewähr — maßgeblich sind die
+  Verbandsdokumente.
+</footer>
+
+</div>
+
+<script src="daten/vereinsspiele.js"></script>
+<script src="daten/rangliste.js"></script>
+<script src="daten/einsaetze.js"></script>
+<script src="daten/zuordnung.js"></script>
+<script>
+(function(){
+  "use strict";
+  var V = window.VEREINSSPIELE, RL = window.RANGLISTE, EIN = window.EINSAETZE, ZU = window.ZUORDNUNG;
+  var GRENZE = 2;
+  var RANG = { "I":1, "II":2, "III":3, "IV":4 };
+
+  function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+  function tag(m){ return '<span class="t '+m+'">'+m+'</span>'; }
+
+  document.getElementById("kopfzeile").textContent =
+    V.mannschaften.map(function(m){return m.kurz+" · "+m.liga;}).join("   ·   ") +
+    "   —   " + V.spiele.length + " Begegnungen, Stand " + V.abgerufen.split("-").reverse().join(".");
+
+  /* ---------- Halle KF ---------- */
+  var kf = V.spiele.filter(function(s){ return s.halle === "KF"; });
+  var nachTag = {};
+  kf.forEach(function(s){ (nachTag[s.datum] = nachTag[s.datum] || []).push(s); });
+  var termine = Object.keys(nachTag).sort();
+  var doppelt = termine.filter(function(d){ return nachTag[d].length > 1; });
+
+  document.getElementById("halle-kacheln").innerHTML = [
+    { w: kf.length,        l: "Heimspiele in KF" },
+    { w: termine.length,   l: "belegte Termine" },
+    { w: doppelt.length,   l: "davon Doppeltermine" },
+    { w: kf.filter(function(s){return s.mannschaft==="II";}).length, l: "davon unsere" }
+  ].map(function(k){ return '<div class="kachel"><b>'+k.w+'</b><span>'+k.l+'</span></div>'; }).join("");
+
+  document.getElementById("halle-tabelle").innerHTML =
+    "<thead><tr><th>Datum</th><th>Zeit</th><th>Mannschaft</th><th>Gegner</th></tr></thead><tbody>" +
+    termine.map(function(d){
+      return nachTag[d].sort(function(a,b){return a.zeit<b.zeit?-1:1;}).map(function(s,i){
+        return '<tr'+(nachTag[d].length>1?' class="doppelt"':'')+'>' +
+          (i===0 ? '<td rowspan="'+nachTag[d].length+'">'+s.tag+" "+esc(s.datumDe)+'</td>' : '') +
+          "<td>"+esc(s.zeit)+"</td><td>"+tag(s.mannschaft)+"</td><td>"+esc(s.gegner)+
+          (s.verlegt?' <span class="klein">verlegt</span>':'')+"</td></tr>";
+      }).join("");
+    }).join("") + "</tbody>";
+
+  /* ---------- Überschneidungen an allen Hallen ---------- */
+  var proTag = {};
+  V.spiele.forEach(function(s){ (proTag[s.datum] = proTag[s.datum] || []).push(s); });
+  var kollisionen = Object.keys(proTag).sort().filter(function(d){
+    var ms = {}; proTag[d].forEach(function(s){ ms[s.mannschaft] = 1; });
+    return Object.keys(ms).length > 1;
+  });
+  document.getElementById("kollisions-tabelle").innerHTML =
+    "<thead><tr><th>Datum</th><th>Beteiligte</th><th>Bewertung</th></tr></thead><tbody>" +
+    kollisionen.map(function(d){
+      var liste = proTag[d].sort(function(a,b){return a.zeit<b.zeit?-1:1;});
+      var selbeHalle = new Set(liste.map(function(s){return s.halle;})).size === 1;
+      var selbeZeit  = new Set(liste.map(function(s){return s.zeit;})).size === 1;
+      var urteil = selbeZeit
+        ? '<span class="warn">gleichzeitig — kein doppelter Einsatz möglich</span>'
+        : (selbeHalle ? "gleiche Halle, versetzte Zeiten" : "verschiedene Hallen");
+      return "<tr><td>"+liste[0].tag+" "+esc(liste[0].datumDe)+"</td><td>" +
+        liste.map(function(s){ return tag(s.mannschaft)+" "+esc(s.zeit)+" "+esc(s.halle); }).join("<br>") +
+        "</td><td>"+urteil+"</td></tr>";
+    }).join("") + "</tbody>";
+
+  /* ---------- Festspiel-Konto ---------- */
+  var eintraege = (EIN && EIN.eintraege) || [];
+  var kontoEl = document.getElementById("konto-inhalt");
+  if (!eintraege.length) {
+    kontoEl.innerHTML = '<p class="leer"><strong>Noch keine Einsätze erfasst.</strong> ' +
+      "Sobald Spielberichte in nuLiga stehen, trägt die wöchentliche Aufgabe sie in " +
+      "<code>intern/daten/einsaetze.js</code> ein. Dann steht hier je Person: " +
+      "Einsätze in höheren Mannschaften, verbleibendes Kontingent und eine Warnung ab dem zweiten Einsatz. " +
+      "Voraussetzung ist die Namenszuordnung weiter unten.</p>";
+  } else {
+    var alle = RL.herren.concat(RL.damen);
+    var konto = {};
+    eintraege.forEach(function(e){
+      var p = alle.filter(function(x){ return x.name === e.name; })[0];
+      if (!p || p.mannschaft === "Reserve") return;
+      if (RANG[e.mannschaft] < RANG[p.mannschaft]) {
+        (konto[e.name] = konto[e.name] || []).push(e);
+      }
+    });
+    var namen = Object.keys(konto).sort(function(a,b){ return konto[b].length - konto[a].length; });
+    kontoEl.innerHTML = "<table><thead><tr><th>Person</th><th>Eigene</th><th>Einsätze oben</th>" +
+      "<th>Rest</th><th>Lage</th></tr></thead><tbody>" +
+      namen.map(function(n){
+        var p = alle.filter(function(x){ return x.name === n; })[0];
+        var z = konto[n].length, rest = GRENZE - z;
+        var lage = rest > 0 ? '<span class="ok">noch '+rest+' möglich</span>'
+                 : rest === 0 ? '<span style="color:var(--gelb);font-weight:700">Kontingent ausgeschöpft</span>'
+                 : '<span class="warn">festgespielt — nicht mehr für '+p.mannschaft+' spielberechtigt</span>';
+        return "<tr><td>"+esc(n)+"</td><td>"+tag(p.mannschaft)+"</td><td>"+
+          konto[n].map(function(e){ return e.datum.split("-").reverse().join(".")+" "+tag(e.mannschaft); }).join("<br>")+
+          "</td><td>"+Math.max(rest,0)+"</td><td>"+lage+"</td></tr>";
+      }).join("") + "</tbody></table>";
+  }
+
+  /* ---------- Rangliste ---------- */
+  document.getElementById("rl-stand").textContent = RL.stand +
+    (RL.abgemeldet && RL.abgemeldet.length ? "  ·  abgemeldet: " + RL.abgemeldet.join(", ") : "");
+  function rlTabelle(titel, leute){
+    return '<thead><tr><th colspan="3">'+titel+'</th></tr>' +
+      "<tr><th>Rang</th><th>Name</th><th>Mannschaft</th></tr></thead><tbody>" +
+      leute.map(function(p){
+        return "<tr><td>"+p.rang+"</td><td>"+esc(p.name)+"</td><td>" +
+          (p.stamm ? tag(p.mannschaft)+' <span class="klein">Stamm</span>'
+                   : '<span class="klein">Reserve</span>') + "</td></tr>";
+      }).join("") + "</tbody>";
+  }
+  document.getElementById("rl-herren").innerHTML = rlTabelle("Herren", RL.herren);
+  document.getElementById("rl-damen").innerHTML  = rlTabelle("Damen",  RL.damen);
+
+  /* ---------- Zuordnung ---------- */
+  var alleNamen = RL.herren.concat(RL.damen);
+  document.getElementById("zuordnungs-tabelle").innerHTML =
+    "<thead><tr><th>Rufname</th><th>Ranglistenname</th><th>Gemeldet für</th><th>Was daraus folgt</th></tr></thead><tbody>" +
+    Object.keys(ZU).map(function(ruf){
+      var name = ZU[ruf];
+      if (!name) return "<tr><td>"+esc(ruf)+'</td><td colspan="3"><span class="warn">offen</span> ' +
+        '<span class="klein">— Vorschlag steht als Kommentar in zuordnung.js</span></td></tr>';
+      var p = alleNamen.filter(function(x){ return x.name === name; })[0];
+      if (!p) return "<tr><td>"+esc(ruf)+"</td><td>"+esc(name)+
+        '</td><td colspan="2"><span class="warn">nicht in der Rangliste gefunden</span></td></tr>';
+      var folge = p.mannschaft === "II" ? '<span class="ok">für uns gemeldet — unbegrenzt einsetzbar</span>'
+        : p.mannschaft === "Reserve" ? "Reserve — jederzeit einsetzbar, aber an der Rangfolge aufstellen"
+        : RANG[p.mannschaft] > RANG["II"]
+          ? '<span style="color:var(--gelb);font-weight:700">für die '+p.mannschaft+
+            " gemeldet — nach zwei Einsätzen bei uns dort nicht mehr spielberechtigt</span>"
+          : '<span class="warn">für die '+p.mannschaft+" gemeldet (höher) — Einsatz bei uns ist regelwidrig</span>";
+      return "<tr><td>"+esc(ruf)+"</td><td>"+esc(name)+"</td><td>"+
+        (p.mannschaft==="Reserve" ? '<span class="klein">Reserve</span>' : tag(p.mannschaft)) +
+        "</td><td>"+folge+"</td></tr>";
+    }).join("") + "</tbody>";
+})();
+</script>
+</body>
+</html>

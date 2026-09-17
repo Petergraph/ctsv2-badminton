@@ -68,7 +68,7 @@ window.TEAMS = {
   {
    "name": "Vorspiel QSB",
    "kurz": "Vorspiel",
-   "heimhalle": "KL",
+   "heimhalle": "AD",
    "web": "http://www.vorspiel-berlin.de/",
    "mannschaftsfuehrer": "Harald Zajicek",
    "spitzname": "Die Vielhallen-Truppe"

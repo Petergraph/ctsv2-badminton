@@ -2,6 +2,7 @@
    Bearbeiten: Text zwischen den Anführungszeichen ändern, Kommas stehen lassen. */
 window.HALLEN = {
   KF: {name:"Sporthalle Peter-Ustinov-Schule", hinweis:"Seiteneingang, obere Halle", strasse:"Kuno-Fischer-Str. 22", plz:"14057", ort:"Berlin-Charlottenburg", lat:52.505805, lon:13.290777, oepnv:"S/U Charlottenburg, dann 5 Min. zu Fuß"},
+  AD: {name:"49. Grundschule Mitte – Luisenstadt", hinweis:"Am Gebäude steht „49. Grundschule Mitte – Luisenstadt“ — im Spielplan heißt sie „49. Schule in der Adalbertstraße“. Gleiche Halle, Hausnummer 53.", strasse:"Adalbertstr. 53", plz:"10179", ort:"Berlin-Mitte", lat:52.507652, lon:13.422742, oepnv:"U Heinrich-Heine-Str. oder U Moritzplatz (beide U8)"},
   KL: {name:"Havelland-Schule", hinweis:"Eingang über Wilhelm-Kabus-Straße", strasse:"Kolonnenstr. 30-30a", plz:"10829", ort:"Berlin-Schöneberg", lat:52.484724, lon:13.368395, oepnv:"S Julius-Leber-Brücke oder U Kleistpark"},
   DI: {name:"Wilfried-Gravenstein-Halle", hinweis:"", strasse:"Dickhardtstr. 21-22", plz:"12161", ort:"Berlin-Friedenau", lat:52.467023, lon:13.333141, oepnv:"U Friedrich-Wilhelm-Platz oder S Bundesplatz"},
   TM: {name:"Sporthalle am Teutoburger Platz", hinweis:"Eingang Schwedter Str., über den Schulhof (Ecke Choriner Str.)", strasse:"Templiner Str. 3", plz:"10119", ort:"Berlin-Prenzlauer Berg", lat:52.533562, lon:13.408669, oepnv:"U Senefelderplatz oder Tram M1 Zionskirchplatz"},

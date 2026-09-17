@@ -10,7 +10,7 @@ window.VORBERICHTE = {
 
 "2026-10-01": {
   titel: "Zweites Spiel in 24 Stunden",
-  text: "Der Spielplan meint es gut mit uns: Gerade ist der Auftakt vorbei, da geht es am nächsten Abend gleich weiter nach Schöneberg. Ausruhen ist etwas für Mannschaften mit weniger Spaß am Sport.\n\nVorspiel QSB ist der Verein mit sechs verschiedenen Hallen im Portfolio — heute die Havelland-Schule. Der Eingang liegt nicht an der Kolonnenstraße, sondern um die Ecke in der Wilhelm-Kabus-Straße. Wer das nicht liest, läuft zuverlässig einmal ums Gebäude.",
+  text: "Der Spielplan meint es gut mit uns: Gerade ist der Auftakt vorbei, da geht es am nächsten Abend gleich weiter. Ausruhen ist etwas für Mannschaften mit weniger Spaß am Sport.\n\nVorspiel QSB ist der Verein mit den vielen Hallen im Portfolio — und hat für diese Saison neu sortiert: Statt nach Schöneberg fahren wir nach Mitte, in die Adalbertstraße. Wer die alte Adresse noch im Kalender stehen hat, bitte überschreiben; wer blind dem Gedächtnis folgt, steht um 19:00 sehr allein vor einer fremden Turnhalle.",
   nachbericht: ""
 },
 
