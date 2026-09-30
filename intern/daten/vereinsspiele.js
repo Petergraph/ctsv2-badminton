@@ -1,9 +1,9 @@
-/* Alle Spiele aller vier Mannschaften. Aus nuLiga, Stand 16.09.2026.
+/* Alle Spiele aller vier Mannschaften. Aus nuLiga, Stand 21.09.2026.
    Wird von der wöchentlichen Aufgabe fortgeschrieben. */
 window.VEREINSSPIELE = {
  "verein": "Charlottenburger TSV",
  "saison": "2026/27",
- "abgerufen": "2026-09-16",
+ "abgerufen": "2026-09-28",
  "quelle": "nuLiga BVBB, Gruppen I=41956, II=42121, III=42137, IV=42155",
  "mannschaften": [
   {
@@ -38,7 +38,9 @@ window.VEREINSSPIELE = {
    "halle": "TU",
    "daheim": false,
    "verlegt": false,
-   "gegner": "PSV Berlin II"
+   "gegner": "PSV Berlin II",
+   "ergebnis": "5:3",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396046&championship=BBMM+26%2F27&group=41956"
   },
   {
    "mannschaft": "III",
@@ -47,10 +49,12 @@ window.VEREINSSPIELE = {
    "datum": "2026-09-27",
    "datumDe": "27.09.2026",
    "zeit": "10:00",
-   "halle": "DE",
+   "halle": "HS",
    "daheim": false,
    "verlegt": false,
-   "gegner": "TuS Lichterfelde II"
+   "gegner": "TuS Lichterfelde II",
+   "ergebnis": "2:6",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396465&championship=BBMM+26%2F27&group=42137"
   },
   {
    "mannschaft": "IV",
@@ -62,7 +66,9 @@ window.VEREINSSPIELE = {
    "halle": "BD",
    "daheim": false,
    "verlegt": false,
-   "gegner": "Köpenicker BC VIII"
+   "gegner": "Köpenicker BC VIII",
+   "ergebnis": "3:5",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396572&championship=BBMM+26%2F27&group=42155"
   },
   {
    "mannschaft": "II",

@@ -1,9 +1,10 @@
-/* Vereinsrangliste aus nuLiga. NUR INTERN — enthält Klarnamen.
-   Diese Datei wird von Netlify nicht ausgeliefert (publish = "site"). */
+/* Vereinsrangliste aus nuLiga. NUR INTERN — enthaelt Klarnamen.
+   Diese Datei wird von Netlify nicht ausgeliefert (publish = "site").
+   Wird von der woechentlichen Aufgabe fortgeschrieben. */
 window.RANGLISTE = {
- "stand": "Vorrunde 2026/27, abgerufen 16.09.2026",
- "quelle": "nuLiga Vereinsrangliste, clubPools?club=16382",
- "hinweis": "Rang = Einzelrangfolge aus nuLiga (dort als z. B. 90/90 = Einzel/Doppel). Stammspieler dürfen in KEINER niedrigeren Mannschaft spielen (Anlage III E Abs. 1).",
+ "stand": "Vorrunde 2026/27, abgerufen 28.09.2026 (unverändert gegenüber 26.09.2026)",
+ "quelle": "nuLiga Vereinsrangliste, clubPools?club=16382&displayTyp=vorrunde&seasonName=2026/27",
+ "hinweis": "rang = Einzelrangfolge, doppelrang = eigene Doppelrangfolge (nuLiga zeigt beides als „Rang/Doppel“). Fuer die Herrendoppel-Reihenfolge nach Anlage III E Abs. 3 zaehlt der DOPPELRANG, nicht der Einzelrang. Stammspieler duerfen in KEINER niedrigeren Mannschaft spielen (Anlage III E Abs. 1).",
  "abgemeldet": [
   "Plaschnick, Denise",
   "Ünal, Mouna"
@@ -11,6 +12,7 @@ window.RANGLISTE = {
  "herren": [
   {
    "rang": 10,
+   "doppelrang": 10,
    "mannschaft": "III",
    "name": "Borschevskyi, Nikita",
    "dame": false,
@@ -18,6 +20,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 20,
+   "doppelrang": 20,
    "mannschaft": "I",
    "name": "Kowalski, Christoph",
    "dame": false,
@@ -25,6 +28,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 30,
+   "doppelrang": 40,
    "mannschaft": "I",
    "name": "Borschevski, Kirill Dmitri",
    "dame": false,
@@ -32,6 +36,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 40,
+   "doppelrang": 30,
    "mannschaft": "I",
    "name": "Lucas, Tim",
    "dame": false,
@@ -39,6 +44,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 50,
+   "doppelrang": 50,
    "mannschaft": "I",
    "name": "Eissa, Mohamed",
    "dame": false,
@@ -46,6 +52,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 60,
+   "doppelrang": 60,
    "mannschaft": "II",
    "name": "Pfender, Matthias",
    "dame": false,
@@ -53,6 +60,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 70,
+   "doppelrang": 70,
    "mannschaft": "III",
    "name": "Wandel, Jens",
    "dame": false,
@@ -60,6 +68,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 80,
+   "doppelrang": 80,
    "mannschaft": "II",
    "name": "Nguyen, Huu Loc",
    "dame": false,
@@ -67,13 +76,24 @@ window.RANGLISTE = {
   },
   {
    "rang": 90,
+   "doppelrang": 90,
    "mannschaft": "II",
    "name": "Schultz-Heienbrock, Robert",
    "dame": false,
    "stamm": true
   },
   {
+   "rang": 95,
+   "doppelrang": 95,
+   "mannschaft": "Reserve",
+   "name": "Kaune, Nils",
+   "dame": false,
+   "stamm": false,
+   "spielberechtigtAb": "18.09.2026"
+  },
+  {
    "rang": 100,
+   "doppelrang": 100,
    "mannschaft": "Reserve",
    "name": "Islam, Tanish",
    "dame": false,
@@ -81,6 +101,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 110,
+   "doppelrang": 110,
    "mannschaft": "II",
    "name": "Bartoscheck, Sebastian",
    "dame": false,
@@ -88,6 +109,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 120,
+   "doppelrang": 120,
    "mannschaft": "III",
    "name": "Godiveau, Eric",
    "dame": false,
@@ -95,6 +117,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 130,
+   "doppelrang": 140,
    "mannschaft": "Reserve",
    "name": "Jürgen, Alexander",
    "dame": false,
@@ -102,6 +125,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 140,
+   "doppelrang": 130,
    "mannschaft": "Reserve",
    "name": "Durie, Sven Duncan",
    "dame": false,
@@ -109,6 +133,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 150,
+   "doppelrang": 150,
    "mannschaft": "III",
    "name": "Bhaskaran, Sarin",
    "dame": false,
@@ -116,6 +141,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 160,
+   "doppelrang": 160,
    "mannschaft": "IV",
    "name": "Buhrmann, Stefan",
    "dame": false,
@@ -123,6 +149,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 170,
+   "doppelrang": 170,
    "mannschaft": "IV",
    "name": "Heusel, Jannis",
    "dame": false,
@@ -130,6 +157,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 180,
+   "doppelrang": 180,
    "mannschaft": "IV",
    "name": "Nytz, Justus",
    "dame": false,
@@ -137,13 +165,24 @@ window.RANGLISTE = {
   },
   {
    "rang": 190,
+   "doppelrang": 210,
    "mannschaft": "IV",
    "name": "Heyer, Johannes",
    "dame": false,
    "stamm": true
   },
   {
+   "rang": 195,
+   "doppelrang": 195,
+   "mannschaft": "Reserve",
+   "name": "Lembke, Sören",
+   "dame": false,
+   "stamm": false,
+   "spielberechtigtAb": "29.09.2026"
+  },
+  {
    "rang": 200,
+   "doppelrang": 190,
    "mannschaft": "IV",
    "name": "Erbe, Andreas",
    "dame": false,
@@ -151,6 +190,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 210,
+   "doppelrang": 200,
    "mannschaft": "Reserve",
    "name": "Pavel, Peter",
    "dame": false,
@@ -158,6 +198,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 220,
+   "doppelrang": 280,
    "mannschaft": "Reserve",
    "name": "Thomas, Ole",
    "dame": false,
@@ -165,6 +206,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 230,
+   "doppelrang": 220,
    "mannschaft": "Reserve",
    "name": "Lampe-Traupe, Christopher",
    "dame": false,
@@ -172,6 +214,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 240,
+   "doppelrang": 230,
    "mannschaft": "Reserve",
    "name": "Buro, Anton",
    "dame": false,
@@ -179,6 +222,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 250,
+   "doppelrang": 240,
    "mannschaft": "Reserve",
    "name": "Hofner, Henning",
    "dame": false,
@@ -186,6 +230,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 260,
+   "doppelrang": 250,
    "mannschaft": "Reserve",
    "name": "Wolters, Nils Florian",
    "dame": false,
@@ -193,6 +238,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 270,
+   "doppelrang": 260,
    "mannschaft": "Reserve",
    "name": "Aditya, Christopher",
    "dame": false,
@@ -200,6 +246,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 280,
+   "doppelrang": 270,
    "mannschaft": "Reserve",
    "name": "Lichtenstein, Erik",
    "dame": false,
@@ -207,6 +254,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 290,
+   "doppelrang": 290,
    "mannschaft": "Reserve",
    "name": "Ritter, Fabian",
    "dame": false,
@@ -214,6 +262,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 300,
+   "doppelrang": 300,
    "mannschaft": "Reserve",
    "name": "Kumar Reddy, Kakularam",
    "dame": false,
@@ -221,6 +270,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 310,
+   "doppelrang": 310,
    "mannschaft": "Reserve",
    "name": "Klagge, Michael",
    "dame": false,
@@ -228,6 +278,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 320,
+   "doppelrang": 320,
    "mannschaft": "Reserve",
    "name": "Schnak, Christian",
    "dame": false,
@@ -235,6 +286,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 330,
+   "doppelrang": 330,
    "mannschaft": "Reserve",
    "name": "Nowak, Sven",
    "dame": false,
@@ -242,6 +294,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 340,
+   "doppelrang": 340,
    "mannschaft": "Reserve",
    "name": "Weinz, Jan-Eric",
    "dame": false,
@@ -249,6 +302,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 350,
+   "doppelrang": 350,
    "mannschaft": "Reserve",
    "name": "Höde, Niklas",
    "dame": false,
@@ -258,6 +312,7 @@ window.RANGLISTE = {
  "damen": [
   {
    "rang": 30,
+   "doppelrang": 90,
    "mannschaft": "II",
    "name": "Kippert, Katharina",
    "dame": true,
@@ -265,6 +320,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 40,
+   "doppelrang": 220,
    "mannschaft": "I",
    "name": "Brebeck, Victoria",
    "dame": true,
@@ -272,6 +328,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 50,
+   "doppelrang": 10,
    "mannschaft": "I",
    "name": "Glück, Christiane",
    "dame": true,
@@ -279,6 +336,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 60,
+   "doppelrang": 30,
    "mannschaft": "Reserve",
    "name": "von Gersdorf, Caroline",
    "dame": true,
@@ -286,6 +344,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 70,
+   "doppelrang": 150,
    "mannschaft": "Reserve",
    "name": "Du, Xiaodan",
    "dame": true,
@@ -293,6 +352,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 80,
+   "doppelrang": 160,
    "mannschaft": "Reserve",
    "name": "Müller, Janina",
    "dame": true,
@@ -300,6 +360,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 90,
+   "doppelrang": 50,
    "mannschaft": "II",
    "name": "Neumann, Dagmar",
    "dame": true,
@@ -307,6 +368,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 100,
+   "doppelrang": 20,
    "mannschaft": "Reserve",
    "name": "Wiegleb, Karoline",
    "dame": true,
@@ -314,6 +376,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 110,
+   "doppelrang": 40,
    "mannschaft": "III",
    "name": "Simanowitsch, Sophia",
    "dame": true,
@@ -321,6 +384,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 120,
+   "doppelrang": 80,
    "mannschaft": "Reserve",
    "name": "Schnak, Catherine",
    "dame": true,
@@ -328,6 +392,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 130,
+   "doppelrang": 100,
    "mannschaft": "IV",
    "name": "Nehls, Anissa Vivien",
    "dame": true,
@@ -335,6 +400,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 140,
+   "doppelrang": 110,
    "mannschaft": "Reserve",
    "name": "Ost, Laura",
    "dame": true,
@@ -342,6 +408,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 150,
+   "doppelrang": 120,
    "mannschaft": "Reserve",
    "name": "Wandel, Julia",
    "dame": true,
@@ -349,6 +416,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 160,
+   "doppelrang": 130,
    "mannschaft": "Reserve",
    "name": "Höde, Aldona",
    "dame": true,
@@ -356,6 +424,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 170,
+   "doppelrang": 180,
    "mannschaft": "Reserve",
    "name": "Kammerer, Anika",
    "dame": true,
@@ -363,6 +432,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 180,
+   "doppelrang": 140,
    "mannschaft": "III",
    "name": "Schaffert, Maren",
    "dame": true,
@@ -370,6 +440,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 190,
+   "doppelrang": 170,
    "mannschaft": "Reserve",
    "name": "Weigner, Tabeah",
    "dame": true,
@@ -377,6 +448,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 200,
+   "doppelrang": 190,
    "mannschaft": "IV",
    "name": "von Rosen, Jenny",
    "dame": true,
@@ -384,6 +456,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 210,
+   "doppelrang": 200,
    "mannschaft": "Reserve",
    "name": "Braun, Arwen, Gemma",
    "dame": true,
@@ -391,6 +464,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 220,
+   "doppelrang": 210,
    "mannschaft": "Reserve",
    "name": "Kanis, Laura",
    "dame": true,
@@ -398,6 +472,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 230,
+   "doppelrang": 230,
    "mannschaft": "Reserve",
    "name": "Ludwig, Laeticia",
    "dame": true,
@@ -405,6 +480,7 @@ window.RANGLISTE = {
   },
   {
    "rang": 240,
+   "doppelrang": 240,
    "mannschaft": "Reserve",
    "name": "Shirine, Ayisha",
    "dame": true,

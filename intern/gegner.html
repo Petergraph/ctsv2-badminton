@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gegneranalyse — CTSV II intern</title>
+<style>
+:root{
+  --papier:#FBFAF7; --karte:#FFFFFF; --linie:#D9D4C7; --kante:#2A2723;
+  --tinte:#23211D; --weich:#6C665B;
+  --blau:#1B3A8C; --gruen:#1F7A4D; --gelb:#C98A00; --rot:#C0392B;
+  --body:"Source Sans 3","Segoe UI",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --papier:#16181C; --karte:#1E2126; --linie:#343941; --kante:#E7E4DC;
+    --tinte:#E7E4DC; --weich:#9AA0A8;
+    --blau:#8AA6F0; --gruen:#5FC98E; --gelb:#E8B54A; --rot:#F08579;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--tinte);font:16px/1.55 var(--body)}
+.wrap{max-width:1000px;margin:0 auto;padding-inline:20px;padding-block:0 64px}
+h1,h2,h3{line-height:1.2;margin:0;font-weight:700}
+h1{font-size:1.6rem}
+h2{font-size:1.2rem}
+a{color:var(--blau)}
+table{border-collapse:collapse;width:100%;font-variant-numeric:tabular-nums}
+th,td{padding:6px 10px;text-align:left;border-bottom:1px solid var(--linie);vertical-align:top}
+th{font-size:.75rem;letter-spacing:.06em;text-transform:uppercase;color:var(--weich);font-weight:700}
+.huelle{overflow-x:auto;border:1px solid var(--linie);border-radius:8px;background:var(--karte)}
+header.kopf{border-bottom:2px solid var(--kante);padding-block:22px 14px;margin-bottom:8px}
+.marke{display:inline-block;font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  background:var(--rot);color:#fff;padding:3px 9px;border-radius:4px}
+.hinweis{border-left:4px solid var(--gelb);background:var(--karte);border:1px solid var(--linie);
+  border-left:4px solid var(--gelb);border-radius:0 8px 8px 0;padding:12px 15px;margin:14px 0;font-size:.93rem}
+section{margin-top:40px}
+section > h2{border-bottom:1px solid var(--linie);padding-bottom:6px;margin-bottom:6px}
+.unterzeile{color:var(--weich);font-size:.86rem;margin:0 0 14px}
+tr.doppelt td{background:color-mix(in srgb,var(--gelb) 14%,transparent)}
+.t{display:inline-block;min-width:26px;text-align:center;font-weight:700;font-size:.78rem;
+  border:1px solid var(--kante);border-radius:4px;padding:1px 5px}
+.t.I{background:#1B3A8C;color:#fff;border-color:#1B3A8C}
+.t.II{background:#C98A00;color:#161616;border-color:#C98A00}
+.t.III{background:#1F7A4D;color:#fff;border-color:#1F7A4D}
+.t.IV{background:#7A3E9D;color:#fff;border-color:#7A3E9D}
+.warn{color:var(--rot);font-weight:700}
+.ok{color:var(--gruen);font-weight:700}
+.klein{font-size:.83rem;color:var(--weich)}
+.kacheln{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-bottom:8px}
+.kachel{border:1px solid var(--linie);border-radius:8px;background:var(--karte);padding:12px 14px}
+.kachel b{display:block;font-size:1.5rem;line-height:1.1}
+.kachel span{font-size:.8rem;color:var(--weich)}
+.leer{padding:16px;color:var(--weich);font-size:.92rem}
+details{border:1px solid var(--linie);border-radius:8px;background:var(--karte);padding:10px 14px;margin-top:10px}
+summary{cursor:pointer;font-weight:700}
+code{background:color-mix(in srgb,var(--weich) 16%,transparent);padding:1px 4px;border-radius:3px;font-size:.92em}
+@media(max-width:600px){ th,td{padding:5px 7px;font-size:.88rem} }
+.auswahl{display:flex;flex-wrap:wrap;gap:10px}
+.pick{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border:1px solid var(--linie);
+  border-radius:999px;cursor:pointer;user-select:none;background:var(--karte)}
+.pick input{cursor:pointer}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="kopf">
+  <span class="marke">Intern — nicht veröffentlicht</span>
+  <h1 style="margin-top:10px">Gegneranalyse</h1>
+  <p class="unterzeile" id="kopfzeile"></p>
+</header>
+
+<p class="hinweis">Alle Angaben aus nuLiga: Vereinsranglisten, Tabellen und Spielberichte. Die
+Einsatzzahlen und Bilanzen sind aus den Spielberichten der Vorsaison <strong>gezählt</strong>, nicht
+geschätzt. Enthält Klarnamen fremder Spieler und gehört deshalb nach <code>intern/</code> — auf der
+öffentlichen Seite werden Gegner pseudonymisiert. Zurück zur
+<a href="index.html">Aufstellungsplanung</a>.</p>
+
+<div id="inhalt"></div>
+
+</div>
+<script src="daten/gegner.js"></script>
+<script>
+(function(){
+  "use strict";
+  var G = window.GEGNER;
+  function esc(s){ return String(s==null?"":s).replace(/[&<>"]/g,function(c){
+    return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
+
+  function tabelle(titel, leute, spalten){
+    if (!leute.length) return "";
+    return '<div class="huelle" style="margin-top:12px"><table>' +
+      '<thead><tr><th colspan="6">'+esc(titel)+'</th></tr>' +
+      "<tr><th>Einzel</th><th>Doppel</th><th>Name</th><th>Einsätze 25/26</th>" +
+      "<th>Einzelbilanz</th><th>Anmerkung</th></tr></thead><tbody>" +
+      leute.map(function(p){
+        var neu = /NEU/.test(p.notiz||"");
+        return "<tr"+(neu?' class="doppelt"':'')+"><td>"+(p.rang==null?"–":p.rang)+"</td><td>"+
+          (p.doppel==null?"–":p.doppel)+"</td><td>"+esc(p.name)+
+          (p.rolle?' <span class="klein">'+esc(p.rolle)+'</span>':'')+"</td><td>"+
+          (p.einsaetze===0?'<span class="klein">keine</span>':p.einsaetze)+"</td><td>"+
+          esc(p.einzel||"–")+'</td><td class="klein">'+esc(p.notiz||"")+"</td></tr>";
+      }).join("") + "</tbody></table></div>";
+  }
+
+  document.getElementById("kopfzeile").textContent =
+    "Erhoben " + G.erhoben + " · " + G.teams.length + " Gegner ausgewertet";
+
+  document.getElementById("inhalt").innerHTML = G.teams.map(function(t){
+    var v = t.vorsaison;
+    var kacheln = [
+      { w: v.liga,            l: "Vorsaison" },
+      { w: v.platz + ".",     l: "Platz" },
+      { w: v.s+"-"+v.u+"-"+v.n, l: "S-U-N" },
+      { w: v.spiele,          l: "Einzelspiele" }
+    ].map(function(k){ return '<div class="kachel"><b style="font-size:1.15rem">'+esc(k.w)+
+      '</b><span>'+esc(k.l)+'</span></div>'; }).join("");
+
+    return '<section><h2>'+esc(t.name)+'</h2>' +
+      '<p class="unterzeile">Begegnung am '+t.spielTermin.split("-").reverse().join(".")+
+      ' — '+(t.heimspielFuerUns?"bei uns in der Kuno-Fischer-Straße":"auswärts, Halle "+esc(t.verein.halle))+
+      ' · Mannschaftsführer '+esc(t.verein.mf)+'</p>' +
+      '<div class="kacheln">'+kacheln+'</div>' +
+      '<p class="hinweis"><strong>Antrittsdisziplin:</strong> '+esc(t.vollstaendig)+
+      '<br><strong>Kadergröße:</strong> '+esc(t.kaderProSpiel)+
+      '<br><span class="klein">Spielberichte ausgewertet: '+esc(t.berichteAusgewertet)+'</span>' +
+      (t.historie ? '<br><strong>Historie:</strong> '+esc(t.historie) : '') + '</p>' +
+      tabelle("Für diese Mannschaft gemeldet", t.gemeldet) +
+      tabelle("Reservepool — jederzeit einsetzbar", t.reservepool) +
+      tabelle("Nicht mehr gemeldet (Vorsaison)", t.abgaenge) +
+      '</section>';
+  }).join("");
+})();
+</script>
+</body>
+</html>

@@ -57,6 +57,10 @@ details{border:1px solid var(--linie);border-radius:8px;background:var(--karte);
 summary{cursor:pointer;font-weight:700}
 code{background:color-mix(in srgb,var(--weich) 16%,transparent);padding:1px 4px;border-radius:3px;font-size:.92em}
 @media(max-width:600px){ th,td{padding:5px 7px;font-size:.88rem} }
+.auswahl{display:flex;flex-wrap:wrap;gap:10px}
+.pick{display:inline-flex;align-items:center;gap:6px;padding:7px 12px;border:1px solid var(--linie);
+  border-radius:999px;cursor:pointer;user-select:none;background:var(--karte)}
+.pick input{cursor:pointer}
 </style>
 </head>
 <body>
@@ -97,6 +101,33 @@ Klarnamen aus der Vereinsrangliste und ist zum Öffnen von der Festplatte gedach
     Grenze: zwei Einsätze pro Saison nach oben — beim dritten geht die Spielberechtigung für die
     untere Mannschaft verloren.</p>
   <div class="huelle" id="konto-inhalt"></div>
+</section>
+
+<p class="hinweis" style="border-left-color:var(--blau)"><strong>Auch hier:</strong>
+<a href="laufprotokoll.md">Laufprotokoll</a> — was die wöchentliche Aufgabe jeden Montag
+gefunden und geändert hat, neueste Woche oben. &nbsp;·&nbsp;
+<a href="gegner.html">Gegneranalyse</a> — gemeldete Aufstellung, Reservepool, Einsatzzahlen und
+Einzelbilanzen der Vorsaison für DCBV II und Vorspiel QSB, aus den nuLiga-Spielberichten gezählt.</p>
+
+<section id="verfuegbar">
+  <h2>Gemeldet und verfügbar</h2>
+  <p class="unterzeile">Links, was beim Verband für die Zweite gemeldet ist. Rechts, wer davon
+    tatsächlich antritt — plus die, die hochgezogen werden. Die Differenz ist kein Fehler der
+    Meldung, sondern der Grund, warum die Aufstellung jeden Spieltag nachgerechnet werden muss.</p>
+  <div class="huelle"><table id="verfuegbar-tabelle"></table></div>
+  <p class="hinweis" id="verfuegbar-hinweis"></p>
+</section>
+
+<section id="doppel">
+  <h2>Doppelrechner</h2>
+  <p class="unterzeile">Wer ist dabei? Anhaken — die Seite sortiert die möglichen Herrendoppel nach
+    Anlage III E Abs. 3: <em>„Die Herrendoppel sind so aufzustellen, dass bei der Addition der
+    Ranglistenplätze die Paarung mit der kleineren Summe das erste Herrendoppel spielt."</em>
+    Gerechnet wird mit der <strong>Doppel</strong>rangfolge (nuLiga: die zweite Zahl in „Rang/Doppel"),
+    nicht mit dem Einzelrang — bei Alex gehen die beiden auseinander.</p>
+  <div id="doppel-auswahl" class="auswahl"></div>
+  <div class="huelle" style="margin-top:12px"><table id="doppel-tabelle"></table></div>
+  <p class="hinweis" id="doppel-hinweis"></p>
 </section>
 
 <section id="rangliste">
@@ -165,6 +196,8 @@ Klarnamen aus der Vereinsrangliste und ist zum Öffnen von der Festplatte gedach
 (function(){
   "use strict";
   var V = window.VEREINSSPIELE, RL = window.RANGLISTE, EIN = window.EINSAETZE, ZU = window.ZUORDNUNG;
+  var SF = window.SPIELT_FUER || {};
+  var WEG = window.NICHT_IM_VEREIN || {};
   var GRENZE = 2;
   var RANG = { "I":1, "II":2, "III":3, "IV":4 };
 
@@ -256,14 +289,219 @@ Klarnamen aus der Vereinsrangliste und ist zum Öffnen von der Festplatte gedach
       }).join("") + "</tbody></table>";
   }
 
+
+
+  /* ---------- Gemeldet und verfügbar ---------- */
+  (function(){
+    var gemeldetII = RL.herren.concat(RL.damen).filter(function(p){
+      return p.mannschaft === "II";
+    }).sort(function(a,b){ return a.rang - b.rang; });
+
+    /* Rufname zu einem Ranglistennamen finden, falls vorhanden */
+    function rufname(name){
+      var t = Object.keys(ZU).filter(function(r){ return ZU[r] === name; });
+      return t.length ? t[0] : null;
+    }
+
+    var zeilen = gemeldetII.map(function(p){
+      var ruf = rufname(p.name);
+      var lage = WEG[p.name]
+        ? '<span class="warn">nicht mehr im Verein</span> <span class="klein">(in nuLiga nicht abgemeldet)</span>'
+        : ruf ? '<span class="ok">spielt</span>'
+              : '<span class="klein">gemeldet, in unserer Planung nicht geführt</span>';
+      return "<tr><td>"+p.rang+"</td><td>"+esc(p.name)+"</td><td>"+
+        (p.dame ? "Dame" : "Herr")+"</td><td>"+lage+"</td></tr>";
+    });
+
+    /* Hochgezogene und Reservespieler, die bei uns spielen */
+    var dazu = Object.keys(ZU).filter(function(r){
+      if (!ZU[r]) return false;
+      var p = RL.herren.concat(RL.damen).filter(function(x){ return x.name === ZU[r]; })[0];
+      return p && p.mannschaft !== "II";
+    }).map(function(r){
+      var p = RL.herren.concat(RL.damen).filter(function(x){ return x.name === ZU[r]; })[0];
+      var woher = p.mannschaft === "Reserve"
+        ? '<span class="klein">Reservespieler — unbegrenzt einsetzbar, kein Kontingent</span>'
+        : (SF[r] && SF[r].gewollt
+            ? '<span class="ok">aus der '+p.mannschaft+' hochgezogen</span> '+
+              '<span class="klein">zulässig nach Anlage III F Abs. 2</span>'
+            : '<span class="klein">gemeldet für die '+p.mannschaft+'</span>');
+      return "<tr class=\"doppelt\"><td>"+p.rang+"</td><td>"+esc(p.name)+
+        ' <span class="klein">('+esc(r)+')</span></td><td>'+
+        (p.dame ? "Dame" : "Herr")+"</td><td>"+woher+"</td></tr>";
+    });
+
+    document.getElementById("verfuegbar-tabelle").innerHTML =
+      '<thead><tr><th colspan="4">Für die Zweite gemeldet</th></tr>' +
+      "<tr><th>Rang</th><th>Name</th><th></th><th>Lage</th></tr></thead><tbody>" +
+      zeilen.join("") +
+      (dazu.length ? '<tr><th colspan="4" style="text-align:left">Dazu, nicht für die Zweite gemeldet</th></tr>' + dazu.join("") : "") +
+      "</tbody>";
+
+    /* Bilanz */
+    var herrenGemeldet = gemeldetII.filter(function(p){ return !p.dame; });
+    var herrenWeg = herrenGemeldet.filter(function(p){ return WEG[p.name]; });
+    var texte = [];
+    if (herrenWeg.length) {
+      texte.push('Von '+herrenGemeldet.length+' gemeldeten Herren stehen '+
+        (herrenGemeldet.length - herrenWeg.length)+' zur Verfügung — '+
+        herrenWeg.map(function(p){ return esc(p.name); }).join(" und ")+
+        ' sind nicht mehr im Verein, in nuLiga aber nicht abgemeldet. '+
+        '<strong>Zwei Dinge wären zu veranlassen:</strong> die Abmeldung beim Spielausschuss, '+
+        'und die Ummeldung derjenigen, die faktisch bei uns spielen — letzteres geht nur '+
+        '<strong>vor Beginn der Rückrunde</strong> (Anlage III E Abs. 1), also bis Ende Dezember.');
+    }
+    Object.keys(SF).forEach(function(r){
+      var p = RL.herren.concat(RL.damen).filter(function(x){ return x.name === ZU[r]; })[0];
+      if (!p || !p.stamm || p.mannschaft === "II") return;
+      texte.push('<strong>'+esc(r)+'</strong> hochziehen ist zulässig und bei uns '+
+        '<strong>unbegrenzt</strong> — die Zwei-Einsatz-Grenze sperrt niemanden nach oben. '+
+        'Sie nimmt ihm ab dem dritten Einsatz nur die Berechtigung für die '+p.mannschaft+
+        '. Solange er dort nicht spielen soll, ist das der gewollte Zustand.');
+    });
+    document.getElementById("verfuegbar-hinweis").innerHTML = texte.join("<br><br>");
+  })();
+
+  /* ---------- Doppelrechner ---------- */
+  (function(){
+    var rufnamen = Object.keys(ZU).filter(function(r){
+      if (!ZU[r]) return false;
+      var p = RL.herren.filter(function(x){ return x.name === ZU[r]; })[0];
+      return !!p;
+    });
+    function person(ruf){
+      return RL.herren.filter(function(x){ return x.name === ZU[ruf]; })[0];
+    }
+    function dr(ruf){
+      var p = person(ruf);
+      return p.doppelrang != null ? p.doppelrang : p.rang;
+    }
+
+    var gewaehlt = {};
+    rufnamen.forEach(function(r){ gewaehlt[r] = false; });
+
+    document.getElementById("doppel-auswahl").innerHTML = rufnamen.map(function(r){
+      var p = person(r);
+      return '<label class="pick"><input type="checkbox" data-ruf="'+esc(r)+'"> '+esc(r)+
+             ' <span class="klein">D'+dr(r)+'</span></label>';
+    }).join("");
+
+    function aufteilungen(namen){
+      var a = namen[0], out = [];
+      namen.slice(1).forEach(function(p){
+        var d1 = [a, p];
+        var d2 = namen.filter(function(n){ return d1.indexOf(n) < 0; });
+        var s1 = dr(d1[0]) + dr(d1[1]);
+        var s2 = dr(d2[0]) + dr(d2[1]);
+        var h1 = Math.min(dr(d1[0]), dr(d1[1]));
+        var h2 = Math.min(dr(d2[0]), dr(d2[1]));
+        /* Anlage III E Abs. 3: kleinere Summe zuerst; bei Gleichstand die Paarung
+           mit dem ranglistenhöheren (= kleinere Zahl) Spieler. */
+        var erst = (s1 < s2 || (s1 === s2 && h1 < h2)) ? [d1, s1, d2, s2] : [d2, s2, d1, s1];
+        erst[0] = erst[0].slice().sort(function(x,y){ return dr(x) - dr(y); });
+        erst[2] = erst[2].slice().sort(function(x,y){ return dr(x) - dr(y); });
+        out.push(erst);
+      });
+      return out.sort(function(x, y){ return x[1] - y[1]; });
+    }
+
+    function zeichnen(){
+      var namen = rufnamen.filter(function(r){ return gewaehlt[r]; });
+      var tb = document.getElementById("doppel-tabelle");
+      var hw = document.getElementById("doppel-hinweis");
+
+      if (namen.length < 2) {
+        tb.innerHTML = "";
+        hw.innerHTML = "Mindestens zwei Herren anhaken.";
+        return;
+      }
+      if (namen.length === 2) {
+        tb.innerHTML = "<thead><tr><th>1. Herrendoppel</th><th>2. Herrendoppel</th></tr></thead><tbody>" +
+          "<tr><td>"+esc(namen.slice().sort(function(x,y){return dr(x)-dr(y);})[0])+"/"+
+          esc(namen.slice().sort(function(x,y){return dr(x)-dr(y);})[1])+" <span class='klein'>Summe "+
+          (dr(namen[0])+dr(namen[1]))+"</span></td>" +
+          "<td><span class='warn'>kampflos abzugeben</span></td></tr></tbody>";
+      } else if (namen.length === 3) {
+        var drittel = namen.map(function(aus){
+          var rest = namen.filter(function(n){ return n !== aus; })
+                          .sort(function(x,y){ return dr(x) - dr(y); });
+          return { aus: aus, paar: rest, summe: dr(rest[0]) + dr(rest[1]) };
+        }).sort(function(x, y){ return x.summe - y.summe; }).map(function(v){
+          return "<tr><td>"+esc(v.paar[0])+"/"+esc(v.paar[1])+" <span class='klein'>Summe "+
+            v.summe+"</span></td><td><span class='warn'>kampflos</span></td>" +
+            "<td class='klein'>"+esc(v.aus)+" spielt kein Doppel</td></tr>";
+        }).join("");
+        tb.innerHTML = "<thead><tr><th>1. Herrendoppel</th><th>2. Herrendoppel</th><th></th></tr>" +
+          "</thead><tbody>"+drittel+"</tbody>";
+      } else if (namen.length === 4) {
+        tb.innerHTML = "<thead><tr><th>1. Herrendoppel</th><th>2. Herrendoppel</th></tr></thead><tbody>" +
+          aufteilungen(namen).map(function(v){
+            return "<tr><td>"+esc(v[0][0])+"/"+esc(v[0][1])+" <span class='klein'>Summe "+v[1]+
+              "</span></td><td>"+esc(v[2][0])+"/"+esc(v[2][1])+" <span class='klein'>Summe "+v[3]+
+              "</span></td></tr>";
+          }).join("") + "</tbody>";
+      } else {
+        tb.innerHTML = "";
+        hw.innerHTML = "Mehr als vier Herren — such vier aus, mehr können nicht aufgestellt werden.";
+        return;
+      }
+
+      /* Hinweise: Sollstärke, Stammspielerbindung, Nachmeldung */
+      var texte = [];
+      if (namen.length < 4) {
+        texte.push('<span class="warn">Nur '+namen.length+' Herren.</span> Unvollständiges Antreten '+
+          'kostet in der D-Klasse <strong>immer mindestens ein Spiel</strong> (Anlage III H) — '+
+          'ab dem dritten Mal zwei. Das erste Herrendoppel ist trotzdem auszutragen, in den '+
+          'Einzeln muss aufgerückt werden.');
+      }
+      namen.forEach(function(r){
+        var p = person(r);
+        if (p.stamm && RANG[p.mannschaft] > RANG["II"]) {
+          if (SF[r] && SF[r].mannschaft === "II") {
+            texte.push('<strong>'+esc(r)+'</strong> ist aus der '+p.mannschaft+
+              ' hochgezogen — bei uns <strong>unbegrenzt</strong> einsetzbar. Ab dem dritten '+
+              'Einsatz entfällt seine Berechtigung für die '+p.mannschaft+
+              ' (Anlage III F Abs. 2); das ist hier der gewollte Zustand.');
+          } else {
+            texte.push('<strong>'+esc(r)+'</strong> ist Stammspieler der '+p.mannschaft+
+              ' — nur <strong>zwei Einsätze pro Saison</strong> bei uns, der dritte kostet die '+
+              'Spielberechtigung unten (Anlage III F Abs. 2).');
+          }
+        }
+        if (p.stamm && RANG[p.mannschaft] < RANG["II"]) {
+          texte.push('<span class="warn"><strong>'+esc(r)+'</strong> ist Stammspieler der '+
+            p.mannschaft+' — ein Einsatz bei uns ist regelwidrig (Anlage III E Abs. 1).</span>');
+        }
+        if (p.spielberechtigtAb) {
+          texte.push('<strong>'+esc(r)+'</strong>: Nachmeldung, spielberechtigt ab '+
+            esc(p.spielberechtigtAb)+'.');
+        }
+      });
+      texte.push('Gerechnet mit den Doppelrängen: ' + namen.map(function(r){
+        return esc(r)+" "+dr(r); }).join(", ") + '.');
+      hw.innerHTML = texte.join("<br>");
+    }
+
+    document.getElementById("doppel-auswahl").addEventListener("change", function(e){
+      var r = e.target.getAttribute("data-ruf");
+      if (r) { gewaehlt[r] = e.target.checked; zeichnen(); }
+    });
+    zeichnen();
+  })();
+
   /* ---------- Rangliste ---------- */
   document.getElementById("rl-stand").textContent = RL.stand +
     (RL.abgemeldet && RL.abgemeldet.length ? "  ·  abgemeldet: " + RL.abgemeldet.join(", ") : "");
   function rlTabelle(titel, leute){
-    return '<thead><tr><th colspan="3">'+titel+'</th></tr>' +
-      "<tr><th>Rang</th><th>Name</th><th>Mannschaft</th></tr></thead><tbody>" +
+    return '<thead><tr><th colspan="4">'+titel+'</th></tr>' +
+      "<tr><th>Einzel</th><th>Doppel</th><th>Name</th><th>Mannschaft</th></tr></thead><tbody>" +
       leute.map(function(p){
-        return "<tr><td>"+p.rang+"</td><td>"+esc(p.name)+"</td><td>" +
+        var abw = p.doppelrang !== p.rang ? ' class="doppelt"' : '';
+        return "<tr"+abw+"><td>"+p.rang+"</td><td>"+(p.doppelrang==null?"–":p.doppelrang)+
+          "</td><td>"+esc(p.name)+
+          (p.spielberechtigtAb ? ' <span class="klein">Nachmeldung, spielberechtigt ab '+
+             esc(p.spielberechtigtAb)+'</span>' : '') +
+          "</td><td>" +
           (p.stamm ? tag(p.mannschaft)+' <span class="klein">Stamm</span>'
                    : '<span class="klein">Reserve</span>') + "</td></tr>";
       }).join("") + "</tbody>";
@@ -285,8 +523,13 @@ Klarnamen aus der Vereinsrangliste und ist zum Öffnen von der Festplatte gedach
       var folge = p.mannschaft === "II" ? '<span class="ok">für uns gemeldet — unbegrenzt einsetzbar</span>'
         : p.mannschaft === "Reserve" ? "Reserve — jederzeit einsetzbar, aber an der Rangfolge aufstellen"
         : RANG[p.mannschaft] > RANG["II"]
-          ? '<span style="color:var(--gelb);font-weight:700">für die '+p.mannschaft+
-            " gemeldet — nach zwei Einsätzen bei uns dort nicht mehr spielberechtigt</span>"
+          ? (SF[ruf] && SF[ruf].mannschaft === "II"
+              ? '<span style="color:var(--gelb);font-weight:700">Meldung und Wirklichkeit gehen '+
+                'auseinander:</span> gemeldet für die '+p.mannschaft+', spielt fest bei uns. '+
+                'Bei uns unbegrenzt einsetzbar — der dritte Einsatz kostet nur die Berechtigung '+
+                'für die '+p.mannschaft+'.'
+              : '<span style="color:var(--gelb);font-weight:700">für die '+p.mannschaft+
+                " gemeldet — nach zwei Einsätzen bei uns dort nicht mehr spielberechtigt</span>")
           : '<span class="warn">für die '+p.mannschaft+" gemeldet (höher) — Einsatz bei uns ist regelwidrig</span>";
       return "<tr><td>"+esc(ruf)+"</td><td>"+esc(name)+"</td><td>"+
         (p.mannschaft==="Reserve" ? '<span class="klein">Reserve</span>' : tag(p.mannschaft)) +

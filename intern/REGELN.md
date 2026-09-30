@@ -18,9 +18,22 @@ Die BBMM-Ausschreibung verweist für das Festspielen ausdrücklich auf diese Anl
 - Die Grenze ist **zwei Einsätze pro Saison**, nicht pro Halbserie.
 - Sie gilt **insgesamt über alle höheren Mannschaften**, nicht je Mannschaft einzeln.
 - Der dritte Einsatz kostet nicht das Spiel, sondern die Spielberechtigung **unten**.
-- Betroffen sind damit vor allem Stammspieler*innen einer unteren Mannschaft.
-  Wer in der Rangliste nur als Reservespieler*in geführt wird, hat keine untere Mannschaft,
-  für die etwas verloren gehen könnte.
+- Betroffen sind auch **Reservespieler*innen** — hier war eine frühere Fassung dieser Notiz falsch.
+  Sie behauptete, Reserve habe „keine untere Mannschaft, für die etwas verloren gehen könnte".
+  Richtig ist: die Grenze greift genauso. Wer dreimal in derselben Mannschaft gespielt hat, ist
+  dort **festgespielt** und darf danach in keiner tieferen Mannschaft des Vereins mehr antreten.
+  nuLiga führt das in der Vereinsrangliste offen mit, als „Festgespielt in Mannschaft N ab TT.MM.JJJJ".
+
+**Empirisch bestätigt** am Deutsch-Chinesischen BV, Saison 2025/26: Guo, Xiaohui (Reservespieler)
+hatte seinen dritten Einsatz in der zweiten Mannschaft am 05.12.2025 — nuLiga vermerkt
+„Festgespielt in Mannschaft 2 ab 05.12.2025". Ebenso Lin, Yuxuan, als Stammspieler der II gemeldet:
+dritter Einsatz in der I, Vermerk „Festgespielt in Mannschaft 1 ab 08.03.2026", danach für die II
+gesperrt.
+
+**Für uns:** Alex und Nils sind bei uns unbegrenzt einsetzbar — nach oben sperrt die Regel nie.
+Ab ihrem dritten Einsatz in der II sind sie aber an die II gebunden und stehen der III und IV
+nicht mehr zur Verfügung. Das ist kein Problem für unsere Aufstellung, wohl aber eine Information,
+die die anderen Mannschaftsführer haben sollten.
 
 ## Kein gleichzeitiger Einsatz — Anlage III F. Absatz 2, Fortsetzung
 
