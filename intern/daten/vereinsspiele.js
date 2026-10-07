@@ -1,9 +1,9 @@
-/* Alle Spiele aller vier Mannschaften. Aus nuLiga, Stand 21.09.2026.
+/* Alle Spiele aller vier Mannschaften. Aus nuLiga, Stand 05.10.2026.
    Wird von der wöchentlichen Aufgabe fortgeschrieben. */
 window.VEREINSSPIELE = {
  "verein": "Charlottenburger TSV",
  "saison": "2026/27",
- "abgerufen": "2026-09-28",
+ "abgerufen": "2026-10-05",
  "quelle": "nuLiga BVBB, Gruppen I=41956, II=42121, III=42137, IV=42155",
  "mannschaften": [
   {
@@ -80,7 +80,9 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "Deutsch-Chinesischer BV II"
+   "gegner": "Deutsch-Chinesischer BV II",
+   "ergebnis": "5:3",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396236&championship=BBMM+26%2F27&group=42121"
   },
   {
    "mannschaft": "II",
@@ -92,7 +94,9 @@ window.VEREINSSPIELE = {
    "halle": "AD",
    "daheim": false,
    "verlegt": false,
-   "gegner": "Vorspiel QSB"
+   "gegner": "Vorspiel QSB",
+   "ergebnis": "6:2",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396233&championship=BBMM+26%2F27&group=42121"
   },
   {
    "mannschaft": "I",
@@ -104,7 +108,9 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "RSV Eintracht"
+   "gegner": "RSV Eintracht",
+   "ergebnis": "3:5",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396035&championship=BBMM+26%2F27&group=41956"
   },
   {
    "mannschaft": "III",
@@ -116,19 +122,9 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SG Petershagen/Germania III"
-  },
-  {
-   "mannschaft": "IV",
-   "liga": "G-Klasse 1",
-   "tag": "Mo",
-   "datum": "2026-10-05",
-   "datumDe": "05.10.2026",
-   "zeit": "18:30",
-   "halle": "HP",
-   "daheim": false,
-   "verlegt": false,
-   "gegner": "SV Glienicke (Brandenburg)"
+   "gegner": "SG Petershagen/Germania III",
+   "ergebnis": "4:4",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396464&championship=BBMM+26%2F27&group=42137"
   },
   {
    "mannschaft": "IV",
@@ -140,7 +136,19 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "RSV Eintracht (Brandenburg) IV"
+   "gegner": "RSV Eintracht IV"
+  },
+  {
+   "mannschaft": "IV",
+   "liga": "G-Klasse 1",
+   "tag": "Fr",
+   "datum": "2026-10-09",
+   "datumDe": "09.10.2026",
+   "zeit": "18:30",
+   "halle": "HP",
+   "daheim": false,
+   "verlegt": true,
+   "gegner": "SV Glienicke/Nordbahn"
   },
   {
    "mannschaft": "II",
@@ -176,7 +184,7 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "Pro Sport (Berlin) VI"
+   "gegner": "SG ProSport/Zehlendorf VI"
   },
   {
    "mannschaft": "III",
@@ -184,10 +192,10 @@ window.VEREINSSPIELE = {
    "tag": "Sa",
    "datum": "2026-11-07",
    "datumDe": "07.11.2026",
-   "zeit": "10:30",
-   "halle": "LY",
-   "daheim": false,
-   "verlegt": false,
+   "zeit": "18:30",
+   "halle": "KF",
+   "daheim": true,
+   "verlegt": true,
    "gegner": "TSV Wedding II"
   },
   {
@@ -200,7 +208,7 @@ window.VEREINSSPIELE = {
    "halle": "UR",
    "daheim": false,
    "verlegt": false,
-   "gegner": "VSG Altglienicke (Berlin) II"
+   "gegner": "VSG Altglienicke II"
   },
   {
    "mannschaft": "I",
@@ -248,7 +256,7 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "BSV Werder (Brandenburg) III"
+   "gegner": "BSV Werder III"
   },
   {
    "mannschaft": "I",
@@ -368,7 +376,7 @@ window.VEREINSSPIELE = {
    "halle": "SO",
    "daheim": false,
    "verlegt": false,
-   "gegner": "VfB Kiefholz (Berlin) XII"
+   "gegner": "VfB Kiefholz XII"
   },
   {
    "mannschaft": "I",
@@ -440,7 +448,7 @@ window.VEREINSSPIELE = {
    "halle": "IK",
    "daheim": false,
    "verlegt": false,
-   "gegner": "RSV Eintracht (Brandenburg) IV"
+   "gegner": "RSV Eintracht IV"
   },
   {
    "mannschaft": "I",
@@ -488,7 +496,7 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SV Glienicke (Brandenburg)"
+   "gegner": "SV Glienicke/Nordbahn"
   },
   {
    "mannschaft": "III",
@@ -497,8 +505,8 @@ window.VEREINSSPIELE = {
    "datum": "2027-01-21",
    "datumDe": "21.01.2027",
    "zeit": "19:30",
-   "halle": "KF",
-   "daheim": true,
+   "halle": "LY",
+   "daheim": false,
    "verlegt": false,
    "gegner": "TSV Wedding II"
   },
@@ -524,7 +532,7 @@ window.VEREINSSPIELE = {
    "halle": "WE",
    "daheim": false,
    "verlegt": false,
-   "gegner": "BSV Werder (Brandenburg) III"
+   "gegner": "BSV Werder III"
   },
   {
    "mannschaft": "II",
@@ -548,7 +556,7 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "VSG Altglienicke (Berlin) II"
+   "gegner": "VSG Altglienicke II"
   },
   {
    "mannschaft": "I",
@@ -572,7 +580,7 @@ window.VEREINSSPIELE = {
    "halle": "EZ",
    "daheim": false,
    "verlegt": false,
-   "gegner": "Pro Sport (Berlin) VI"
+   "gegner": "SG ProSport/Zehlendorf VI"
   },
   {
    "mannschaft": "IV",
@@ -704,7 +712,7 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "VfB Kiefholz (Berlin) XII"
+   "gegner": "VfB Kiefholz XII"
   },
   {
    "mannschaft": "III",

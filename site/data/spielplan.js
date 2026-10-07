@@ -1,7 +1,7 @@
 /* Alle 56 Spiele der D-Klasse 2. Ergebnis eintragen: "ergebnis":"5:3" beim jeweiligen Spiel. */
 window.SPIELPLAN = {
  "quelle": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupPage?championship=BBMM+26%2F27&group=42121",
- "abgerufen": "2026-09-28",
+ "abgerufen": "2026-10-05",
  "liga": "BVBB Mannschaftsmeisterschaft 2026/27 – D-Klasse 2",
  "spiele": [
   {
@@ -20,7 +20,7 @@ window.SPIELPLAN = {
    "heimspiel": false,
    "gegner": null,
    "ergebnis": "4:4",
-   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396224&championship=BBMM+26%2F27&group=42121"
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396224eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20260926-DI-2",
@@ -55,7 +55,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "0:8",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396227eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20260930-KF-4",
@@ -72,7 +73,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "Deutsch-Chinesischer BV II",
-   "ergebnis": ""
+   "ergebnis": "5:3",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396236eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261001-KL-8",
@@ -89,7 +91,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": false,
    "gegner": "Vorspiel QSB",
-   "ergebnis": ""
+   "ergebnis": "6:2",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396233eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261002-TU-5",
@@ -106,7 +109,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "7:1",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396223eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261003-TM-6",
@@ -123,7 +127,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "7:1",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396238eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261004-BO-7",
@@ -140,7 +145,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "1:6",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396229eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261104-KF-10",

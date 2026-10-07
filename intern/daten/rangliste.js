@@ -2,12 +2,12 @@
    Diese Datei wird von Netlify nicht ausgeliefert (publish = "site").
    Wird von der woechentlichen Aufgabe fortgeschrieben. */
 window.RANGLISTE = {
- "stand": "Vorrunde 2026/27, abgerufen 28.09.2026 (unverändert gegenüber 26.09.2026)",
+ "stand": "Vorrunde 2026/27, abgerufen 05.10.2026 – neu: zwei Festspiel-Vermerke (Wandel/Braun) und die angekündigte Abmeldung von Brebeck zum 12.10.2026",
  "quelle": "nuLiga Vereinsrangliste, clubPools?club=16382&displayTyp=vorrunde&seasonName=2026/27",
- "hinweis": "rang = Einzelrangfolge, doppelrang = eigene Doppelrangfolge (nuLiga zeigt beides als „Rang/Doppel“). Fuer die Herrendoppel-Reihenfolge nach Anlage III E Abs. 3 zaehlt der DOPPELRANG, nicht der Einzelrang. Stammspieler duerfen in KEINER niedrigeren Mannschaft spielen (Anlage III E Abs. 1).",
+ "hinweis": "rang = Einzelrangfolge, doppelrang = eigene Doppelrangfolge (nuLiga zeigt beides als „Rang/Doppel“). Fuer die Herrendoppel-Reihenfolge nach Anlage III E Abs. 3 zaehlt der DOPPELRANG, nicht der Einzelrang. Stammspieler duerfen in KEINER niedrigeren Mannschaft spielen (Anlage III E Abs. 1). Das Feld festgespielt uebernimmt den nuLiga-Vermerk wortgleich: ab diesem Datum ist die Person an die genannte Mannschaft gebunden und in keiner tieferen mehr spielberechtigt.",
  "abgemeldet": [
-  "Plaschnick, Denise",
-  "Ünal, Mouna"
+  "Plaschnick, Denise (18.07.2026)",
+  "Ünal, Mouna (18.07.2026)"
  ],
  "herren": [
   {
@@ -64,7 +64,8 @@ window.RANGLISTE = {
    "mannschaft": "III",
    "name": "Wandel, Jens",
    "dame": false,
-   "stamm": true
+   "stamm": true,
+   "festgespielt": "Festgespielt in Mannschaft 2 ab 01.10.2026"
   },
   {
    "rang": 80,
@@ -324,7 +325,8 @@ window.RANGLISTE = {
    "mannschaft": "I",
    "name": "Brebeck, Victoria",
    "dame": true,
-   "stamm": true
+   "stamm": true,
+   "abgemeldetAb": "12.10.2026"
   },
   {
    "rang": 50,
@@ -460,7 +462,8 @@ window.RANGLISTE = {
    "mannschaft": "Reserve",
    "name": "Braun, Arwen, Gemma",
    "dame": true,
-   "stamm": false
+   "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 3 ab 01.10.2026"
   },
   {
    "rang": 220,

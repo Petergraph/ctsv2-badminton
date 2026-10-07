@@ -5,13 +5,13 @@ window.VORBERICHTE = {
 "2026-09-30": {
   titel: "Auftakt bei zivilisierter Uhrzeit",
   text: "Saisonstart in der eigenen Halle, mittwochs um halb acht — die freundlichste Anwurfzeit der ganzen Staffel. Sieben Sonntagvormittage stehen uns dieses Jahr noch bevor, deshalb: diesen Abend bitte genießen.\n\nZu Gast ist der Deutsch-Chinesische BV aus Kreuzberg. Wir bringen den Heimvorteil mit, die obere Halle und das Wissen, wo der Seiteneingang ist. Aufwärmen ab 19:00, und wer noch nie in der Kuno-Fischer-Straße war: Es ist die Tür, von der man denkt, sie sei es nicht.",
-  nachbericht: ""
+  nachbericht: "Erster Spieltag, erster Sieg — und das in der eigenen Halle zur zivilisierten Uhrzeit, genau wie bestellt. 5:3, wobei ein Punkt kampflos kam: Der Gegner brachte nur vier Leute mit, das Damendoppel ging ohne Gegnerinnen an Cathy und Karo. Der Rest war ehrliche Arbeit — Hiep drehte das 2. Herreneinzel über drei Sätze, Karo ihr Dameneinzel ebenso, Alex und Cathy nahmen das Mixed in zweien. Verloren haben wir ausgerechnet oben: erstes Herrendoppel, offenes Doppel und offenes Einzel. Luft nach oben also vorhanden — aber zwei Punkte sind zwei Punkte, und die stehen in der Tabelle."
 },
 
 "2026-10-01": {
   titel: "Zweites Spiel in 24 Stunden",
   text: "Der Spielplan meint es gut mit uns: Gerade ist der Auftakt vorbei, da geht es am nächsten Abend gleich weiter. Ausruhen ist etwas für Mannschaften mit weniger Spaß am Sport.\n\nVorspiel QSB ist der Verein mit den vielen Hallen im Portfolio — und hat für diese Saison neu sortiert: Statt nach Schöneberg fahren wir nach Mitte, in die Adalbertstraße. Wer die alte Adresse noch im Kalender stehen hat, bitte überschreiben; wer blind dem Gedächtnis folgt, steht um 19:00 sehr allein vor einer fremden Turnhalle.",
-  nachbericht: ""
+  nachbericht: "Zweites Spiel in 24 Stunden, und die Beine haben mitgeteilt, was sie davon halten: 2:6. Die Adalbertstraße haben immerhin alle gefunden, was nach dem Hallenwechsel die eigentliche Prüfung war. Gepunktet haben Cathy und Karo im Damendoppel und Karo noch einmal im Einzel — der Rest ging recht geradlinig nach Mitte. Robert erfuhr im 2. Herreneinzel bei 6:21 und 5:21, wie sich ein Doppelspieltag anfühlt, und verwies anschließend auf müde Beine. Nils bestritt sein erstes Spiel für die Zweite und gleich zwei Disziplinen: Einstieg bestanden, Ergebnis geschenkt."
 },
 
 "2026-11-04": {
