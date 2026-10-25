@@ -1,21 +1,21 @@
 /* Tabellenstand. Nach jedem Spieltag aus nuLiga übertragen. */
 window.TABELLE = {
- "stand": "6 von 56 Begegnungen gewertet – Tempelhof/Friedenau V gegen TuS Lichterfelde vom 04.10. ist in nuLiga noch nicht in die Tabelle eingerechnet",
- "aktualisiert": "2026-10-05",
+ "stand": "7 von 56 Begegnungen gewertet – Tempelhof/Friedenau V gegen TuS Lichterfelde vom 04.10. ist jetzt eingerechnet; TuS Lichterfelde uebernimmt damit die Spitze",
+ "aktualisiert": "2026-10-12",
  "zeilen": [
   {
    "rang": 1,
+   "team": "TuS Lichterfelde",
+   "begegnungen": 2,
+   "punkte": "4:0",
+   "spiele": "15:1"
+  },
+  {
+   "rang": 2,
    "team": "SV Berliner Brauereien VIII",
    "begegnungen": 2,
    "punkte": "3:1",
    "spiele": "11:5"
-  },
-  {
-   "rang": 2,
-   "team": "TuS Lichterfelde",
-   "begegnungen": 1,
-   "punkte": "2:0",
-   "spiele": "8:0"
   },
   {
    "rang": 3,
@@ -48,9 +48,9 @@ window.TABELLE = {
   {
    "rang": 7,
    "team": "SG BC Tempelhof/Friedenau V",
-   "begegnungen": 0,
-   "punkte": "0:0",
-   "spiele": "0:0"
+   "begegnungen": 1,
+   "punkte": "0:2",
+   "spiele": "1:7"
   },
   {
    "rang": 8,

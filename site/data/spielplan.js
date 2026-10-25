@@ -1,7 +1,7 @@
 /* Alle 56 Spiele der D-Klasse 2. Ergebnis eintragen: "ergebnis":"5:3" beim jeweiligen Spiel. */
 window.SPIELPLAN = {
  "quelle": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupPage?championship=BBMM+26%2F27&group=42121",
- "abgerufen": "2026-10-05",
+ "abgerufen": "2026-10-12",
  "liga": "BVBB Mannschaftsmeisterschaft 2026/27 – D-Klasse 2",
  "spiele": [
   {
@@ -20,25 +20,7 @@ window.SPIELPLAN = {
    "heimspiel": false,
    "gegner": null,
    "ergebnis": "4:4",
-   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396224eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
-  },
-  {
-   "id": "20260926-DI-2",
-   "tag": "",
-   "datum": "",
-   "datumDe": "Termin offen",
-   "zeit": "",
-   "runde": "Vorrunde",
-   "nr": "2",
-   "halle": "DI",
-   "heim": "SG BC Tempelhof/Friedenau V",
-   "gast": "Vorspiel QSB",
-   "verlegt": true,
-   "eigenesSpiel": false,
-   "heimspiel": false,
-   "gegner": null,
-   "ergebnis": "",
-   "terminOffen": true
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396224&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20260927-ED-3",
@@ -56,7 +38,7 @@ window.SPIELPLAN = {
    "heimspiel": false,
    "gegner": null,
    "ergebnis": "0:8",
-   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396227eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396227&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20260930-KF-4",
@@ -74,7 +56,7 @@ window.SPIELPLAN = {
    "heimspiel": true,
    "gegner": "Deutsch-Chinesischer BV II",
    "ergebnis": "5:3",
-   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396236eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396236&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261001-KL-8",
@@ -92,7 +74,7 @@ window.SPIELPLAN = {
    "heimspiel": false,
    "gegner": "Vorspiel QSB",
    "ergebnis": "6:2",
-   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396233eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396233&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261002-TU-5",
@@ -110,7 +92,7 @@ window.SPIELPLAN = {
    "heimspiel": false,
    "gegner": null,
    "ergebnis": "7:1",
-   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396223eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396223&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261003-TM-6",
@@ -128,7 +110,7 @@ window.SPIELPLAN = {
    "heimspiel": false,
    "gegner": null,
    "ergebnis": "7:1",
-   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396238eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396238&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261004-BO-7",
@@ -145,8 +127,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "1:6",
-   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/group396229eetingReport?meeting=M&championship=BBMM+26%2F27&group=42121"
+   "ergebnis": "1:7",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396229&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261104-KF-10",
@@ -163,7 +145,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "DIBVM V",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261105-KL-9",
@@ -180,7 +163,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261106-TU-13",
@@ -197,7 +181,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261107-TM-12",
@@ -214,7 +199,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261108-DE-14",
@@ -231,7 +217,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261108-TM-15",
@@ -248,7 +235,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261122-TU-11",
@@ -265,7 +253,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261114-KF-16",
@@ -282,7 +271,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "SG Gaselan Fürstenwalde II",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261119-KL-20",
@@ -299,7 +289,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261122-DI-17",
@@ -316,7 +307,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": false,
    "gegner": "SG BC Tempelhof/Friedenau V",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261122-TM-19",
@@ -333,7 +325,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261122-ED-18",
@@ -350,7 +343,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261127-TU-21",
@@ -367,7 +361,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261129-ED-23",
@@ -384,7 +379,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261129-RA-22",
@@ -401,7 +397,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261202-KF-24",
@@ -418,7 +415,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "TuS Lichterfelde",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261210-KL-28",
@@ -435,7 +433,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261212-TM-25",
@@ -452,7 +451,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": false,
    "gegner": "SV Berliner Brauereien VIII",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261213-DI-26",
@@ -469,7 +469,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20261213-DE-27",
@@ -486,7 +487,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270107-KL-R4",
@@ -503,7 +505,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270108-TU-R1",
@@ -520,7 +523,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": false,
    "gegner": "Deutsch-Chinesischer BV II",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270109-TM-R2",
@@ -537,7 +541,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270110-DE-R3",
@@ -554,7 +559,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270117-DE-R6",
@@ -571,7 +577,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270117-ED-R7",
@@ -588,7 +595,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270117-RA-R5",
@@ -605,7 +613,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270120-KF-R8",
@@ -622,7 +631,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "Vorspiel QSB",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270124-ED-R9",
@@ -639,7 +649,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270124-DI-R10",
@@ -656,7 +667,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270124-DE-R11",
@@ -673,7 +685,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270124-RA-R12",
@@ -690,7 +703,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": false,
    "gegner": "DIBVM V",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270211-KL-R16",
@@ -707,7 +721,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270212-TU-R17",
@@ -724,7 +739,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270214-DI-R14",
@@ -741,7 +757,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270214-DE-R18",
@@ -758,7 +775,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270214-LY-R19",
@@ -775,7 +793,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270217-KF-R20",
@@ -792,7 +811,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "SG BC Tempelhof/Friedenau V",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270221-ED-R15",
@@ -809,7 +829,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": false,
    "gegner": "SG Gaselan Fürstenwalde II",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270221-RA-R13",
@@ -826,7 +847,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270306-TM-R22",
@@ -843,7 +865,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270306-MB-R21",
@@ -860,7 +883,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270307-DI-R23",
@@ -877,7 +901,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270307-DE-R24",
@@ -894,7 +919,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": false,
    "gegner": "TuS Lichterfelde",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270317-KF-R25",
@@ -911,7 +937,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "SV Berliner Brauereien VIII",
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270319-TU-R26",
@@ -928,7 +955,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270321-ED-R28",
@@ -945,7 +973,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
   },
   {
    "id": "20270321-RA-R27",
@@ -962,7 +991,27 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": ""
+   "ergebnis": "",
+   "berichtUrl": ""
+  },
+  {
+   "id": "20260926-DI-2",
+   "tag": "",
+   "datum": "",
+   "datumDe": "Termin offen",
+   "zeit": "",
+   "runde": "Vorrunde",
+   "nr": "2",
+   "halle": "DI",
+   "heim": "SG BC Tempelhof/Friedenau V",
+   "gast": "Vorspiel QSB",
+   "verlegt": false,
+   "eigenesSpiel": false,
+   "heimspiel": false,
+   "gegner": null,
+   "ergebnis": "",
+   "terminOffen": true,
+   "berichtUrl": ""
   }
  ]
 };

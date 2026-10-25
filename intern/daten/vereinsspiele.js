@@ -3,7 +3,7 @@
 window.VEREINSSPIELE = {
  "verein": "Charlottenburger TSV",
  "saison": "2026/27",
- "abgerufen": "2026-10-05",
+ "abgerufen": "2026-10-12",
  "quelle": "nuLiga BVBB, Gruppen I=41956, II=42121, III=42137, IV=42155",
  "mannschaften": [
   {
@@ -39,7 +39,8 @@ window.VEREINSSPIELE = {
    "daheim": false,
    "verlegt": false,
    "gegner": "PSV Berlin II",
-   "ergebnis": "5:3",
+   "ergebnis": "3:5",
+   "ergebnisNuliga": "5:3",
    "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396046&championship=BBMM+26%2F27&group=41956"
   },
   {
@@ -53,7 +54,8 @@ window.VEREINSSPIELE = {
    "daheim": false,
    "verlegt": false,
    "gegner": "TuS Lichterfelde II",
-   "ergebnis": "2:6",
+   "ergebnis": "6:2",
+   "ergebnisNuliga": "2:6",
    "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396465&championship=BBMM+26%2F27&group=42137"
   },
   {
@@ -67,7 +69,8 @@ window.VEREINSSPIELE = {
    "daheim": false,
    "verlegt": false,
    "gegner": "Köpenicker BC VIII",
-   "ergebnis": "3:5",
+   "ergebnis": "5:3",
+   "ergebnisNuliga": "3:5",
    "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396572&championship=BBMM+26%2F27&group=42155"
   },
   {
@@ -82,6 +85,7 @@ window.VEREINSSPIELE = {
    "verlegt": false,
    "gegner": "Deutsch-Chinesischer BV II",
    "ergebnis": "5:3",
+   "ergebnisNuliga": "5:3",
    "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396236&championship=BBMM+26%2F27&group=42121"
   },
   {
@@ -95,7 +99,8 @@ window.VEREINSSPIELE = {
    "daheim": false,
    "verlegt": false,
    "gegner": "Vorspiel QSB",
-   "ergebnis": "6:2",
+   "ergebnis": "2:6",
+   "ergebnisNuliga": "6:2",
    "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396233&championship=BBMM+26%2F27&group=42121"
   },
   {
@@ -110,6 +115,7 @@ window.VEREINSSPIELE = {
    "verlegt": false,
    "gegner": "RSV Eintracht",
    "ergebnis": "3:5",
+   "ergebnisNuliga": "3:5",
    "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396035&championship=BBMM+26%2F27&group=41956"
   },
   {
@@ -124,6 +130,7 @@ window.VEREINSSPIELE = {
    "verlegt": false,
    "gegner": "SG Petershagen/Germania III",
    "ergebnis": "4:4",
+   "ergebnisNuliga": "4:4",
    "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396464&championship=BBMM+26%2F27&group=42137"
   },
   {
@@ -136,7 +143,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "RSV Eintracht IV"
+   "gegner": "RSV Eintracht IV",
+   "ergebnis": "8:0",
+   "ergebnisNuliga": "8:0",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
   },
   {
    "mannschaft": "IV",
@@ -148,7 +158,10 @@ window.VEREINSSPIELE = {
    "halle": "HP",
    "daheim": false,
    "verlegt": true,
-   "gegner": "SV Glienicke/Nordbahn"
+   "gegner": "SV Glienicke/Nordbahn",
+   "ergebnis": "2:6",
+   "ergebnisNuliga": "6:2",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396544&championship=BBMM+26%2F27&group=42155"
   },
   {
    "mannschaft": "II",

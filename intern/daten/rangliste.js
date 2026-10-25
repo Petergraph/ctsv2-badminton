@@ -2,12 +2,13 @@
    Diese Datei wird von Netlify nicht ausgeliefert (publish = "site").
    Wird von der woechentlichen Aufgabe fortgeschrieben. */
 window.RANGLISTE = {
- "stand": "Vorrunde 2026/27, abgerufen 05.10.2026 – neu: zwei Festspiel-Vermerke (Wandel/Braun) und die angekündigte Abmeldung von Brebeck zum 12.10.2026",
+ "stand": "Vorrunde 2026/27, abgerufen 12.10.2026 – neu: drei Festspiel-Vermerke vom 07.10. (Jürgen, Durie, Wiegleb) und einer vom 09.10. (Kanis); Brebecks Abmeldung ist zum 12.10.2026 wirksam. Ränge und Doppelränge unverändert.",
  "quelle": "nuLiga Vereinsrangliste, clubPools?club=16382&displayTyp=vorrunde&seasonName=2026/27",
  "hinweis": "rang = Einzelrangfolge, doppelrang = eigene Doppelrangfolge (nuLiga zeigt beides als „Rang/Doppel“). Fuer die Herrendoppel-Reihenfolge nach Anlage III E Abs. 3 zaehlt der DOPPELRANG, nicht der Einzelrang. Stammspieler duerfen in KEINER niedrigeren Mannschaft spielen (Anlage III E Abs. 1). Das Feld festgespielt uebernimmt den nuLiga-Vermerk wortgleich: ab diesem Datum ist die Person an die genannte Mannschaft gebunden und in keiner tieferen mehr spielberechtigt.",
  "abgemeldet": [
   "Plaschnick, Denise (18.07.2026)",
-  "Ünal, Mouna (18.07.2026)"
+  "Ünal, Mouna (18.07.2026)",
+  "Brebeck, Victoria (12.10.2026)"
  ],
  "herren": [
   {
@@ -122,7 +123,8 @@ window.RANGLISTE = {
    "mannschaft": "Reserve",
    "name": "Jürgen, Alexander",
    "dame": false,
-   "stamm": false
+   "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 4 ab 07.10.2026"
   },
   {
    "rang": 140,
@@ -130,7 +132,8 @@ window.RANGLISTE = {
    "mannschaft": "Reserve",
    "name": "Durie, Sven Duncan",
    "dame": false,
-   "stamm": false
+   "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 4 ab 07.10.2026"
   },
   {
    "rang": 150,
@@ -326,7 +329,8 @@ window.RANGLISTE = {
    "name": "Brebeck, Victoria",
    "dame": true,
    "stamm": true,
-   "abgemeldetAb": "12.10.2026"
+   "abgemeldetAb": "12.10.2026",
+   "abgemeldet": "12.10.2026"
   },
   {
    "rang": 50,
@@ -374,7 +378,8 @@ window.RANGLISTE = {
    "mannschaft": "Reserve",
    "name": "Wiegleb, Karoline",
    "dame": true,
-   "stamm": false
+   "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 4 ab 07.10.2026"
   },
   {
    "rang": 110,
@@ -471,7 +476,8 @@ window.RANGLISTE = {
    "mannschaft": "Reserve",
    "name": "Kanis, Laura",
    "dame": true,
-   "stamm": false
+   "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 4 ab 09.10.2026"
   },
   {
    "rang": 230,

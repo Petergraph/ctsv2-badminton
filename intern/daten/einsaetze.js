@@ -11,7 +11,7 @@
    - gleichzeitige Einsätze am selben Tag (unzulässig) */
 
 window.EINSAETZE = {
-  "stand": "Stand 05.10.2026 – gespielt: I am 26.09. und 01.10., III am 27.09. und 01.10., IV am 27.09., II am 30.09. und 01.10. Alle sieben Spielberichte sind genehmigt und ausgelesen.",
+  "stand": "Stand 12.10.2026 – gespielt: I am 26.09. und 01.10., III am 27.09. und 01.10., II am 30.09. und 01.10., IV am 27.09., 07.10. und 09.10. Alle neun Spielberichte sind genehmigt und ausgelesen.",
   "hinweis": "Disziplinkuerzel stehen genau so, wie nuLiga sie liefert. OD (offenes Doppel) und OE (offenes Einzel) sind ab Saison 2026/27 eigene Disziplinen und ersetzen 2.HD und 3.HE — sie werden NICHT dorthin zurueckuebersetzt (siehe REGELN.md).",
   "eintraege": [
     {
@@ -433,6 +433,142 @@ window.EINSAETZE = {
         "GD"
       ],
       "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396464&championship=BBMM+26%2F27&group=42137"
+    },
+    {
+      "datum": "2026-10-07",
+      "mannschaft": "IV",
+      "name": "Durie, Sven Duncan",
+      "disziplinen": [
+        "1.HE"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-07",
+      "mannschaft": "IV",
+      "name": "Erbe, Andreas",
+      "disziplinen": [
+        "1.HD",
+        "GD"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-07",
+      "mannschaft": "IV",
+      "name": "Heusel, Jannis",
+      "disziplinen": [
+        "OD",
+        "2.HE"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-07",
+      "mannschaft": "IV",
+      "name": "Heyer, Johannes",
+      "disziplinen": [
+        "OD"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-07",
+      "mannschaft": "IV",
+      "name": "Jürgen, Alexander",
+      "disziplinen": [
+        "1.HD"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-07",
+      "mannschaft": "IV",
+      "name": "Nehls, Anissa Vivien",
+      "disziplinen": [
+        "DD",
+        "GD"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-07",
+      "mannschaft": "IV",
+      "name": "Nytz, Justus",
+      "disziplinen": [
+        "OE"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-07",
+      "mannschaft": "IV",
+      "name": "Wiegleb, Karoline",
+      "disziplinen": [
+        "DD",
+        "DE"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396552&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-09",
+      "mannschaft": "IV",
+      "name": "Buhrmann, Stefan",
+      "disziplinen": [
+        "1.HD",
+        "GD"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396544&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-09",
+      "mannschaft": "IV",
+      "name": "Heusel, Jannis",
+      "disziplinen": [
+        "1.HD",
+        "1.HE"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396544&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-09",
+      "mannschaft": "IV",
+      "name": "Heyer, Johannes",
+      "disziplinen": [
+        "OD",
+        "OE"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396544&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-09",
+      "mannschaft": "IV",
+      "name": "Kanis, Laura",
+      "disziplinen": [
+        "DD",
+        "DE"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396544&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-09",
+      "mannschaft": "IV",
+      "name": "Nehls, Anissa Vivien",
+      "disziplinen": [
+        "DD",
+        "GD"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396544&championship=BBMM+26%2F27&group=42155"
+    },
+    {
+      "datum": "2026-10-09",
+      "mannschaft": "IV",
+      "name": "Nytz, Justus",
+      "disziplinen": [
+        "OD",
+        "2.HE"
+      ],
+      "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396544&championship=BBMM+26%2F27&group=42155"
     }
   ]
 };

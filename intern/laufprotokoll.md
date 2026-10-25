@@ -19,6 +19,239 @@ nebeneinander lesen kann:
 
 ---
 
+## 19.10.2026 — Spielfreie Woche, dafür ist die offene Regelfrage endlich beantwortet
+
+**Neue Ergebnisse** — **keine.** Zwischen dem 12. und dem 18.10. hat keine der vier Mannschaften
+gespielt, und in der D-Klasse 2 fand überhaupt keine Begegnung statt. Die große Pause läuft
+weiter. Nächster Termin der II: **Mi 04.11., 19:30, heim gegen DIBVM V** in der
+Kuno-Fischer-Straße. Am Tag darauf spielen I und III dort, am 07.11. die III noch einmal.
+
+**Tabellenstand D-Klasse 2** — unverändert, **7 von 56** Begegnungen gewertet. Wir bleiben
+**Fünfter** mit 2:2 Punkten, 7:9 Spielen und 17:20 Sätzen. Oben weiter TuS Lichterfelde (4:0,
+15:1) vor den Brauereien VIII (3:1), Vorspiel QSB (2:0 aus einer Begegnung) und dem DCBV II (2:2,
+aber 10:6). Schlusslicht bleibt Gaselan II mit 0:4 und 1:15. Die nuLiga-Tabelle stimmt Zeile für
+Zeile mit `site/data/tabelle.js` überein.
+
+**Regelprüfung** (Anlage III E/F/H) — **Fehlanzeige in allen drei Punkten**, und zwar aus dem
+einfachsten aller Gründe: es wurde nicht gespielt.
+
+- **Anlage III E Abs. 1 (Stammspieler nach unten): Fehlanzeige.** Keine neuen Einsätze, also kein
+  Verstoß.
+- **Anlage III F Abs. 2 (dritter Einsatz oben): Fehlanzeige.** Kein Zähler hat sich bewegt.
+- **Anlage III F Abs. 2 „gleichzeitig": Fehlanzeige.** Keine Doppelbesetzung möglich.
+- **Vereinsrangliste unverändert:** dieselben 37 Herren und 24 Damen, Ränge und Doppelränge
+  identisch, keine neuen Festspiel-Vermerke, keine neue Abmeldung, keine neue Nachmeldung.
+  Abgemeldet bleiben Plaschnick und Ünal (18.07.) sowie Brebeck (12.10.).
+
+Der Kontostand aus der Vorwoche gilt damit unverändert weiter:
+
+- **Alex** (Jürgen, Alexander) und **Karo** (Wiegleb, Karoline) sind seit 07.10. in Mannschaft 4
+  festgespielt. Für die II kein Verlust — nach oben darf unbegrenzt aufgestellt werden —, aber an
+  den vier Abenden, an denen II und IV gleichzeitig in der Kuno-Fischer-Straße spielen (14.11.,
+  02.12., 20.01., 17.03.), muss vorher geklärt sein, wer die beiden bekommt. Bei Karo wiegt das
+  schwer, weil wir nur zwei Damen haben.
+- **Cathy** (Schnak, Catherine) steht bei 2 von 2, beide in der II. Ihr dritter Einsatz am
+  **04.11.** bindet sie an die II — ein Grund, sie an dem Abend auch wirklich aufzustellen.
+- **Nils** (Kaune) steht bei 2 Einsätzen, verteilt: 27.09. in der IV, 01.10. bei uns. Spielt er am
+  04.11. bei uns, gehört er der II.
+- **Andreas Erbe** unverändert offen: Stamm IV, zwei Einsätze nach oben in der III. Der dritte
+  wäre am **05.11.** und nähme ihm die Berechtigung für die eigene Mannschaft. Die Absprache
+  zwischen den Mannschaftsführern der III und der IV steht seit dem 05.10. aus.
+- Weiter bei 2 von 2 und einen Einsatz vor der Bindung: **Janina Müller** (2× III) und **Julia
+  Wandel** (2× I), beide mit dem 05.11. als nächstem Termin. Bei 1 von 2: **Jannis Heusel** (1× I)
+  und **Hiep** (Nguyen, Huu Loc, 1× I).
+
+**Termine und Hallen** — **keine Verlegungen, keine Hallenwechsel, keine neuen Überschneidungen.**
+Alle vier Spielpläne wurden vollständig gegen nuLiga abgeglichen (eigene Spiele: I 14, II 14,
+III 14, IV 16; Gruppe 42121 mit allen 56 Begegnungen) — **null Abweichungen** bei Tag, Datum,
+Zeit, Halle, Spielnummer, Verlegungsvermerk und Ergebnis. Weiterhin als verlegt markiert: II am
+04.11. und 24.01., III am 07.11. und 21.03. Spiel 2 der Staffel (Tempelhof/Friedenau V – Vorspiel
+QSB) hat nach wie vor keinen Termin; nuLiga zeigt dort inzwischen einen Berichts-Link, der Bericht
+ist aber leer (0:0, keine Disziplinen) und die Begegnung in der Tabelle nicht gewertet — deshalb
+bleibt im Spielplan `ergebnis` leer und `terminOffen` gesetzt. Kein Grund, etwas zu ändern.
+
+**Die offene Regelfrage ist beantwortet — und sie war die Mühe wert.** Die PDF „Spielordnung –
+Offenes Einzel + Doppel" ließ sich diesmal doch lesen: der WP-Download-Manager liefert sie unter
+`https://www.bvbb-online.de/?wpdmdl=25208&refresh=1` direkt aus (4 Seiten, Scan ohne Textebene,
+im Browser aber gut lesbar). Drei Dinge daraus:
+
+1. **Das Dokument ist ein Entwurf.** Wörtlich: „Es handelt sich ausdrücklich noch nicht um eine
+   abschließend geprüfte und beschlossene Fassung … Ein verbindlicher Zeitpunkt für das
+   Inkrafttreten kann daher derzeit noch nicht benannt werden." Gespielt wird in nuLiga trotzdem
+   längst nach OE/OD.
+2. **Die Antwort auf unsere Frage:** Die Additionsregel gilt nur, wenn **beide** Doppel mit je
+   zwei Herren besetzt sind — dann spielt die Paarung mit der kleineren Summe der Doppelränge das
+   Herrendoppel. **Spielt im offenen Doppel eine Dame mit, greift die Additionsregel nicht.**
+   Analog beim offenen Einzel: nur wenn es ein Herr bestreitet, ist es nach der Einzelrangliste
+   hinter 1.HE und 2.HE einzuordnen. Der Doppelrechner der internen Seite ist damit korrekt,
+   solange wir das OD mit zwei Herren besetzen, und gegenstandslos, sobald Karo oder Cathy dort
+   mitspielen.
+3. **Ein neuer Prüfpunkt:** Der Entwurf ändert auch Anlage III H. Für „Bezirksklasse und tiefer"
+   steht dort, dass bei weniger als vier anwesenden Herren einer von ihnen gleichzeitig in einem
+   Herreneinzel und im Mixed eingesetzt werden darf (und bei nur einer Dame diese im Dameneinzel
+   und im Mixed) — gegen Vorabinformation des Gegners. Das verträgt sich nicht ohne weiteres mit
+   unserer bisherigen Lesart, unvollständiges Antreten koste **immer** mindestens ein Spiel. Nicht
+   eigenmächtig umgeschrieben; der alte Abschnitt in `REGELN.md` steht unverändert daneben.
+
+Alles mit wörtlichen Zitaten in `intern/REGELN.md` eingearbeitet, Abschnitt „BEANTWORTET am
+19.10.2026".
+
+**Geänderte Dateien:** nur `intern/REGELN.md` (offene Regelfrage beantwortet, Zitate aus der
+Entwurfs-PDF, neuer Prüfpunkt zu Anlage III H) und diese Datei.
+**Nicht geändert, weil nichts zu ändern war:** `site/data/spielplan.js`, `site/data/tabelle.js`,
+`site/data/hallen.js`, `site/data/teams.js`, `site/data/vorberichte.js` (kein neues Spiel der II,
+kein Hallenwechsel — kein Nachbericht fällig), `intern/daten/vereinsspiele.js`,
+`intern/daten/rangliste.js`, `intern/daten/einsaetze.js` (weiterhin 56 Einträge),
+`klarnamen-schluessel.json`. `intern/daten/zuordnung.js` nur gelesen.
+
+**Offenes:**
+- **Push ist überfällig — und das ist diese Woche der wichtigste Punkt.** Der letzte Commit auf
+  `main` ist `3b7f829` „weekly updates" vom **07.10.** Die gesamte Auswertung vom 12.10. liegt
+  unverschnürt im Klon: `site/data/spielplan.js` (+199 Zeilen geändert), `site/data/tabelle.js`,
+  `intern/daten/einsaetze.js`, `rangliste.js`, `vereinsspiele.js`, `laufprotokoll.md` — dazu jetzt
+  `REGELN.md`. **Die öffentliche Seite zeigt deshalb bis heute den Stand vom 07.10.**, inklusive
+  der am 12.10. korrigierten Fehler (Ergebnis 1:6 statt 1:7, sieben kaputte Berichts-Links).
+  Einmal „Commit to main" und „Push origin" in GitHub Desktop räumt das auf.
+- **Vor dem 04.11. abstimmen, wer Alex und Karo bekommt** (unverändert seit 12.10.).
+- **Absprache mit der III und der IV wegen Andreas Erbe** (unverändert seit 05.10.).
+- **Anlage III H gegenprüfen** (siehe oben) — lohnt sich, weil es die Planung für Abende mit
+  dünner Besetzung verändern würde.
+- **Zuordnung bestätigen:** Karo = **Wiegleb, Karoline** und Cathy = **Schnak, Catherine** sind
+  weiterhin nur Vorschlag in `zuordnung.js`; ohne Eintrag rechnet das Festspiel-Konto für die
+  beiden nicht.
+- **Pseudonymisierung, Entscheidung steht noch aus:** `site/data/teams.js` nennt die
+  Mannschaftsführer im Klarnamen (unverändert seit 05.10.).
+- **Sachfehler im Kommentar von `site/data/kader.js`** zu Anlage III H (unverändert seit 05.10.) —
+  hängt jetzt mit am neuen Prüfpunkt.
+
+## 12.10.2026 — Die IV holt 8:0 und bindet dabei Alex und Karo an sich
+
+**Neue Ergebnisse**
+
+| | | | |
+|---|---|---|---|
+| IV | Mi 07.10. **heim** | RSV Eintracht IV | **8:0 gewonnen** |
+| IV | Fr 09.10. auswärts | SV Glienicke/Nordbahn | 2:6 verloren |
+
+Die II, die I und die III haben in dieser Woche nicht gespielt — die große Pause bis zum
+04.11. läuft. In der D-Klasse 2 fand überhaupt keine Begegnung statt.
+
+*Aufstellung IV (07.10., 8:0):* **Alex Jürgen** (1.HD), Erbe (1.HD, GD), Anissa Nehls (DD, GD),
+**Karo Wiegleb** (DD, DE), Heyer (OD), Heusel (OD, 2.HE), Durie (1.HE), Nytz (OE). Acht
+Disziplinen, acht Siege, sechs davon in zwei Sätzen — Eintracht IV kam zu acht Spielen und
+ging mit null nach Hause. Nur Durie (1.HE) und Erbe/Nehls (GD) mussten über drei Sätze,
+Durie im dritten mit 22:20.
+
+*Aufstellung IV (09.10., 2:6):* Buhrmann (1.HD, GD), Heusel (1.HD, 1.HE), Anissa Nehls (DD, GD),
+Laura Kanis (DD, DE), Nytz (OD, 2.HE), Heyer (OD, OE). Gepunktet haben nur die Doppel mit
+Buhrmann: 1.HD mit Heusel und das Mixed mit Nehls, beide über drei Sätze. Laura Kanis holte
+im Dameneinzel immerhin den zweiten Satz mit 23:21.
+
+**Tabellenstand D-Klasse 2** — **7 von 56** Begegnungen gewertet. Wir bleiben **Fünfter** mit
+2:2 Punkten und 7:9 Spielen; an unserer Zeile hat sich nichts geändert. Bewegung gab es nur
+oben: das Spiel Tempelhof/Friedenau V – TuS Lichterfelde vom 04.10. ist jetzt eingerechnet,
+damit zieht **TuS Lichterfelde** mit 4:0 Punkten und 15:1 Spielen an den Brauereien VIII (3:1)
+vorbei an die Spitze. Tempelhof/Friedenau V steht nun mit 0:2 auf Platz sieben, Gaselan II
+bleibt mit 0:4 und 1:15 Schlusslicht.
+
+**Regelprüfung** (Anlage III E/F/H)
+
+- **Anlage III E Abs. 1 — Einsatz nach unten: Fehlanzeige.** Weder am 07.10. noch am 09.10.
+  stand jemand in der IV, der als Stammspieler*in einer höheren Mannschaft gemeldet ist. Die
+  IV hat an beiden Tagen ausschließlich eigene Stammleute und Reservespieler*innen eingesetzt.
+  Der Fall, der die Wertung kosten könnte, liegt nicht vor.
+- **Vier neue Festspiel-Vermerke, drei davon betreffen uns.** nuLiga führt jetzt:
+  **Jürgen, Alexander** und **Wiegleb, Karoline** je „Festgespielt in Mannschaft 4 ab
+  07.10.2026", dazu **Durie, Sven Duncan** (ebenfalls ab 07.10.) und **Kanis, Laura** (ab
+  09.10.2026). Alle vier Zähler stimmen mit unserer eigenen Zählung überein.
+- **Das ist die Nachricht der Woche für die II: Alex und Karo sind jetzt an die IV gebunden,
+  nicht an uns.** Der Lauf vom 05.10. hatte vorhergesagt, ihr dritter Einsatz werde am 04.11.
+  bei uns fallen und sie an die II binden. Die IV war am 07.10. schneller. **Für uns ist das
+  kein Verlust an Spielberechtigung:** nach oben darf immer und unbegrenzt aufgestellt werden
+  (Anlage III F Abs. 2 Satz 1), beide bleiben für die II voll einsetzbar. Was sich ändert, ist
+  die Reihenfolge des Zugriffs — in nuLigas Buchführung sind sie jetzt Leute der IV, die bei
+  uns aushelfen, und nicht mehr umgekehrt. Praktisch heißt das: **an den vier Abenden, an denen
+  II und IV gleichzeitig in der Kuno-Fischer-Straße spielen (14.11., 02.12., 20.01., 17.03.),
+  muss vorher geklärt werden, wer Alex und Karo bekommt.** Bei Karo wiegt das schwer, weil wir
+  nur zwei Damen im Kader haben.
+- **Cathy** (Schnak, Catherine) steht bei 2 von 2 Einsätzen, beide in der II. Ihr dritter
+  Einsatz am **04.11.** bindet sie an die **II** — für uns genau richtig, und ein Grund, sie
+  am 04.11. auch wirklich aufzustellen, bevor eine andere Mannschaft zugreift.
+- **Nils** (Kaune) steht bei 2 Einsätzen, aber verteilt: 27.09. in der IV, 01.10. in der II.
+  Bei ihm entscheidet der **dritte** Einsatz, an welche Mannschaft er gebunden wird. Spielt er
+  am 04.11. bei uns, gehört er der II. Das ist der günstigste Fall und sollte so eingeplant
+  werden.
+- **Andreas Erbe — unverändert offen.** Stammspieler der **IV**, zwei Einsätze nach oben in
+  der III (27.09., 01.10.). Sein Einsatz am 07.10. war in der eigenen Mannschaft und zählt
+  nicht mit. Der dritte Einsatz in der III wäre am **05.11.2026** fällig und würde ihm die
+  Spielberechtigung für die IV, seine eigene Mannschaft, nehmen. Die Absprache zwischen den
+  Mannschaftsführern der III und der IV steht weiter aus.
+- Weiter bei 2 von 2 und einen Einsatz vor der Bindung: **Janina Müller** (2× III → 05.11.)
+  und **Julia Wandel** (2× I → 05.11.). Bei 1 von 2: **Jannis Heusel** (1× I) und **Hiep**
+  (Nguyen, Huu Loc, 1× I).
+- **Anlage III F Abs. 2 „gleichzeitig": nichts Neues.** Am 07.10. und am 09.10. spielte jeweils
+  nur die IV, Doppelbesetzungen sind ausgeschlossen. Der bekannte Grenzfall bleibt der
+  **27.09.** mit Andreas Erbe (III um 10:00 in Lichterfelde, IV um 15:00 in Köpenick) —
+  fünf Stunden Abstand, nuLiga moniert nichts, die Endzeit steht dort aber nicht, also
+  weiterhin unverifiziert.
+- **Anlage III H:** Die IV ist an beiden Tagen vollständig angetreten (07.10. sogar mit acht
+  Personen, 09.10. mit sechs). Auch die Gegner waren vollständig.
+
+**Termine und Hallen** — **keine Verlegungen, keine Hallenwechsel** in keiner der vier Staffeln.
+Alle vier Spielpläne stimmen mit nuLiga überein (14/14/14/16 Spiele, Gruppe II 56 Begegnungen
+vollständig). Weiterhin als verlegt markiert: II am 04.11. und 24.01., III am 07.11. und 21.03.
+Das verlegte Spiel der IV vom 09.10. ist gespielt und der Vermerk damit erledigt.
+Unverändert gilt: **II und IV spielen am 14.11., 02.12., 20.01. und 17.03. gleichzeitig in der
+Kuno-Fischer-Straße** — siehe Regelprüfung, das ist jetzt kein theoretischer Hinweis mehr.
+
+**Rangliste** — Ränge und Doppelränge **unverändert**, Besetzung unverändert (37 Herren,
+24 Damen, davon zwei länger abgemeldet). Neu sind die vier Festspiel-Vermerke oben. Die
+angekündigte Abmeldung von **Victoria Brebeck** (Stamm I) ist zum **12.10.2026** wirksam
+geworden, also ab heute — sie steht jetzt in der Abmeldeliste.
+
+**Zwei Fehler des letzten Laufs korrigiert.** Beim Abgleich mit nuLiga fielen zwei Einträge in
+`site/data/spielplan.js` auf, die vom 05.10. falsch stehengeblieben waren:
+1. Das Spiel vom **04.10.** (Tempelhof/Friedenau V – TuS Lichterfelde) stand mit **1:6** statt
+   **1:7**. Die Tabelle bestätigt 1:7 (Lichterfelde 15:1 aus zwei Begegnungen).
+2. **Sieben Berichts-Links waren kaputt:** sie lauteten
+   `…/group396224eetingReport?meeting=M&…` — beim Einsetzen der Spielnummer war offenbar das
+   „M" von „MeetingReport" mit der Nummer vertauscht worden. Alle sieben sind jetzt korrekt.
+Zusätzlich war bei dem Spiel ohne Termin (Nr. 2, Tempelhof – Vorspiel) `verlegt` auf `true`
+gesetzt, obwohl nuLiga dort keinen Verlegungsvermerk führt, sondern nur „Termin offen".
+Der Spielplan ist nach Datum und Zeit neu sortiert.
+
+**Geänderte Dateien:** `site/data/spielplan.js` (ein Ergebnis korrigiert, sieben Berichts-Links
+repariert, ein `verlegt`-Flag korrigiert, neu sortiert), `site/data/tabelle.js` (7 von 56,
+Lichterfelde neu an der Spitze), `intern/daten/vereinsspiele.js` (58 Spiele neu eingelesen,
+zwei neue Ergebnisse), `intern/daten/rangliste.js` (vier Festspiel-Vermerke, Brebecks Abmeldung
+wirksam), `intern/daten/einsaetze.js` (+14 Einträge, jetzt 56).
+**Nicht geändert, weil nichts zu ändern war:** `hallen.js` (alle elf Hallen der Staffel bereits
+erfasst), `teams.js` (Heimhallen der Gegner stimmen), `vorberichte.js` (kein neues Spiel der II,
+kein Hallenwechsel), `klarnamen-schluessel.json` (keine neuen Gegner der D-Klasse 2 — die Gegner
+der IV erscheinen nicht auf der öffentlichen Seite). `zuordnung.js` nur gelesen.
+
+**Offen:**
+- **Vor dem 04.11. abstimmen, wer Alex und Karo bekommt** (siehe Regelprüfung). Das ist der
+  Punkt, der diese Woche neu dazugekommen ist und am ehesten weh tut.
+- Die **offene Regelfrage** aus REGELN.md ist weiter offen: Einordnung von offenem Doppel und
+  offenem Einzel, wenn eine Dame mitspielt. Die PDF „Spielordnung – Offenes Einzel + Doppel"
+  war auch diesmal nicht auslesbar — der Download-Button auf
+  `bvbb-online.de/download/aenderungen-spielordnung-offenes-einzel-und-offenes-doppel/` ist ein
+  JavaScript-Link des WP-Download-Managers ohne direkte Datei-URL. Die Seite selbst vermerkt
+  weiterhin: „Änderungen Spielordnung - Offenes Einzel und Offenes Doppel **Wird noch
+  eingearbeitet ab August 2026**" (Stand 01.06.2026, abgerufen 12.10.2026; Download-Zähler 718).
+  Robert: PDF herunterladen und in den Chat hochladen.
+- **Absprache mit der III und der IV wegen Andreas Erbe** (unverändert seit 05.10.).
+- **Zuordnung bestätigen:** Karo = **Wiegleb, Karoline** ist durch den Spielbericht der IV vom
+  07.10. ein weiteres Mal belegt (DD und DE, wie bei uns am 30.09. und 01.10.). Cathy =
+  **Schnak, Catherine** bleibt die naheliegende Lesart. Nicht selbst eingetragen, bitte freigeben
+  — ohne Eintrag in `zuordnung.js` rechnet das Festspiel-Konto der internen Seite für die beiden
+  nicht mit, und bei Karo ist das jetzt nicht mehr folgenlos.
+- **Pseudonymisierung, Entscheidung steht noch aus:** `site/data/teams.js` nennt die
+  Mannschaftsführer im Klarnamen (unverändert seit 05.10.).
+- **Sachfehler im Kommentar von `site/data/kader.js`** zu Anlage III H (unverändert seit 05.10.).
+- **Push steht weiter aus** — alles seit dem 26.09. liegt nur im Klon.
+
 ## 05.10.2026 — Erster Sieg der II, und zwei Festspiel-Vermerke sind jetzt amtlich
 
 **Neue Ergebnisse**

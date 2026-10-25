@@ -137,20 +137,99 @@ Die Additionsregel (Anlage III E Abs. 3, kleinere Summe der Ranglistenplätze sp
 also weiterhin — der Satz spricht aber von „den Herrendoppeln" im Plural, während es nur noch ein
 Herrendoppel und ein offenes Doppel gibt.
 
-## OFFENE FRAGE — hier wird noch geraten, nicht gewusst
+## BEANTWORTET am 19.10.2026 — mit einer wichtigen Einschränkung
 
-Wie das **offene** Doppel einzuordnen ist, wenn dort eine Dame mitspielt, steht nicht in der
-Ausschreibung. Herren- und Damenrangliste sind getrennte Listen; eine Summe aus beiden ergibt ohne
-Umrechnungsregel keinen Sinn. Ebenso ungeklärt: wie das offene Einzel gegenüber dem 1. und 2.
-Herreneinzel einzuordnen ist, und ob die Sollstärke weiterhin 4 Herren + 2 Damen verlangt oder
-sich durch die Öffnung verschiebt.
+Die PDF **„Spielordnung – Offenes Einzel + Doppel"** ließ sich diesmal doch lesen. Der
+Download-Button der Ausschreibungsseite ist zwar weiterhin ein JavaScript-Link ohne Datei-URL,
+der WP-Download-Manager liefert die Datei aber unter der direkten Adresse
+`https://www.bvbb-online.de/?wpdmdl=25208&refresh=1` aus (742 kB, 4 Seiten, Seitenzahlen 50–52
+eines größeren Dokuments, Titel „Änderungen der Anlagen zur Spielordnung — Änderungen betreffend
+die Öffnung der Disziplinen 2. Herrendoppel und 3. Herreneinzel (Auftrag Verbandstag 2025)").
+Die Datei hat keine Textebene — sie ist ein Scan und nur im Browser lesbar. Abgerufen 19.10.2026.
 
-Die Antwort steht im PDF **„Spielordnung – Offenes Einzel + Doppel"** (724,85 KB, Stand
-01.06.2026), verlinkt auf der Ausschreibungsseite. Die Datei liegt in der DBV-Cloud und ließ sich
-von hier weder als Text auslesen noch anzeigen. **Robert: die PDF herunterladen und in den Chat
-hochladen, dann wird sie hier eingearbeitet.** Bis dahin gilt für die interne Seite: der
-Doppelrechner rechnet nach der ALTEN Spielfolge mit zwei Herrendoppeln und ist für diese Saison
-nur eingeschränkt brauchbar.
+**Einschränkung vorweg: das Dokument ist ein ENTWURF, keine beschlossene Fassung.** Wörtlich auf
+der letzten Seite:
+
+> „Es handelt sich ausdrücklich noch nicht um eine abschließend geprüfte und beschlossene Fassung.
+> Vor einer endgültigen Umsetzung sind noch weitere fachliche, rechtliche und technische Prüfungen
+> erforderlich. Dazu zählen auch notwendige Anpassungen bzw. Programmierungen in nuLiga und den
+> damit verbundenen Systemen. Ein verbindlicher Zeitpunkt für das Inkrafttreten kann daher derzeit
+> noch nicht benannt werden."
+
+Das passt zum Vermerk auf der Downloadseite („Wird noch eingearbeitet ab August 2026"). Gespielt
+wird in nuLiga trotzdem schon nach OE/OD. Was unten steht, ist also die **Absicht des
+Spielausschusses und die gelebte Praxis, formal aber noch nicht geltendes Recht.**
+
+### Offenes Einzel — E. Ranglisten Abs. 2 (neue Fassung)
+
+> „Das 1. Herreneinzel und das 2. Herreneinzel sind so aufzustellen, dass der ranghöhere Spieler
+> das 1. Herreneinzel spielt. Wird das Offene Einzel durch einen Herren bestritten, ist auch
+> dieses entsprechend der Reihenfolge der eingesetzten Herren nach der Einzelrangliste
+> aufzustellen."
+
+Drei von Herren besetzte Einzel werden also weiterhin streng nach der **Einzelrangliste**
+gestaffelt: 1.HE vor 2.HE vor OE. Spielt eine **Dame** das offene Einzel, greift die Regel nach
+ihrem Wortlaut nicht — eine Verrechnung von Herren- und Damenrangliste sieht der Entwurf nirgends
+vor.
+
+### Offenes Doppel — E. Ranglisten Abs. 3 (neue Fassung)
+
+> „Werden im Herrendoppel und im Offenen Doppel jeweils zwei Herren eingesetzt, gelten diese
+> Paarungen hinsichtlich ihrer Reihenfolge als zwei Herrendoppel. In diesem Fall ist das
+> Herrendoppel so aufzustellen, dass bei der Addition der Ranglistenplätze die Paarung mit der
+> kleineren Summe das Herrendoppel spielt. Bei Summengleichheit hat die Paarung mit dem
+> ranglistenhöheren Spieler das Herrendoppel zu spielen."
+
+**Das ist die Antwort auf die Frage, die hier seit dem 29.09. offen stand.** Die Additionsregel
+gilt nur, wenn **beide** Doppel mit je zwei Herren besetzt sind; dann ist das stärkere Paar
+(kleinere Summe der **Doppelränge**) das 1.HD und das andere das OD. **Sobald im offenen Doppel
+eine Dame mitspielt, sind die beiden Paarungen nicht mehr vergleichbar und die Additionsregel
+greift nicht.**
+
+Für die interne Seite heißt das: der Doppelrechner stimmt, solange wir das offene Doppel mit zwei
+Herren besetzen — und ist gegenstandslos, sobald Karo oder Cathy dort mitspielen. Das war die
+Einschränkung, die hier bisher pauschal notiert war; sie ist jetzt präzise.
+
+### Vollständigkeit der acht Spiele — E. Ranglisten Abs. 4 (neue Fassung)
+
+> „Sofern die spielbereiten Spieler*innen unter Beachtung der geltenden Disziplinen und der Regel,
+> dass kein*e Spieler*in mehr als zwei Spiele bestreiten darf, die Austragung aller acht Spiele
+> ermöglichen, müssen alle acht Spiele ausgetragen werden."
+
+### Mannschaftsgröße und Spielfolge — B. Spielreihenfolge (neue Fassung)
+
+> „Eine Mannschaft besteht aus sechs bis acht Stammspieler*innen. Dabei müssen mindestens drei
+> Herren und mindestens zwei Damen als Stammspieler*innen gemeldet sein. Bei einem
+> Mannschaftswettkampf dürfen bis zu zwölf Spieler*innen eingesetzt werden."
+
+Acht Spiele, neu: **1 DE, 1 DD, 2 HE, 1 HD, 1 OD, 1 OE, 1 Mixed** (alt: 1 DE, 1 DD, 3 HE, 2 HD,
+1 Mixed). Reihenfolge, wenn keine Einigung zustande kommt, neu: **HD, DD, OD, 1.HE, DE, Mixed,
+2.HE, OE** — genau die Folge, die nuLiga in den Spielberichten liefert.
+
+### NOCH ZU PRÜFEN: unvollständiges Antreten — H. Nichtantreten
+
+Der Entwurf ändert auch Abschnitt H. Für unsere Klasse („Unvollständiges Antreten in der
+Bezirksklasse und tiefer") steht dort in der neuen Fassung:
+
+> „Tritt eine Mannschaft mit weniger als vier Herren an, ist der gleichzeitige Einsatz eines der
+> drei anwesenden Herren in einem Herreneinzel und im Mixed möglich. Ist nur eine Dame anwesend,
+> ist ihr gleichzeitiger Einsatz im Dameneinzel und im Mixed ebenfalls möglich. In beiden Fällen
+> muss die gegnerische Mannschaft vor Abgabe ihrer Aufstellung darüber in Kenntnis gesetzt werden.
+> Hat die gegnerische Mannschaft ihre Aufstellung bereits abgegeben, ist ihr gestattet, diese zu
+> ändern. Die Aufstellung muss weiterhin nach Anlage III E und F der Spielordnung erfolgen."
+
+Dazu kommt, ebenfalls neu:
+
+> „Fehlen in einer Mannschaft Herren, muss in den Einzeln aufgerückt werden. Außerdem ist stets das
+> Herrendoppel auszutragen. Müssen dadurch das Herrendoppel und, sofern im Offenen Doppel zwei
+> Herren eingesetzt werden, auch das Offene Doppel neu aufgestellt werden, darf auch die
+> gegnerische Mannschaft das Herrendoppel und gegebenenfalls das Offene Doppel neu aufstellen."
+
+Das verträgt sich **nicht ohne weiteres** mit der Lesart weiter oben in dieser Datei, dass
+unvollständiges Antreten immer mindestens ein Spiel kostet: wer mit drei Herren antritt, darf nach
+diesem Text einen davon doppelt einsetzen (HE + Mixed). **Robert: das gehört geprüft, bevor wir
+danach planen** — zumal der Entwurf, siehe oben, noch nicht in Kraft ist. Hier wurde nichts
+umgeschrieben; der Abschnitt zu Anlage III H weiter oben steht unverändert.
 
 ## Weitere Punkte aus der Ausschreibung 2026/27, die wir noch nicht hatten
 
