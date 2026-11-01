@@ -5,35 +5,91 @@ Die BBMM-Ausschreibung verweist für das Festspielen ausdrücklich auf diese Anl
 
 ---
 
-## Festspielen — Anlage III F. Ersatzspieler*innen, Absatz 2
+## Festspielen — Anlage III F. Ersatzspieler*innen
 
-> „Spieler*innen einer unteren Mannschaft eines Vereins können in jeder höheren Mannschaft
-> ihres Vereins als Ersatz eingesetzt werden. Sie müssen dort an dem Platz spielen, der ihrer
-> Rangfolge in der aktuellen Rangliste entspricht. **Werden Ersatzspieler*innen häufiger als
-> insgesamt zwei Mal pro Spielsaison in höheren Mannschaften eingesetzt, so haben sie für die
-> untere Mannschaft ihre Spielberechtigung verloren.**"
+**Quelle: Volltext der Satzung und Ordnungen des BVBB, Stand 04.04.2025, Anlage III, S. 78.**
+Liegt im Ordner `D:\Claude\Projekte\Badminton\Regeln\`. Am 25.10.2026 im Wortlaut geprüft.
 
-**Was das für den Zähler heißt**
+### Absatz 1 — für Ersatzspieler*innen ohne Stammmannschaft
 
-- Die Grenze ist **zwei Einsätze pro Saison**, nicht pro Halbserie.
-- Sie gilt **insgesamt über alle höheren Mannschaften**, nicht je Mannschaft einzeln.
-- Der dritte Einsatz kostet nicht das Spiel, sondern die Spielberechtigung **unten**.
-- Betroffen sind auch **Reservespieler*innen** — hier war eine frühere Fassung dieser Notiz falsch.
-  Sie behauptete, Reserve habe „keine untere Mannschaft, für die etwas verloren gehen könnte".
-  Richtig ist: die Grenze greift genauso. Wer dreimal in derselben Mannschaft gespielt hat, ist
-  dort **festgespielt** und darf danach in keiner tieferen Mannschaft des Vereins mehr antreten.
-  nuLiga führt das in der Vereinsrangliste offen mit, als „Festgespielt in Mannschaft N ab TT.MM.JJJJ".
+> „Ersatzspieler*in kann jeder zum Verein (Spielgemeinschaft) gehörende Spieler*in mit einer
+> Spielberechtigung sein. Sie müssen, soweit sie nicht Stammspieler*innen einer unteren Mannschaft
+> sind, vorher gemeldet sein. **Ersatzspieler*innen können in jeder Mannschaft eingesetzt werden**,
+> müssen aber an dem Platz in einer Mannschaft spielen, der ihrer Rangfolge in der aktuellen
+> Rangliste entspricht."
 
-**Empirisch bestätigt** am Deutsch-Chinesischen BV, Saison 2025/26: Guo, Xiaohui (Reservespieler)
-hatte seinen dritten Einsatz in der zweiten Mannschaft am 05.12.2025 — nuLiga vermerkt
-„Festgespielt in Mannschaft 2 ab 05.12.2025". Ebenso Lin, Yuxuan, als Stammspieler der II gemeldet:
-dritter Einsatz in der I, Vermerk „Festgespielt in Mannschaft 1 ab 08.03.2026", danach für die II
-gesperrt.
+### Absatz 2 — für Stammspieler*innen einer unteren Mannschaft
 
-**Für uns:** Alex und Nils sind bei uns unbegrenzt einsetzbar — nach oben sperrt die Regel nie.
-Ab ihrem dritten Einsatz in der II sind sie aber an die II gebunden und stehen der III und IV
-nicht mehr zur Verfügung. Das ist kein Problem für unsere Aufstellung, wohl aber eine Information,
-die die anderen Mannschaftsführer haben sollten.
+> „**Spieler*innen einer unteren Mannschaft** eines Vereins können in jeder höheren Mannschaft ihres
+> Vereins als Ersatz eingesetzt werden. Sie müssen dort an dem Platz spielen, der ihrer Rangfolge in
+> der aktuellen Rangliste entspricht. Werden Ersatzspieler*innen häufiger als insgesamt zwei Mal pro
+> Spielsaison in höheren Mannschaften eingesetzt, so haben sie **für die untere Mannschaft** ihre
+> Spielberechtigung verloren."
+
+### Was daraus folgt — und was NICHT
+
+Die Ordnung unterscheidet zwei Lagen, und das ist der ganze Mechanismus:
+
+| | gilt | Begrenzung |
+|---|---|---|
+| **Stammspieler*in einer unteren Mannschaft** | Abs. 2 | zwei Einsätze oben pro Saison; ab dem dritten ist die **untere** Mannschaft verloren |
+| **Ersatzspieler*in ohne Stammmannschaft** | Abs. 1 | **keine** — „in jeder Mannschaft einsetzbar", nur der Ranglistenplatz ist bindend |
+
+Für reine Ersatzspieler*innen läuft die Sanktion aus Abs. 2 leer: Sie haben keine untere Mannschaft,
+für die eine Spielberechtigung verloren gehen könnte.
+
+**Nicht in der Ordnung steht**, trotz gezielter Suche im Volltext:
+
+- keine Regel, nach der ein Einsatz in einer **tieferen** Mannschaft eine Bindung auslöst;
+- kein **Zählerneustart** nach einer Bindung — Abs. 2 sagt „insgesamt zwei Mal pro Spielsaison";
+- keine Festspielregel für Ersatzspieler*innen ohne Stammmannschaft überhaupt.
+
+Das Wort „festgespielt" kommt im gesamten Regelwerk nur viermal vor, und die einzige materielle
+Definition steht in **Abschnitt P** — der ausdrücklich nur für **BBJMM/BBSMM** (Jugend und Senioren)
+gilt, nicht für die BBMM:
+
+> „Ein*e Spieler*in, der*die in einer anderen Jugend-/Schüler*innenmannschaft des Vereins als
+> Ersatzspieler*in eingesetzt wird, hat sich dann **in dieser Mannschaft** festgespielt, wenn er*sie
+> **mehr als zwei Einsätze** […] in dieser Mannschaft hatte."
+
+Vermutlich wendet nuLiga diese Jugendlogik auf alle Wettbewerbe an — das erklärt die Vermerke
+„Festgespielt in Mannschaft N ab TT.MM.JJJJ" auch bei reinen Ersatzspieler*innen der BBMM.
+
+### Der Vermerk in nuLiga ist Buchführung, nicht Normtext
+
+Die BBMM-Ausschreibung 2026/27 sagt wörtlich: „In nuScore werden Festspielregeln oder
+Beschränkungen nicht geprüft." Im Streitfall entscheidet der Spielausschuss nach der Ordnung.
+Wo eine Aufstellung daran hängt, wird dort nachgefragt — nicht in der Statusspalte abgelesen.
+
+### Empirisch geprüft — Saison 2025/26, Lauf vom 26.10.2026
+
+Alle 85 BVBB-Vereine, 17 Spielklassen, 905 auswertbare Spielberichte, 11.520 Einsätze, 519
+nuLiga-Vermerke. Ergebnis: Die Software führt den Zähler **stufenweise kumulativ über die ganze
+Saison** — Einsätze oberhalb einer Mannschaft zählen auch dann noch, wenn sie *vor* der Bindung an
+diese Mannschaft lagen. Das Modell reproduziert 511 der 519 Vermerke exakt (98,5 %); die acht
+Abweichungen betreffen Vereine mit fehlender Aufstellung. In den **276 Fällen**, in denen sich
+„kumulativ" und „Neustart nach jeder Bindung" unterscheiden, folgt nuLiga **271 : 0** dem
+kumulativen Zähler; in den fünf übrigen stimmt die Mannschaft mit dem kumulativen Modell, nur das
+Datum weicht wegen fehlender Aufstellungen ab. **Einen Zählerneustart gibt es nicht.** (Zahlen aus
+der unabhängigen Nachrechnung vom 26.10.2026, 12 Uhr; der erste Lauf zählte mit engerer Definition
+119 : 118 : 0 — gleiche Richtung, kleinere Fallzahl.)
+
+Zur Sanktion dagegen Befund A: In der ganzen Saison hat **niemand** nach einer Bindung noch
+einmal tiefer gespielt (0 von 11.520 Einsätzen), also gibt es auch keine Umwertung wegen
+Festspielens. Von drei Umwertungen der Saison betraf eine einen nicht einsatzberechtigten Spieler
+(Nachmeldefrist, Anlage S) — der Mechanismus existiert, er wurde fürs Festspielen nur nie gebraucht.
+
+Rohdaten und vollständiger Bericht außerhalb des Repos: `D:\Claude\Projekte\Badminton\Festspielregel\`
+(`Ergebnis.md`, `Vermerke.json`, `Einsaetze.json`).
+
+### Für uns, Stand 25.10.2026
+
+- **Jens** (Stammspieler der III) fällt unter Abs. 2. Einsätze oben: 26.09. (I), 30.09. (II),
+  01.10. (II) — der dritte am 01.10. hat ihm die III gekostet. nuLiga-Vermerk korrekt.
+- **Alex und Nils** sind reine Ersatzspieler ohne Stammmannschaft und fallen unter Abs. 1:
+  **unbegrenzt in jeder Mannschaft einsetzbar.** Dass nuLiga Alex seit dem 07.10. als „festgespielt
+  in Mannschaft 4" führt, hat in der BBMM-Ordnung keine Entsprechung.
+- **Karo** ebenso.
 
 ## Kein gleichzeitiger Einsatz — Anlage III F. Absatz 2, Fortsetzung
 
@@ -102,150 +158,69 @@ Spielausschusses möglich (Anlage III E. Absatz 1).
 
 # Saison 2026/27: Offenes Einzel und offenes Doppel
 
-**Quelle:** BBMM-Ausschreibung 2026/2027, Spielausschuss des BVBB, Berlin, 01.06.2026,
-https://www.bvbb-online.de/spielbetrieb/o19/bbmm/ausschreibung/ — abgerufen 29.09.2026.
+**Quelle:** „Änderungen der Anlagen zur Spielordnung — Öffnung der Disziplinen 2. Herrendoppel und
+3. Herreneinzel (Auftrag Verbandstag 2025)", Tilo Hieronymus, Stand 01.06.2026, S. 50–53.
+Liegt im Ordner `D:\Claude\Projekte\Badminton\Regeln\`. Am 25.10.2026 im Wortlaut geprüft.
 
-## Die Änderung
+### ACHTUNG: Das Dokument ist ein Entwurf
 
-> „NEU: Statt 3.HE und 2. HD gibt es nun ein Offenes Einzel und ein Offenes Doppel
-> (Änderung ab August 2026)"
+Letzte Seite, wörtlich:
 
-Die Verbandsmeldung dazu nennt den Zweck: die Änderung ermöglicht flexiblere Aufstellungen,
-ausdrücklich genannt wird eine Mannschaft aus drei Frauen und drei Männern mit je zwei Spielen
-pro Geschlecht
-(https://www.bvbb-online.de/bbmm-2026-2027-o19-ausschreibung-und-wichtige-neuerungen/).
-
-**In nuLiga heißen die beiden Disziplinen `OD` und `OE`.** Das ist keine Schreibvariante von
-„2.HD" und „3.HE" und darf nicht dahin zurückübersetzt werden — es sind andere Disziplinen.
-Die Spielfolge im Spielbericht lautet weiterhin: 1.HD, DD, **OD**, 1.HE, DE, GD, 2.HE, **OE**.
-
-*Beispiel aus unserem eigenen Spielbericht der I vom 26.09.2026:* Kowalski spielte 1.HD und 1.HE,
-Eissa 1.HD und **OE**, Borschevski **OD** und 2.HE, Wandel **OD** und GD, Julia Wandel DD und GD,
-Arwen Braun DD und DE.
-
-## Was die Ausschreibung sonst dazu festlegt
-
-> „Als Stammspieler müssen pro Mannschaft 3 bis 5 Herren und 2 bis 3 Damen (insgesamt mindestens 6)
-> gemeldet werden."
-
-> „Unabhängig von der Meldung können in jedem Mannschaftskampf bis zu 12 Spieler*innen eingesetzt
-> werden. Die Herrendoppel sind nach der Additionsregel zu spielen."
-
-> „In einer zweiten Rangliste sind die Spieler nach Spielstärke in den Doppeln anzugeben."
-
-Die Additionsregel (Anlage III E Abs. 3, kleinere Summe der Ranglistenplätze spielt zuerst) gilt
-also weiterhin — der Satz spricht aber von „den Herrendoppeln" im Plural, während es nur noch ein
-Herrendoppel und ein offenes Doppel gibt.
-
-## BEANTWORTET am 19.10.2026 — mit einer wichtigen Einschränkung
-
-Die PDF **„Spielordnung – Offenes Einzel + Doppel"** ließ sich diesmal doch lesen. Der
-Download-Button der Ausschreibungsseite ist zwar weiterhin ein JavaScript-Link ohne Datei-URL,
-der WP-Download-Manager liefert die Datei aber unter der direkten Adresse
-`https://www.bvbb-online.de/?wpdmdl=25208&refresh=1` aus (742 kB, 4 Seiten, Seitenzahlen 50–52
-eines größeren Dokuments, Titel „Änderungen der Anlagen zur Spielordnung — Änderungen betreffend
-die Öffnung der Disziplinen 2. Herrendoppel und 3. Herreneinzel (Auftrag Verbandstag 2025)").
-Die Datei hat keine Textebene — sie ist ein Scan und nur im Browser lesbar. Abgerufen 19.10.2026.
-
-**Einschränkung vorweg: das Dokument ist ein ENTWURF, keine beschlossene Fassung.** Wörtlich auf
-der letzten Seite:
-
-> „Es handelt sich ausdrücklich noch nicht um eine abschließend geprüfte und beschlossene Fassung.
-> Vor einer endgültigen Umsetzung sind noch weitere fachliche, rechtliche und technische Prüfungen
-> erforderlich. Dazu zählen auch notwendige Anpassungen bzw. Programmierungen in nuLiga und den
-> damit verbundenen Systemen. Ein verbindlicher Zeitpunkt für das Inkrafttreten kann daher derzeit
+> „Es handelt sich ausdrücklich **noch nicht um eine abschließend geprüfte und beschlossene
+> Fassung**. Vor einer endgültigen Umsetzung sind noch weitere fachliche, rechtliche und technische
+> Prüfungen erforderlich. […] Ein verbindlicher Zeitpunkt für das Inkrafttreten kann daher derzeit
 > noch nicht benannt werden."
 
-Das passt zum Vermerk auf der Downloadseite („Wird noch eingearbeitet ab August 2026"). Gespielt
-wird in nuLiga trotzdem schon nach OE/OD. Was unten steht, ist also die **Absicht des
-Spielausschusses und die gelebte Praxis, formal aber noch nicht geltendes Recht.**
+Gespielt wird trotzdem danach: Die BBMM-Ausschreibung kündigt die Änderung „ab August 2026" an, und
+nuLiga führt OD und OE in den Spielberichten. Wer sich auf eine Feinheit dieses Entwurfs berufen
+will, fragt vorher beim Spielausschuss nach.
 
-### Offenes Einzel — E. Ranglisten Abs. 2 (neue Fassung)
+### Spielfolge (B. Spielreihenfolge, neue Fassung)
 
-> „Das 1. Herreneinzel und das 2. Herreneinzel sind so aufzustellen, dass der ranghöhere Spieler
-> das 1. Herreneinzel spielt. Wird das Offene Einzel durch einen Herren bestritten, ist auch
-> dieses entsprechend der Reihenfolge der eingesetzten Herren nach der Einzelrangliste
-> aufzustellen."
+> „Eine Mannschaft besteht aus **sechs bis acht** Stammspieler*innen. Dabei müssen **mindestens drei
+> Herren und mindestens zwei Damen** als Stammspieler*innen gemeldet sein. Bei einem
+> Mannschaftswettkampf dürfen **bis zu zwölf** Spieler*innen eingesetzt werden."
 
-Drei von Herren besetzte Einzel werden also weiterhin streng nach der **Einzelrangliste**
-gestaffelt: 1.HE vor 2.HE vor OE. Spielt eine **Dame** das offene Einzel, greift die Regel nach
-ihrem Wortlaut nicht — eine Verrechnung von Herren- und Damenrangliste sieht der Entwurf nirgends
-vor.
+Acht Spiele: **1 DE, 1 DD, 2 HE, 1 HD, 1 OD, 1 OE, 1 Mixed.**
+Reihenfolge ohne Einigung: **HD, DD, OD, 1. HE, DE, Mixed, 2. HE, OE.**
+Niemand darf mehr als zwei Spiele bestreiten, und nur in verschiedenen Disziplinen.
 
-### Offenes Doppel — E. Ranglisten Abs. 3 (neue Fassung)
+### Aufstellung (E. Ranglisten, neue Fassung)
 
-> „Werden im Herrendoppel und im Offenen Doppel jeweils zwei Herren eingesetzt, gelten diese
-> Paarungen hinsichtlich ihrer Reihenfolge als zwei Herrendoppel. In diesem Fall ist das
-> Herrendoppel so aufzustellen, dass bei der Addition der Ranglistenplätze die Paarung mit der
-> kleineren Summe das Herrendoppel spielt. Bei Summengleichheit hat die Paarung mit dem
-> ranglistenhöheren Spieler das Herrendoppel zu spielen."
+> „(2) Das 1. Herreneinzel und das 2. Herreneinzel sind so aufzustellen, dass der ranghöhere Spieler
+> das 1. Herreneinzel spielt. **Wird das Offene Einzel durch einen Herrn bestritten**, ist auch
+> dieses entsprechend der Reihenfolge der eingesetzten Herren nach der Einzelrangliste aufzustellen."
 
-**Das ist die Antwort auf die Frage, die hier seit dem 29.09. offen stand.** Die Additionsregel
-gilt nur, wenn **beide** Doppel mit je zwei Herren besetzt sind; dann ist das stärkere Paar
-(kleinere Summe der **Doppelränge**) das 1.HD und das andere das OD. **Sobald im offenen Doppel
-eine Dame mitspielt, sind die beiden Paarungen nicht mehr vergleichbar und die Additionsregel
-greift nicht.**
+> „(3) **Werden im Herrendoppel und im Offenen Doppel jeweils zwei Herren eingesetzt**, gelten diese
+> Paarungen hinsichtlich ihrer Reihenfolge als zwei Herrendoppel. In diesem Fall ist das Herrendoppel
+> so aufzustellen, dass bei der Addition der Ranglistenplätze die Paarung mit der kleineren Summe das
+> Herrendoppel spielt. Bei Summengleichheit hat die Paarung mit dem ranglistenhöheren Spieler das
+> Herrendoppel zu spielen."
 
-Für die interne Seite heißt das: der Doppelrechner stimmt, solange wir das offene Doppel mit zwei
-Herren besetzen — und ist gegenstandslos, sobald Karo oder Cathy dort mitspielen. Das war die
-Einschränkung, die hier bisher pauschal notiert war; sie ist jetzt präzise.
+**Damit ist die Frage von Anfang Oktober beantwortet:** Die Additionsregel greift **nur**, wenn in
+beiden Doppeln je zwei Herren stehen. Sobald eine Dame im Offenen Doppel spielt, gilt sie nicht —
+die Ordnung schreibt für diesen Fall keine Reihenfolge vor. Der Doppelrechner auf der internen
+Seite ist also für genau den Fall richtig, für den er gebaut wurde (vier Herren), und für keinen
+anderen.
 
-### Vollständigkeit der acht Spiele — E. Ranglisten Abs. 4 (neue Fassung)
+### Unvollständiges Antreten (H. Nichtantreten, neue Fassung)
 
-> „Sofern die spielbereiten Spieler*innen unter Beachtung der geltenden Disziplinen und der Regel,
-> dass kein*e Spieler*in mehr als zwei Spiele bestreiten darf, die Austragung aller acht Spiele
-> ermöglichen, müssen alle acht Spiele ausgetragen werden."
+> „Eine Mannschaft gilt als nicht angetreten, wenn zum Zeitpunkt des Spielbeginns **nicht mindestens
+> drei Herren und eine Dame** spielbereit sind."
 
-### Mannschaftsgröße und Spielfolge — B. Spielreihenfolge (neue Fassung)
+In der Bezirksklasse und tiefer — also bei uns:
 
-> „Eine Mannschaft besteht aus sechs bis acht Stammspieler*innen. Dabei müssen mindestens drei
-> Herren und mindestens zwei Damen als Stammspieler*innen gemeldet sein. Bei einem
-> Mannschaftswettkampf dürfen bis zu zwölf Spieler*innen eingesetzt werden."
+> „Tritt eine Mannschaft mit weniger als vier Herren an, ist der gleichzeitige Einsatz eines der drei
+> anwesenden **Herren** in einem Herreneinzel und im Mixed möglich. **Ist nur eine Dame anwesend, ist
+> ihr gleichzeitiger Einsatz im Dameneinzel und im Mixed ebenfalls möglich.** In beiden Fällen muss
+> die gegnerische Mannschaft vor Abgabe ihrer Aufstellung darüber in Kenntnis gesetzt werden."
 
-Acht Spiele, neu: **1 DE, 1 DD, 2 HE, 1 HD, 1 OD, 1 OE, 1 Mixed** (alt: 1 DE, 1 DD, 3 HE, 2 HD,
-1 Mixed). Reihenfolge, wenn keine Einigung zustande kommt, neu: **HD, DD, OD, 1.HE, DE, Mixed,
-2.HE, OE** — genau die Folge, die nuLiga in den Spielberichten liefert.
+> „(3) Fehlen in einer Mannschaft Herren, muss in den Einzeln aufgerückt werden. Außerdem ist stets
+> das Herrendoppel auszutragen. Müssen dadurch das Herrendoppel und, sofern im Offenen Doppel zwei
+> Herren eingesetzt werden, auch das Offene Doppel neu aufgestellt werden, darf auch die gegnerische
+> Mannschaft das Herrendoppel und gegebenenfalls das Offene Doppel neu aufstellen."
 
-### NOCH ZU PRÜFEN: unvollständiges Antreten — H. Nichtantreten
+**Praktisch für uns:** Mit drei Herren und einer Dame gilt die Mannschaft als angetreten. Das ist
+weniger streng als die Sollstärke 4+2, die wir bisher angenommen haben — kampflose Spiele fallen
+trotzdem an (je 50 € Bußgeld), aber es ist kein Nichtantreten.
 
-Der Entwurf ändert auch Abschnitt H. Für unsere Klasse („Unvollständiges Antreten in der
-Bezirksklasse und tiefer") steht dort in der neuen Fassung:
-
-> „Tritt eine Mannschaft mit weniger als vier Herren an, ist der gleichzeitige Einsatz eines der
-> drei anwesenden Herren in einem Herreneinzel und im Mixed möglich. Ist nur eine Dame anwesend,
-> ist ihr gleichzeitiger Einsatz im Dameneinzel und im Mixed ebenfalls möglich. In beiden Fällen
-> muss die gegnerische Mannschaft vor Abgabe ihrer Aufstellung darüber in Kenntnis gesetzt werden.
-> Hat die gegnerische Mannschaft ihre Aufstellung bereits abgegeben, ist ihr gestattet, diese zu
-> ändern. Die Aufstellung muss weiterhin nach Anlage III E und F der Spielordnung erfolgen."
-
-Dazu kommt, ebenfalls neu:
-
-> „Fehlen in einer Mannschaft Herren, muss in den Einzeln aufgerückt werden. Außerdem ist stets das
-> Herrendoppel auszutragen. Müssen dadurch das Herrendoppel und, sofern im Offenen Doppel zwei
-> Herren eingesetzt werden, auch das Offene Doppel neu aufgestellt werden, darf auch die
-> gegnerische Mannschaft das Herrendoppel und gegebenenfalls das Offene Doppel neu aufstellen."
-
-Das verträgt sich **nicht ohne weiteres** mit der Lesart weiter oben in dieser Datei, dass
-unvollständiges Antreten immer mindestens ein Spiel kostet: wer mit drei Herren antritt, darf nach
-diesem Text einen davon doppelt einsetzen (HE + Mixed). **Robert: das gehört geprüft, bevor wir
-danach planen** — zumal der Entwurf, siehe oben, noch nicht in Kraft ist. Hier wurde nichts
-umgeschrieben; der Abschnitt zu Anlage III H weiter oben steht unverändert.
-
-## Weitere Punkte aus der Ausschreibung 2026/27, die wir noch nicht hatten
-
-- **Bis zu 12 Spieler*innen pro Mannschaftskampf** einsetzbar, unabhängig von der Meldung.
-- **Ummeldung zur Rückrunde:** neue Vereinsrangliste ist **vom 15.12. bis 23.12.2026** in nuLiga
-  zu beantragen, gültig ab Beginn der Rückrunde. Das ist ein Fenster von neun Tagen, nicht
-  „irgendwann bis Ende Dezember".
-- **Nachmeldungen** bis 15.02.2027, spielberechtigt erst mit Genehmigung des Spielausschusses,
-  frühestens 7 Tage nach Eingang.
-- **Kampflos verlorene Spiele kosten 50 € Bußgeld** an den BVBB — pro Spiel. Unvollständiges
-  Antreten ist also nicht nur sportlich teuer.
-- „In allen Klassen ist außerdem dem Gegner vor der Aufstellung der Mannschaft mitzuteilen, welche
-  Spiele entfallen; ggf. muss neu aufgestellt werden."
-- **Spielberichte nur noch digital über nuScore**, Papier ist unzulässig. Die Heimmannschaft muss
-  binnen 24 Stunden hochladen. „In nuScore werden Festspielregeln oder Beschränkungen nicht
-  geprüft" — die Prüfung bleibt also an uns.
-- Ob mit der neuen Zählweise 3×15 gespielt wird, war zum Zeitpunkt der Ausschreibung noch offen
-  (Entscheidung des DBV-Verbandstags vom 13.06.2026 — Stand bei uns nicht nachgeprüft).
-- Rückrundenstart laut Ausschreibung 06.01.2027; unser erstes Rückrundenspiel ist der 08.01.

@@ -19,6 +19,118 @@ nebeneinander lesen kann:
 
 ---
 
+## 26.10.2026 — Zweite spielfreie Woche, dafür steht die Festspielregel auf neuen Füßen
+
+**Neue Ergebnisse** — **keine.** Zwischen dem 19. und dem 25.10. hat keine der vier Mannschaften
+gespielt, und in der D-Klasse 2 fand erneut keine Begegnung statt. Das letzte Spiel des Vereins
+liegt damit beim **09.10.** (IV auswärts in Glienicke); alle neun Spielberichte der Saison sind
+genehmigt und ausgelesen, `einsaetze.js` steht unverändert bei 56 Einträgen. Weiter geht es am
+**Mi 04.11., 19:30, heim gegen DIBVM V** in der Kuno-Fischer-Straße. Danach: 05.11. I und III
+dort gleichzeitig, 07.11. die III, 08.11. die IV in Altglienicke.
+
+**Tabellenstand D-Klasse 2** — unverändert, **7 von 56** Begegnungen gewertet. Wir bleiben
+**Fünfter** mit 2:2 Punkten, 7:9 Spielen und 17:20 Sätzen. Oben weiter TuS Lichterfelde (4:0,
+15:1) vor den Brauereien VIII (3:1), Vorspiel QSB (2:0 aus einer Begegnung) und dem DCBV II
+(2:2, aber 10:6); Schlusslicht bleibt Gaselan II mit 0:4 und 1:15. Die nuLiga-Tabelle stimmt
+Zeile für Zeile mit `site/data/tabelle.js` überein, Sätze eingeschlossen.
+
+**Regelprüfung** (Anlage III E/F/H) — **Fehlanzeige in allen drei Punkten.** Ohne Einsätze
+bewegt sich kein Zähler.
+
+- **Anlage III E Abs. 1 (Stammspieler nach unten): Fehlanzeige.** Keine neuen Einsätze. Auch im
+  Bestand steht kein Fall: Jeder der 23 Spieler mit Einsätzen hat entweder nur in der eigenen
+  Mannschaft oder nach **oben** gespielt.
+- **Anlage III F Abs. 2 (dritter Einsatz oben): Fehlanzeige.** Kein Zähler hat sich bewegt.
+- **Anlage III F Abs. 2 „gleichzeitig": Fehlanzeige.** Keine Doppelbesetzung möglich.
+- **Vereinsrangliste unverändert:** dieselben 37 Herren und 24 Damen, Ränge und Doppelränge
+  identisch, dieselben sechs Festspiel-Vermerke, dieselben zwei Nachmeldungen (Kaune 18.09.,
+  Lembke 29.09.), keine neue Abmeldung. Abgemeldet bleiben Plaschnick und Ünal (18.07.) sowie
+  Brebeck (12.10.).
+
+**Das Festspiel-Konto liest sich seit dieser Woche anders.** `REGELN.md` ist am 25./26.10. im
+Wortlaut der Anlage III nachgeprüft und umgeschrieben worden, dazu kam ein empirischer Test über
+alle 85 BVBB-Vereine der Saison 2025/26 (905 Spielberichte, 11.520 Einsätze, 519 nuLiga-Vermerke;
+Rohdaten in `Badminton\Festspielregel\`, Testdateien `intern/FESTSPIEL-TEST*`). Das Ergebnis
+ändert die Bewertung mehrerer Personen, deshalb hier der Kontostand **nach der korrigierten
+Lesart**:
+
+- Anlage III F unterscheidet zwei Lagen. **Abs. 2** gilt für Stammspieler*innen einer **unteren**
+  Mannschaft: zwei Einsätze oben, ab dem dritten ist die untere Mannschaft verloren. **Abs. 1**
+  gilt für reine Ersatzspieler*innen ohne Stammmannschaft — „in jeder Mannschaft einsetzbar",
+  **ohne** Obergrenze. Für sie läuft die Sanktion aus Abs. 2 leer: Es gibt keine untere
+  Mannschaft, für die eine Berechtigung verloren gehen könnte.
+- **Jens** (Wandel, Stamm III) ist damit der einzige echte Fall: 26.09. (I), 30.09. (II),
+  01.10. (II) — der dritte Einsatz hat ihm die III gekostet. So gewollt, nuLiga-Vermerk korrekt.
+- **Alex** (Jürgen), **Nils** (Kaune), **Karo** (Wiegleb) sowie **Durie**, **Kanis** und
+  **Braun** sind reine Ersatzspieler*innen und fallen unter Abs. 1: **unbegrenzt einsetzbar, in
+  jeder Richtung.** Die nuLiga-Vermerke „Festgespielt in Mannschaft 3/4" haben in der
+  BBMM-Ordnung keine Entsprechung; die Ausschreibung sagt selbst, nuScore prüfe Festspielregeln
+  nicht. Praktisch heißt das: Alex und Karo stehen der IV weiterhin zur Verfügung — die vier
+  Konflikt-Abende **14.11., 02.12., 20.01. und 17.03.** bleiben ein Problem, aber nur wegen des
+  Verbots gleichzeitiger Einsätze, nicht wegen Festspielens. Wer die beiden an diesen Abenden
+  bekommt, muss trotzdem vorher geklärt sein.
+- Damit entfällt auch die Warnung aus den Vorwochen für **Cathy** (Schnak, 2× II), **Janina
+  Müller** (2× III) und **Julia Wandel** (2× I): alle drei sind Ersatzspielerinnen, ihr dritter
+  Einsatz bindet sie an nichts.
+- **Andreas Erbe** bleibt der zweite echte Fall und unverändert offen: Stammspieler der **IV**,
+  zwei Einsätze nach oben in der III (27.09., 01.10.). Der dritte wäre am **05.11.** und nähme
+  ihm die Berechtigung für die eigene Mannschaft. Die Absprache zwischen den Mannschaftsführern
+  der III und der IV steht seit dem 05.10. aus.
+- Ebenfalls unter Abs. 2, aber unkritisch: **Jannis Heusel** (Stamm IV, 1 Einsatz oben in der I)
+  und **Hiep** (Nguyen, Huu Loc, Stamm II, 1 Einsatz oben in der I).
+- **Hinweis zur Wochenaufgabe:** Deren Auftragstext sagt noch, die Zwei-Einsatz-Grenze gelte
+  „AUCH für Reservespieler". Das ist durch die Prüfung vom 25./26.10. überholt. Gerechnet wurde
+  nach `REGELN.md`; der Auftragstext sollte nachgezogen werden, sonst widerspricht sich die
+  Aufgabe jede Woche selbst.
+
+**Termine und Hallen** — **keine Verlegungen, keine Hallenwechsel, keine neuen Termine.** Alle
+vier Spielpläne wurden vollständig gegen nuLiga abgeglichen (eigene Spiele: I 14, II 14, III 14,
+IV 16; Gruppe 42121 mit allen 56 Begegnungen) — **null Abweichungen** bei Tag, Datum, Zeit,
+Halle, Spielnummer, Verlegungsvermerk und Ergebnis. Weiterhin als verlegt markiert: II am 04.11.
+und 24.01., III am 07.11. und 21.03. Spiel 2 der Staffel (Tempelhof/Friedenau V – Vorspiel QSB)
+hat nach wie vor keinen Termin; der Berichts-Link existiert, der Bericht ist aber nachgeprüft
+leer (keine Disziplinen, 0:0) und die Begegnung in der Tabelle nicht gewertet — deshalb bleibt im
+Spielplan `ergebnis` leer, `terminOffen` gesetzt und `berichtUrl` unbesetzt.
+
+Neu aufgefallen beim Überschneidungs-Durchlauf, außerhalb der Kuno-Fischer-Straße: **Sa
+13.02.2027, 13:00** spielen **III** (bei ProSport/Zehlendorf VI, Halle EZ) und **IV** (bei
+Rahnsdorf III, Halle FU) zur selben Anfangszeit. Das ist ein weiterer „gleichzeitig"-Termin im
+Sinne von Anlage III F Abs. 2 und betrifft genau die Ersatzspieler*innen, die in beiden
+Mannschaften aushelfen. Bisher war der Termin in keinem Eintrag und nicht auf der internen Seite
+vermerkt. Die bekannten KF-Doppeltermine bleiben: 05.11. und 19.11. (I+III), 14.11. (II+IV),
+02.12. (II+IV), 07.01. (I+III), 20.01. (II+IV), 17.03. (II+IV).
+
+**Geänderte Dateien:** nur diese Datei.
+**Nicht geändert, weil nichts zu ändern war:** `site/data/spielplan.js`, `site/data/tabelle.js`,
+`site/data/hallen.js`, `site/data/teams.js`, `site/data/vorberichte.js` (kein neues Spiel der II,
+kein Hallenwechsel — kein Nachbericht fällig), `intern/daten/vereinsspiele.js`,
+`intern/daten/rangliste.js`, `intern/daten/einsaetze.js` (weiterhin 56 Einträge),
+`klarnamen-schluessel.json`. `intern/daten/zuordnung.js` nur gelesen.
+
+**Offenes:**
+- **Der Push vom 12./19.10. ist durch** — Commit `427de8f` „new updates" liegt auf `main` und
+  `origin/main` ist identisch. Die öffentliche Seite zeigt wieder den aktuellen Stand. Offen im
+  Arbeitsverzeichnis: die überarbeitete `intern/REGELN.md` (+133/−161 Zeilen) und die beiden
+  neuen, unversionierten Dateien `intern/FESTSPIEL-TEST.md` und `intern/FESTSPIEL-TEST-vereine.json`.
+  Einmal „Commit to main" und „Push origin" räumt das auf — oder die Testdateien bewusst draußen
+  lassen, wenn sie Rohmaterial bleiben sollen.
+- **Vor dem 04.11. abstimmen, wer Alex und Karo bekommt** (unverändert seit 12.10., Grund jetzt
+  allein die Gleichzeitigkeit).
+- **Absprache mit der III und der IV wegen Andreas Erbe** (unverändert seit 05.10.).
+- **Auftragstext der Wochenaufgabe nachziehen** (Reservespieler-Passage, siehe Regelprüfung).
+- **Anlage III H gegenprüfen** (offen seit 19.10.): Der Entwurf zum offenen Einzel/Doppel erlaubt
+  bei weniger als vier Herren den Doppeleinsatz eines Herrn in Einzel und Mixed. Das verträgt
+  sich nicht ohne weiteres mit der Lesart „unvollständiges Antreten kostet immer ein Spiel".
+- **Zuordnung bestätigen:** Karo = **Wiegleb, Karoline** und Cathy = **Schnak, Catherine** stehen
+  weiterhin nur als Vorschlag in `zuordnung.js`. Die tatsächlichen Aufstellungen der II stützen
+  beide: Am 30.09. und 01.10. waren genau zwei Damen des Vereins im Einsatz, und das waren
+  Wiegleb (DD, DE) und Schnak (DD, GD) — niemand sonst. Ohne Eintrag rechnet das Konto für die
+  beiden nicht.
+- **Pseudonymisierung, Entscheidung steht noch aus:** `site/data/teams.js` nennt die
+  Mannschaftsführer im Klarnamen (unverändert seit 05.10.).
+- **Sachfehler im Kommentar von `site/data/kader.js`** zu Anlage III H (unverändert seit 05.10.).
+- **13.02.2027 in die interne Seite aufnehmen** (neuer Gleichzeitig-Termin III/IV, siehe oben).
+
 ## 19.10.2026 — Spielfreie Woche, dafür ist die offene Regelfrage endlich beantwortet
 
 **Neue Ergebnisse** — **keine.** Zwischen dem 12. und dem 18.10. hat keine der vier Mannschaften
