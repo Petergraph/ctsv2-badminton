@@ -1,63 +1,63 @@
-/* Tabellenstand. Nach jedem Spieltag aus nuLiga übertragen. */
+/* Tabellenstand. Nach jedem Spieltag aus nuLiga uebertragen. */
 window.TABELLE = {
- "stand": "7 von 56 Begegnungen gewertet – Tempelhof/Friedenau V gegen TuS Lichterfelde vom 04.10. ist jetzt eingerechnet; TuS Lichterfelde uebernimmt damit die Spitze",
- "aktualisiert": "2026-10-12",
+ "stand": "15 von 56 Begegnungen gewertet – nach dem 7:1 gegen Gaselan Fürstenwalde II am 14.11. sind wir Dritter; TuS Lichterfelde bleibt mit 8:0 ohne Punktverlust an der Spitze",
+ "aktualisiert": "2026-11-15",
  "zeilen": [
   {
    "rang": 1,
    "team": "TuS Lichterfelde",
-   "begegnungen": 2,
-   "punkte": "4:0",
-   "spiele": "15:1"
+   "begegnungen": 4,
+   "punkte": "8:0",
+   "spiele": "28:4"
   },
   {
    "rang": 2,
    "team": "SV Berliner Brauereien VIII",
-   "begegnungen": 2,
-   "punkte": "3:1",
-   "spiele": "11:5"
+   "begegnungen": 4,
+   "punkte": "7:1",
+   "spiele": "22:10"
   },
   {
    "rang": 3,
-   "team": "Vorspiel QSB",
-   "begegnungen": 1,
-   "punkte": "2:0",
-   "spiele": "6:2"
+   "team": "Charlottenburger TSV II",
+   "begegnungen": 4,
+   "punkte": "6:2",
+   "spiele": "20:12"
   },
   {
    "rang": 4,
    "team": "Deutsch-Chinesischer BV II",
-   "begegnungen": 2,
-   "punkte": "2:2",
-   "spiele": "10:6"
+   "begegnungen": 4,
+   "punkte": "5:3",
+   "spiele": "21:11"
   },
   {
    "rang": 5,
-   "team": "Charlottenburger TSV II",
-   "begegnungen": 2,
-   "punkte": "2:2",
-   "spiele": "7:9"
+   "team": "Vorspiel QSB",
+   "begegnungen": 3,
+   "punkte": "2:4",
+   "spiele": "12:12"
   },
   {
    "rang": 6,
-   "team": "DIBVM V",
-   "begegnungen": 2,
-   "punkte": "1:3",
-   "spiele": "5:11"
+   "team": "SG BC Tempelhof/Friedenau V",
+   "begegnungen": 3,
+   "punkte": "1:5",
+   "spiele": "7:17"
   },
   {
    "rang": 7,
-   "team": "SG BC Tempelhof/Friedenau V",
-   "begegnungen": 1,
-   "punkte": "0:2",
-   "spiele": "1:7"
+   "team": "DIBVM V",
+   "begegnungen": 4,
+   "punkte": "1:7",
+   "spiele": "7:25"
   },
   {
    "rang": 8,
    "team": "SG Gaselan Fürstenwalde II",
-   "begegnungen": 2,
-   "punkte": "0:4",
-   "spiele": "1:15"
+   "begegnungen": 4,
+   "punkte": "0:8",
+   "spiele": "3:29"
   }
  ]
 };

@@ -10,7 +10,8 @@ window.ZUORDNUNG = {
   "Hiep":   "Nguyen, Huu Loc",              /* bestätigt */
   "Alex":   "Jürgen, Alexander",            /* bestätigt — Reserve, Einzelrang 130, Doppelrang 140 */
   "Nils":   "Kaune, Nils",                  /* bestätigt — Nachmeldung, spielberechtigt seit 18.09.2026 */
-  "Karo":   "",   /* Vorschlag: "Wiegleb, Karoline" — bitte prüfen */
+  "Karo":   "Wiegleb, Karoline",     /* aus Spielbericht II vom 14.11.2026 belegt */
+  "Katharina": "Kippert, Katharina", /* aus Spielbericht II vom 14.11.2026 belegt — Ersatz aus der I */
   "Cathy":  ""    /* Vorschlag: "Schnak, Catherine" — bitte prüfen */
 };
 

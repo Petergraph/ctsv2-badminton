@@ -1,9 +1,9 @@
-/* Alle Spiele aller vier Mannschaften. Aus nuLiga, Stand 05.10.2026.
+/* Alle Spiele aller vier Mannschaften. Aus nuLiga, Stand 09.11.2026.
    Wird von der wöchentlichen Aufgabe fortgeschrieben. */
 window.VEREINSSPIELE = {
  "verein": "Charlottenburger TSV",
  "saison": "2026/27",
- "abgerufen": "2026-10-12",
+ "abgerufen": "2026-11-09",
  "quelle": "nuLiga BVBB, Gruppen I=41956, II=42121, III=42137, IV=42155",
  "mannschaften": [
   {
@@ -173,7 +173,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": true,
-   "gegner": "DIBVM V"
+   "gegner": "DIBVM V",
+   "ergebnis": "6:2",
+   "ergebnisNuliga": "6:2",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396237&championship=BBMM+26%2F27&group=42121"
   },
   {
    "mannschaft": "I",
@@ -185,7 +188,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "VfB Hermsdorf IV"
+   "gegner": "VfB Hermsdorf IV",
+   "ergebnis": "6:2",
+   "ergebnisNuliga": "6:2",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396028&championship=BBMM+26%2F27&group=41956"
   },
   {
    "mannschaft": "III",
@@ -197,7 +203,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SG ProSport/Zehlendorf VI"
+   "gegner": "SG ProSport/Zehlendorf VI",
+   "ergebnis": "7:1",
+   "ergebnisNuliga": "7:1",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396461&championship=BBMM+26%2F27&group=42137"
   },
   {
    "mannschaft": "III",
@@ -205,11 +214,14 @@ window.VEREINSSPIELE = {
    "tag": "Sa",
    "datum": "2026-11-07",
    "datumDe": "07.11.2026",
-   "zeit": "18:30",
+   "zeit": "",
    "halle": "KF",
-   "daheim": true,
-   "verlegt": true,
-   "gegner": "TSV Wedding II"
+   "daheim": false,
+   "verlegt": false,
+   "gegner": "TSV Wedding II",
+   "ergebnis": "7:1",
+   "ergebnisNuliga": "1:7",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396455&championship=BBMM+26%2F27&group=42137"
   },
   {
    "mannschaft": "IV",
@@ -221,7 +233,10 @@ window.VEREINSSPIELE = {
    "halle": "UR",
    "daheim": false,
    "verlegt": false,
-   "gegner": "VSG Altglienicke II"
+   "gegner": "VSG Altglienicke II",
+   "ergebnis": "4:4",
+   "ergebnisNuliga": "4:4",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396538&championship=BBMM+26%2F27&group=42155"
   },
   {
    "mannschaft": "I",
@@ -233,7 +248,10 @@ window.VEREINSSPIELE = {
    "halle": "GE",
    "daheim": false,
    "verlegt": false,
-   "gegner": "Märkischer SC II"
+   "gegner": "Märkischer SC II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -245,7 +263,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "VSG Rahnsdorf III"
+   "gegner": "VSG Rahnsdorf III",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -257,7 +278,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SG Gaselan Fürstenwalde II"
+   "gegner": "SG Gaselan Fürstenwalde II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -269,7 +293,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "BSV Werder III"
+   "gegner": "BSV Werder III",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -281,7 +308,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "VfB Kiefholz VIII"
+   "gegner": "VfB Kiefholz VIII",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -293,7 +323,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "VSG Altglienicke"
+   "gegner": "VSG Altglienicke",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -305,7 +338,10 @@ window.VEREINSSPIELE = {
    "halle": "DI",
    "daheim": false,
    "verlegt": false,
-   "gegner": "SG BC Tempelhof/Friedenau V"
+   "gegner": "SG BC Tempelhof/Friedenau V",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -317,7 +353,10 @@ window.VEREINSSPIELE = {
    "halle": "PD",
    "daheim": false,
    "verlegt": false,
-   "gegner": "SV Motor Eberswalde"
+   "gegner": "SV Motor Eberswalde",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -329,7 +368,10 @@ window.VEREINSSPIELE = {
    "halle": "FX",
    "daheim": false,
    "verlegt": false,
-   "gegner": "TSV Tempelhof-Mariendorf IV"
+   "gegner": "TSV Tempelhof-Mariendorf IV",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -341,7 +383,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "TuS Lichterfelde"
+   "gegner": "TuS Lichterfelde",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -353,7 +398,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SV Berliner Bären III"
+   "gegner": "SV Berliner Bären III",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -365,7 +413,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "DIBVM VI"
+   "gegner": "DIBVM VI",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -377,7 +428,10 @@ window.VEREINSSPIELE = {
    "halle": "TM",
    "daheim": false,
    "verlegt": false,
-   "gegner": "SV Berliner Brauereien VIII"
+   "gegner": "SV Berliner Brauereien VIII",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -389,7 +443,10 @@ window.VEREINSSPIELE = {
    "halle": "SO",
    "daheim": false,
    "verlegt": false,
-   "gegner": "VfB Kiefholz XII"
+   "gegner": "VfB Kiefholz XII",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -401,7 +458,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "BSV Werder II"
+   "gegner": "BSV Werder II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -413,7 +473,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "Köpenicker BC VIII"
+   "gegner": "Köpenicker BC VIII",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -425,7 +488,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "PSV Berlin II"
+   "gegner": "PSV Berlin II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -437,7 +503,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "TuS Lichterfelde II"
+   "gegner": "TuS Lichterfelde II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -449,7 +518,10 @@ window.VEREINSSPIELE = {
    "halle": "TU",
    "daheim": false,
    "verlegt": false,
-   "gegner": "Deutsch-Chinesischer BV II"
+   "gegner": "Deutsch-Chinesischer BV II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -461,7 +533,10 @@ window.VEREINSSPIELE = {
    "halle": "IK",
    "daheim": false,
    "verlegt": false,
-   "gegner": "RSV Eintracht IV"
+   "gegner": "RSV Eintracht IV",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -473,7 +548,10 @@ window.VEREINSSPIELE = {
    "halle": "IK",
    "daheim": false,
    "verlegt": false,
-   "gegner": "RSV Eintracht"
+   "gegner": "RSV Eintracht",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -485,7 +563,10 @@ window.VEREINSSPIELE = {
    "halle": "EL",
    "daheim": false,
    "verlegt": false,
-   "gegner": "SG Petershagen/Germania III"
+   "gegner": "SG Petershagen/Germania III",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -497,7 +578,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "Vorspiel QSB"
+   "gegner": "Vorspiel QSB",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -509,7 +593,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SV Glienicke/Nordbahn"
+   "gegner": "SV Glienicke/Nordbahn",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -517,11 +604,14 @@ window.VEREINSSPIELE = {
    "tag": "Do",
    "datum": "2027-01-21",
    "datumDe": "21.01.2027",
-   "zeit": "19:30",
-   "halle": "LY",
-   "daheim": false,
+   "zeit": "",
+   "halle": "KF",
+   "daheim": true,
    "verlegt": false,
-   "gegner": "TSV Wedding II"
+   "gegner": "TSV Wedding II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -533,7 +623,10 @@ window.VEREINSSPIELE = {
    "halle": "HE",
    "daheim": false,
    "verlegt": false,
-   "gegner": "VfB Hermsdorf IV"
+   "gegner": "VfB Hermsdorf IV",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -545,7 +638,10 @@ window.VEREINSSPIELE = {
    "halle": "WE",
    "daheim": false,
    "verlegt": false,
-   "gegner": "BSV Werder III"
+   "gegner": "BSV Werder III",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -557,7 +653,10 @@ window.VEREINSSPIELE = {
    "halle": "RA",
    "daheim": false,
    "verlegt": true,
-   "gegner": "DIBVM V"
+   "gegner": "DIBVM V",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -569,7 +668,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "VSG Altglienicke II"
+   "gegner": "VSG Altglienicke II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -581,7 +683,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "Märkischer SC II"
+   "gegner": "Märkischer SC II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -593,7 +698,10 @@ window.VEREINSSPIELE = {
    "halle": "EZ",
    "daheim": false,
    "verlegt": false,
-   "gegner": "SG ProSport/Zehlendorf VI"
+   "gegner": "SG ProSport/Zehlendorf VI",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -605,7 +713,10 @@ window.VEREINSSPIELE = {
    "halle": "FU",
    "daheim": false,
    "verlegt": false,
-   "gegner": "VSG Rahnsdorf III"
+   "gegner": "VSG Rahnsdorf III",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -617,7 +728,10 @@ window.VEREINSSPIELE = {
    "halle": "HG",
    "daheim": false,
    "verlegt": false,
-   "gegner": "VfB Kiefholz VIII"
+   "gegner": "VfB Kiefholz VIII",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -629,7 +743,10 @@ window.VEREINSSPIELE = {
    "halle": "UR",
    "daheim": false,
    "verlegt": false,
-   "gegner": "VSG Altglienicke"
+   "gegner": "VSG Altglienicke",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -641,7 +758,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SG BC Tempelhof/Friedenau V"
+   "gegner": "SG BC Tempelhof/Friedenau V",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -653,7 +773,10 @@ window.VEREINSSPIELE = {
    "halle": "ED",
    "daheim": false,
    "verlegt": false,
-   "gegner": "SG Gaselan Fürstenwalde II"
+   "gegner": "SG Gaselan Fürstenwalde II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -665,7 +788,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "TSV Tempelhof-Mariendorf IV"
+   "gegner": "TSV Tempelhof-Mariendorf IV",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -677,7 +803,10 @@ window.VEREINSSPIELE = {
    "halle": "AV",
    "daheim": false,
    "verlegt": false,
-   "gegner": "SV Berliner Bären III"
+   "gegner": "SV Berliner Bären III",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -689,7 +818,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SV Motor Eberswalde"
+   "gegner": "SV Motor Eberswalde",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -701,7 +833,10 @@ window.VEREINSSPIELE = {
    "halle": "DE",
    "daheim": false,
    "verlegt": false,
-   "gegner": "TuS Lichterfelde"
+   "gegner": "TuS Lichterfelde",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "II",
@@ -713,7 +848,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "SV Berliner Brauereien VIII"
+   "gegner": "SV Berliner Brauereien VIII",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "IV",
@@ -725,7 +863,10 @@ window.VEREINSSPIELE = {
    "halle": "KF",
    "daheim": true,
    "verlegt": false,
-   "gegner": "VfB Kiefholz XII"
+   "gegner": "VfB Kiefholz XII",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "III",
@@ -737,7 +878,10 @@ window.VEREINSSPIELE = {
    "halle": "RA",
    "daheim": false,
    "verlegt": true,
-   "gegner": "DIBVM VI"
+   "gegner": "DIBVM VI",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   },
   {
    "mannschaft": "I",
@@ -749,7 +893,10 @@ window.VEREINSSPIELE = {
    "halle": "WE",
    "daheim": false,
    "verlegt": false,
-   "gegner": "BSV Werder II"
+   "gegner": "BSV Werder II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
   }
  ]
 };

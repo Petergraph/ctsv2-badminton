@@ -17,13 +17,13 @@ window.VORBERICHTE = {
 "2026-11-04": {
   titel: "Die Nomaden kommen zu uns",
   text: "Nach fünf Wochen Pause endlich wieder Heimspiel. DIBVM verteilt seine Spiele über vier Hallen quer durch Berlin — für uns ein seltener Luxus: Diesmal müssen sie fahren, nicht wir.\n\nMittwoch, 19:30, eigene Halle, eigener Boden, eigene Kabine. Mehr Komfort gibt es in der D-Klasse 2 nicht zu kaufen.",
-  nachbericht: ""
+  nachbericht: "Fünf Wochen Pause, und dann das: 6:2 gegen die Hallen-Nomaden, die diesmal selbst fahren mussten. Den Abend gewonnen hat Karo — 29:27 und 25:23 im Dameneinzel, zwei Sätze, bei denen die Hallenuhr irgendwann aufgegeben hat. Robert ließ es im offenen Einzel ähnlich eng zugehen und nahm den dritten Satz mit 22:20, Jens drehte sein Einzel über drei Sätze und holte mit Alex obendrein das offene Doppel. Verloren haben wir wieder genau da, wo wir uns am stärksten fühlen: erstes Herrendoppel glatt in zweien, dazu das Mixed. Macht 4:2 Punkte und Tabellenplatz vier — für eine Mannschaft, die fünf Wochen gar nichts getan hat, eine erfreulich gut aussehende Bilanz."
 },
 
 "2026-11-14": {
   titel: "Samstagabend statt Fernsehen",
   text: "Ungewöhnlicher Termin: Samstag, 18:30. Wer sonst um die Zeit auf dem Sofa sitzt, steht heute an der Grundlinie — und ehrlich gesagt ist das die bessere Verwendung des Abends.\n\nGaselan Fürstenwalde ist die weiteste Anreise der Staffel, heute allerdings für die anderen. Die 60 Kilometer aus Brandenburg absolvieren sie für uns; im Februar revanchieren wir uns. Gastfreundlich sein lohnt sich also schon aus Eigennutz.",
-  nachbericht: ""
+  nachbericht: "7:1 – das höchste Ergebnis der Saison, und damit war der Samstagabend eindeutig besser investiert als jedes Fernsehprogramm. Zwei Punkte kamen kampflos: Fürstenwalde brachte nur eine Dame mit, Damendoppel und Dameneinzel gingen ohne Gegnerinnen an uns. Den Rest haben wir uns geholt. Jens und Robert räumten das erste Herrendoppel 21:3 und 21:14 ab — endlich einmal die Disziplin, die uns die halbe Saison geärgert hatte. Jens gewann auch sein Einzel glatt, Robert nahm das zweite Herreneinzel in zweien, Eric das offene Einzel über drei Sätze. Das Präzisionsstück des Abends war aber das Mixed: Sarin und Katharina sind ungefähr gleich stark und spielten deshalb mit echter Rotation statt klassischer Mixed-Aufstellung — 21:18, 21:14, genau so war es geplant. Einzige Niederlage: das offene Doppel, und das in drei denkbar knappen Sätzen mit 21:18, 19:21, 18:21. Macht 6:2 Punkte und Tabellenplatz drei."
 },
 
 "2026-11-22": {

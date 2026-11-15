@@ -19,6 +19,260 @@ nebeneinander lesen kann:
 
 ---
 
+## 15.11.2026 — Handlauf außerhalb des Montagsrhythmus: 7:1 gegen Gaselan, Platz 3, und der Lauf vom 09.11. endlich veröffentlicht
+
+**Kein Montagslauf**, sondern eine Aktualisierung auf Zuruf. Anlass: Die öffentliche Seite stand
+live noch auf dem **12.10.** — der Lauf vom 09.11. hatte die Dateien lokal fortgeschrieben, war
+aber **nie committet und nie gepusht**. Besucher der Seite sahen vier Wochen lang einen Stand, in
+dem wir Tabellenfünfter mit zwei Begegnungen waren.
+
+**Neues Ergebnis** — eines, unser eigenes.
+
+- **II — Sa 14.11., heim, 7:1 gegen SG Gaselan Fürstenwalde II** (Bericht 396214, 18:30–20:30 Uhr,
+  Ballpunkte 371:202, Sätze 15:3). Angetreten mit vier Herren und zwei Damen: **Jens/Robert** 1.HD
+  (21:3, 21:14), **Katharina/Karo** DD (kampflos), **Eric/Sarin** OD (21:18, 19:21, 18:21 —
+  verloren), **Jens** 1.HE (21:6, 21:13), **Karo** DE (kampflos), **Sarin/Katharina** GD (21:18,
+  21:14), **Robert** 2.HE (21:19, 21:12), **Eric** OE (21:12, 19:21, 21:10). Fürstenwalde brachte
+  nur **eine Dame** mit, daher zwei kampflose Punkte. Der Spielbericht ist in nuLiga **noch nicht
+  genehmigt** (letzte Vereinsänderung 14.11., 20:36) — Zahlen können sich theoretisch noch ändern.
+- Die **Mixed-Taktik** ist aufgegangen: Sarin und Katharina sind ungefähr gleich stark und haben
+  deshalb mit **Rotation** statt klassischer Mixed-Formation (Dame vorn, Herr hinten) gespielt.
+  Gewonnen in zweien. Vermerkt, weil es kein Zufall war, sondern vorher so geplant.
+
+**Tabellenstand D-Klasse 2** — **15 von 56** Begegnungen gewertet. Wir sind von Platz 4 auf
+**Platz 3** gestiegen: **6:2 Punkte, 20:12 Spiele, 44:30 Sätze** aus vier Begegnungen, damit
+gleichauf in der Begegnungszahl mit allen über und neben uns. TuS Lichterfelde bleibt bei 8:0
+(28:4), die Brauereien VIII bei 7:1 (22:10), der DCBV II ist mit 5:3 hinter uns zurückgefallen.
+Unten: Vorspiel QSB 2:4, Tempelhof/Friedenau V 1:5, DIBVM V 1:7, Gaselan II 0:8 (3:29).
+
+**Regelprüfung** (Anlage III E/F/H) — nur das eigene Spiel geprüft, die übrigen Staffeln holt der
+nächste Montagslauf nach.
+
+- **Keine Verstöße.** Von den sechs Eingesetzten sind vier an die II gebunden oder dort gemeldet
+  (Robert, Karo — Vermerk seit 04.11. —, Jens — seit 01.10. —, Katharina — in nuLiga als
+  **Stammspielerin der II** geführt, Rang 30/90). **Eric** und **Sarin** (beide Stamm III) haben mit
+  dem 14.11. ihren **ersten** Einsatz in der II — je **einer frei**, bevor sie nach Anlage III F
+  Abs. 2 die Berechtigung für die III verlieren.
+- **Zur Klärung für die Planung:** Katharina ist nach der genehmigten Meldung **nicht**
+  Ersatzspielerin der I, sondern Stammspielerin **unserer** II. Ihr Einsatz am 05.11. in der I war
+  also ein Einsatz **nach oben** (1 von 2), kein Festspielen bei uns. Sie darf für uns **unbegrenzt**
+  spielen; was begrenzt ist, sind ihre Einsätze in der I.
+- **Alex** steht seit dem 04.11. mit „Festgespielt in Mannschaft 2 ab 04.11.2026" in der Liste —
+  genau wie am 09.11. entschieden. Am 14.11. war er nicht dabei (Hertha).
+
+**Termine und Hallen** — keine neuen Verlegungen in Gruppe 42121. Nächstes eigenes Spiel:
+**So 22.11.2026, 10:00, Halle DI** (Wilfried-Gravenstein-Halle) bei **SG BC Tempelhof/Friedenau V**.
+Danach 02.12. heim gegen TuS Lichterfelde.
+
+**Geänderte Dateien.** `site/data/spielplan.js` (Ergebnis und Berichtslink 14.11., `abgerufen`
+auf 2026-11-15), `site/data/tabelle.js` (neuer Stand), `site/data/vorberichte.js` (Nachbericht
+14.11.), `intern/daten/einsaetze.js` (86 → **92** Einträge), `intern/daten/zuordnung.js` (**Karo =
+Wiegleb, Karoline** und **Katharina = Kippert, Katharina** sind jetzt über den Spielbericht belegt;
+**Cathy bleibt offen**), dieses Protokoll. Alles aus dem Lauf vom 09.11. ist mit demselben Commit
+endlich live.
+
+**Offen.** Cathy-Zuordnung — sie war am 14.11. nicht dabei, der Beleg muss warten. Beim Verband
+im Fenster **15.–23.12.2026**: Pfender abmelden, Jens ummelden. Vorbericht/Gegneranalyse
+Tempelhof/Friedenau V für den 22.11. steht noch aus.
+
+---
+
+## 09.11.2026 — Fünf Begegnungen in vier Tagen, 6:2 für die II, und Erbes Festspiel-Fall ist eingetreten
+
+> **Nachtrag vom 09.11.2026, nach dem Lauf — Entscheidung von Robert:** Die Festspielregel gilt so,
+> wie **nuLiga** sie festlegt. **Eine Ausnahme für Ersatzspieler*innen gibt es nicht.** Damit ist
+> die Bewertung weiter unten („Reine Ersatzspieler*innen: keine Sanktion") überholt: **Alex, Karo
+> und Cathy sind seit dem 04.11. an die II gebunden**, Nils seit dem 07.11. an die III — alle drei
+> bzw. vier sind in keiner tieferen Mannschaft mehr spielberechtigt. **Die Planungsfrage, wer Alex
+> und Karo an den gemeinsamen KF-Abenden bekommt, ist damit entschieden: wir.** Die IV darf sie
+> nicht mehr aufstellen (14.11., 02.12., 20.01., 17.03.). `intern/REGELN.md` und der Projektstand
+> sind entsprechend nachgezogen; Punkt 6 unter „Offenes" (Auftragstext der Wochenaufgabe) entfällt —
+> der Auftragstext war richtig.
+
+
+**Vorbemerkung:** Der Lauf vom **02.11. ist ausgefallen** — im Protokoll steht kein Eintrag, der
+letzte war der 26.10. Dieser Lauf deckt deshalb zwei Wochen ab. Dass dabei nichts verloren ging,
+liegt nur daran, dass zwischen dem 26.10. und dem 03.11. keine Begegnung stattfand.
+
+**Neue Ergebnisse** — **fünf**, erstmals in dieser Saison alle vier Mannschaften in einer Woche.
+Alle fünf Spielberichte sind genehmigt und ausgelesen; `einsaetze.js` wächst von 56 auf **86**
+Einträge.
+
+- **II — Mi 04.11., heim, 6:2 gegen DIBVM V** (Bericht 396237). Vollständig angetreten, vier Herren
+  und zwei Damen: **Hiep/Robert** im 1.HD (0:2), **Karo/Cathy** im DD (2:0), **Jens/Alex** im OD
+  (2:1), **Jens** im 1.HE (2:1), **Karo** im DE (2:0 — 29:27 und 25:23, die beiden längsten Sätze
+  des Abends), **Alex/Cathy** im GD (0:2), **Hiep** im 2.HE (2:0), **Robert** im OE (2:1, dritter
+  Satz 22:20). Ballpunkte 379:340. Verloren haben wir nur 1.HD und Mixed — dasselbe Muster wie am
+  30.09.
+- **I — Do 05.11., heim, 6:2 gegen VfB Hermsdorf IV** (396028). Mit dabei aus unserem Umfeld:
+  **Cathy** (DD, GD) und **Alex** (OD, GD). Dazu Kowalski (1.HD, 1.HE), Eissa (1.HD, OE), Kippert
+  (DD, DE) und Borschevski (OD, 2.HE).
+- **III — Do 05.11., heim, 7:1 gegen SG ProSport/Zehlendorf VI** (396461). Godiveau, Bhaskaran,
+  Knuppe, Braun, **Erbe** und **Nils** (OD, 1.HE). Das DD ging kampflos an uns, die Gegnerinnen
+  erschienen nicht. Einzige Niederlage: Bhaskaran im OE.
+- **III — Sa 07.11., bei TSV Wedding II, 7:1** (396455) — gespielt **in der Kuno-Fischer-Straße**
+  (siehe „Termine und Hallen"). Dieselben sechs Leute. Auffällig: Das **Mixed ist mit 21:0 und 21:0
+  an Wedding** gegangen, obwohl im Bericht Erbe/Knuppe als Paarung eingetragen sind. Das sieht nach
+  einem kampflos abgegebenen Spiel aus, ist aber nicht aus dem Bericht zu belegen — als offener
+  Punkt vermerkt, nicht geraten.
+- **IV — So 08.11., bei VSG Altglienicke II, 4:4** (396538). Buhrmann, Heyer, Müller, Kanis, Nytz
+  und Lampe-Traupe. Ballpunkte 281:305 — ein gerechtes Unentschieden, bei dem die Hausherren die
+  Bälle gewonnen haben. **Erbe war nicht dabei** (dazu unten).
+
+**Tabellenstand D-Klasse 2** — **14 von 56** Begegnungen gewertet, sieben davon neu in dieser
+Woche. Wir sind von Platz 5 auf **Platz 4** gestiegen: **4:2 Punkte, 13:11 Spiele, 29:27 Sätze**
+aus drei Begegnungen. Oben zieht **TuS Lichterfelde** weg (4 Begegnungen, 8:0, 28:4), dahinter die
+**Brauereien VIII** (7:1) und der **DCBV II** (5:3). Unter uns Vorspiel QSB (2:4), Tempelhof/
+Friedenau V (1:5), DIBVM V (1:7) und Gaselan II (0:6, 2:22). Die nuLiga-Tabelle stimmt Zeile für
+Zeile mit `site/data/tabelle.js` überein. Beachten: Wir haben eine Begegnung **weniger** als die
+drei über uns — der Rückstand auf Platz 3 ist ein Punkt.
+
+**Regelprüfung** (Anlage III E/F/H) — gerechnet nach `REGELN.md` in der Fassung vom 25./26.10.,
+also mit der Unterscheidung zwischen Stammspieler*innen (Abs. 2, Zwei-Einsatz-Grenze) und reinen
+Ersatzspieler*innen (Abs. 1, unbegrenzt).
+
+- **Anlage III E Abs. 1 (Stammspieler*in nach unten): Fehlanzeige.** Alle 21 Personen mit Einsätzen
+  maschinell geprüft: niemand hat in einer Mannschaft **unterhalb** seiner Meldung gespielt. Auch
+  gegen die nuLiga-Festspiel-Vermerke geprüft (wer laut Vermerk an Mannschaft X gebunden ist, darf
+  in keiner tieferen spielen): kein Fall.
+- **Anlage III F Abs. 2 (dritter Einsatz oben): ein Fall, und zwar der angekündigte.**
+  **Andreas Erbe** (Stammspieler der **IV**) hat am **05.11.** seinen **dritten** Einsatz in der III
+  gemacht und am 07.11. den vierten. Damit ist eingetreten, was seit dem 05.10. in jedem Eintrag
+  stand: **Er hat die Spielberechtigung für seine eigene IV verloren.** nuLiga hat den Vermerk
+  gesetzt („Festgespielt in Mannschaft 3 ab 05.11.2026"). Am 08.11. war er bei der IV nicht
+  aufgestellt — **kein Verstoß**, aber Glück oder gute Absprache. Die IV muss den Rest der Saison
+  ohne ihn planen; sauber zu heilen wäre das nur durch Ummeldung im Fenster **15.–23.12.2026**.
+  Der zweite echte Fall bleibt **Jens** (Wandel, Stamm III, gebunden an die II seit 01.10.) — so
+  gewollt. Unkritisch mit je einem Einsatz nach oben: **Hiep** (Stamm II, 1× I) und **Jannis
+  Heusel** (Stamm IV, 1× I); **Kippert** (Stamm II) hat am 05.11. ihren ersten Einsatz in der I.
+- **Reine Ersatzspieler*innen: keine Sanktion, aber vier neue nuLiga-Vermerke.** nuLiga führt
+  seit dieser Woche **Alex, Karo und Cathy als „Festgespielt in Mannschaft 2 ab 04.11.2026"**,
+  **Nils als „Mannschaft 3 ab 07.11.2026"** und **Janina Müller als „Mannschaft 4 ab 08.11.2026"**.
+  Nach `REGELN.md` haben diese Vermerke für Ersatzspieler*innen **keine Entsprechung in der
+  BBMM-Ordnung** (Abs. 1: „in jeder Mannschaft einsetzbar", ohne Obergrenze; die Ausschreibung sagt
+  selbst, nuScore prüfe Festspielregeln nicht). **Die Planungsfrage vom 12.10. bleibt damit offen:
+  Alex und Karo stehen der IV weiter zur Verfügung, und wer sie an den gemeinsamen Abenden bekommt,
+  muss weiter vorher geklärt werden.** Wer sich aber auf den Staffelleiter verlassen will, sollte
+  wissen, dass **nuLiga die drei jetzt als unsere führt** — im Zweifel ist das ein Argument für uns,
+  kein Risiko.
+- **Anlage III F Abs. 2 „gleichzeitig": Fehlanzeige.** Am 05.11. spielten **I und III gleichzeitig
+  in der Kuno-Fischer-Straße** (beide 19:30) — **keine Person war in beiden Aufstellungen.** Erbe
+  (III, 19:30) und Cathy/Alex (I, 19:30) waren jeweils nur in einer. Am 04.11., 07.11. und 08.11.
+  spielte je nur eine Mannschaft.
+- **Vereinsrangliste:** 37 Herren, **24 Damen** (zwei mehr als am 26.10.: **Knuppe, Maya** und
+  **Song, Bingyue**, beide als Nachmeldung spielberechtigt ab **04.11.2026**, Sperrfrist nach
+  Vereinswechsel bis 26.10.2026 — Knuppe hat am 05.11. und 07.11. gespielt, beides nach Ablauf,
+  **zulässig**). Ränge und Doppelränge unverändert. **Neu: Sebastian Bartoscheck ist zum 07.11.2026
+  abgemeldet** — damit ist eine der beiden Phantom-Meldungen der II vom Verband bereinigt. **Matthias
+  Pfender steht weiter als Stammspieler der II in der Liste.**
+
+**Die nuLiga-Festspiel-Mechanik ist diese Woche durchschaut.** Die bisherige Lesart („nuLiga bindet
+an die Mannschaft, in der der dritte Einsatz über alle Mannschaften hinweg fiel") ist **widerlegt**:
+Alex' Vermerk ist von „Mannschaft 4 ab 07.10.2026" auf „Mannschaft 2 ab 04.11.2026"
+**zurückgewandert**, dasselbe bei Karo. Die Regel, die alle 21 Personen mit Einsätzen **exakt**
+erklärt — fünfzehn Vermerke und sechs begründete Nicht-Vermerke, maschinell gegengerechnet:
+
+> Zähle für jede Mannschaftsstufe **T** die Einsätze in **T und allen höheren** Mannschaften.
+> Gebunden wird an die **höchste** Stufe T, bei der diese Summe zum ersten Mal **drei** erreicht;
+> das Datum ist das des dritten dieser Einsätze. Ein Vermerk erscheint nur, wenn T von der
+> gemeldeten Mannschaft abweicht.
+
+Beispiel Nils: 27.09. (IV), 01.10. (II), 05.11. (III), 07.11. (III). Für T=II nur ein Einsatz, für
+T=III drei — der dritte am 07.11., daher „Mannschaft 3 ab 07.11.2026". Beispiel Alex: für T=II
+kommen 30.09., 01.10. und 04.11. zusammen, der Einsatz in der IV am 07.10. zählt dafür nicht mit —
+daher der Rücksprung auf den 04.11. Das ändert an der rechtlichen Bewertung nichts (für
+Ersatzspieler*innen bleibt der Vermerk ohne Wirkung), erlaubt aber, **künftige Vermerke
+vorherzusagen**, statt sie nur abzulesen. Nicht in `REGELN.md` übernommen — das ist eine
+Beobachtung an 21 Personen, keine Prüfung an 85 Vereinen, und soll die Arbeit vom 25./26.10. nicht
+überschreiben.
+
+**Termine und Hallen** — alle vier Spielpläne vollständig gegen nuLiga abgeglichen (I 14, II 14,
+III 14, IV 16 eigene Spiele; Gruppe 42121 mit allen 56 Begegnungen).
+
+- **Heimrecht getauscht bei III ↔ TSV Wedding II.** Bisher stand im Plan: 07.11. Heimspiel der III
+  (18:30, KF, verlegt) und 21.01.2027 auswärts in der Lynarstraße (19:30). nuLiga führt es jetzt
+  umgekehrt: **07.11. als Heimspiel von Wedding** (Vorrunde Nr. 10) — gespielt aber **in der
+  Kuno-Fischer-Straße** und ohne Uhrzeit im Plan — und **21.01.2027 als unser Heimspiel**
+  (Rückrunde Nr. 12, ebenfalls KF, **Uhrzeit noch offen**). Beide Begegnungen finden damit in
+  unserer Halle statt. `vereinsspiele.js` ist entsprechend korrigiert.
+- **Staffelspiel 2 hat endlich einen Termin:** Tempelhof/Friedenau V – Vorspiel QSB, **Sa
+  12.12.2026**, Halle **BO** statt DI, Uhrzeit weiter offen. `terminOffen` bleibt gesetzt, bis die
+  Zeit da ist.
+- **Vorspiel QSB – TuS Lichterfelde** (Nr. 9) ist auf **19:10** verlegt (vorher 19:00) und jetzt mit
+  Verlegungsvermerk. Fremdes Spiel, für uns nur Tabellenarithmetik.
+- **Keine Änderung an unseren eigenen vierzehn Spielen.** Nächstes: **Sa 14.11., 18:30, heim gegen
+  Gaselan II** — die weiteste Anreise der Staffel, diesmal für die anderen.
+- **Neu aufgefallener „gleichzeitig"-Termin:** **So 29.11.2026, 10:00** spielen **I** (auswärts in
+  Eberswalde, Halle PD) und **III** (auswärts bei Tempelhof-Mariendorf IV, Halle FX) zur selben
+  Anfangszeit. Bisher nirgends vermerkt. Zusammen mit dem am 26.10. gefundenen **Sa 13.02.2027,
+  13:00** (III in EZ, IV in FU) sind das zwei Auswärts-Doppeltermine außerhalb der
+  Kuno-Fischer-Straße.
+- Die KF-Doppeltermine bleiben: 19.11. (I+III), **14.11.** und 02.12. (II+IV), 07.01. (I+III),
+  20.01. und 17.03. (II+IV). **Am 14.11. spielen II und IV beide um 18:30 in der KF** — das ist
+  Samstag in fünf Tagen und der nächste Konflikt.
+- `hallen.js` unverändert: BO ist seit dem 04.10. erfasst, eine neue Halle kam nicht hinzu.
+  `teams.js` unverändert: keine Heimhalle eines Gegners der D-Klasse 2 hat sich geändert (unser
+  Auswärtsspiel bei Tempelhof am 22.11. bleibt in DI).
+
+**Geänderte Dateien:** `site/data/spielplan.js` (sieben Ergebnisse mit Berichts-URL, Nr. 9 auf
+19:10/verlegt, Nr. 2 auf Sa 12.12.2026 in BO, nach Datum und Zeit neu sortiert, `abgerufen`
+09.11.2026) · `site/data/tabelle.js` (neuer Stand, wir Vierter) · `site/data/vorberichte.js`
+(Nachbericht zum 04.11.) · `intern/daten/vereinsspiele.js` (alle vier Spielpläne neu eingelesen,
+58 Spiele, Heimrechttausch III ↔ Wedding, fünf neue Ergebnisse) · `intern/daten/rangliste.js`
+(fünf Festspiel-Vermerke, Bartoschecks Abmeldung, Knuppe und Song neu, neues Feld `sperrfrist` für
+Sperrfristen nach Vereinswechsel) · `intern/daten/einsaetze.js` (30 neue Einträge, jetzt 86) ·
+`klarnamen-schluessel.json` außerhalb des Repos (sechs neue Pseudonyme DIB-A bis DIB-F) · diese
+Datei.
+**Nicht geändert:** `site/data/hallen.js`, `site/data/teams.js`, `site/data/kader.js`,
+`intern/REGELN.md`. `intern/daten/zuordnung.js` nur gelesen.
+
+**Offenes:**
+
+1. **Karo und Cathy in `zuordnung.js` eintragen — jetzt doppelt belegt.** Am 04.11. hat die II
+   genau zwei Damen aufgestellt: **Wiegleb, Karoline** und **Schnak, Catherine**. Beide sind
+   seither in nuLiga „Festgespielt in Mannschaft 2". Vorschlag unverändert: `"Karo":
+   "Wiegleb, Karoline"` und `"Cathy": "Schnak, Catherine"`. **Freigabe von Robert nötig** — ohne
+   Eintrag rechnet das Festspiel-Konto der internen Seite für die beiden nicht mit.
+2. **Vor dem 14.11. mit der IV klären, wer Alex und Karo bekommt** (II und IV beide 18:30 in der
+   KF). Gleiches am 02.12., 20.01. und 17.03.
+3. **Die III und die IV müssen über Erbe reden** — nicht mehr vorbeugend, sondern nachträglich: Er
+   ist seit 05.11. für die IV gesperrt. Ummeldefenster 15.–23.12.2026.
+4. **Mixed im Bericht 396455** (III bei Wedding, 07.11.): 21:0/21:0 für Wedding bei eingetragenen
+   CTSV-Namen. Vermutlich kampflos abgegeben (50 € nach Anlage III H), aus dem Bericht nicht zu
+   belegen. MF der III fragen.
+5. **Beim Verband:** Bartoscheck ist abgemeldet ✓. **Pfender fehlt noch**, und Jens' Ummeldung als
+   Stammspieler der II steht weiter aus — Fenster **15.–23.12.2026**.
+6. **Der Auftragstext der Wochenaufgabe ist weiter überholt**: Er sagt, die Zwei-Einsatz-Grenze
+   gelte „AUCH für Reservespieler". Das ist seit dem 25./26.10. widerlegt. Gerechnet wird nach
+   `REGELN.md`; der Auftragstext sollte nachgezogen werden (braucht Roberts Freigabe, weil die
+   Aufgabe an seinen Rechner gebunden ist).
+7. **Der Lauf vom 02.11. ist ausgefallen.** Ursache unbekannt. Wenn das wieder passiert, geht im
+   schlechten Fall ein Spieltag unbemerkt vorbei.
+8. **Offene Regelfrage von Anfang Oktober: erledigt.** `REGELN.md` beantwortet sie seit dem 25.10.
+   aus dem Änderungsdokument vom 01.06.2026 (Anlage E Abs. 3): Die Additionsregel für die
+   Doppelreihenfolge greift nur, wenn in Herrendoppel **und** offenem Doppel je zwei Herren stehen.
+   Die PDF von bvbb-online.de muss dafür nicht mehr beschafft werden; offen bleibt nur, dass das
+   Änderungsdokument formal ein **Entwurf** ist.
+9. **`zuordnung.js` nachziehen (Bartoscheck):** Er steht dort noch unter `NICHT_IM_VEREIN` mit dem
+   Hinweis „in nuLiga nicht abgemeldet". Seit 07.11. ist er abgemeldet; die interne Seite erzählt
+   also inzwischen etwas Falsches. Nur lesen erlaubt — Robert müsste den Eintrag entfernen oder
+   umschreiben. Pfender bleibt dort richtig.
+10. **Texthinweis auf der internen Seite veraltet:** Der Doppelrechner sagt, wie das offene Doppel
+    mit einer Dame einzuordnen ist, stehe „in einem PDF des Verbands, das wir noch nicht auswerten
+    konnten". `REGELN.md` beantwortet das seit dem 25.10. Zwei Sätze in `intern/index.html` wären
+    nachzuziehen.
+11. **Kleines Pseudonymisierungs-Leck, nicht neu:** **VOR-F** ist zugleich Mannschaftsführer von
+    Vorspiel QSB und steht mit Klarnamen in `site/data/teams.js`. Die MF-Namen stehen in nuLiga
+    öffentlich, insofern vertretbar — wer aber den Spielbericht neben die Seite legt, kann VOR-F
+    auflösen. Entscheidung von Robert: so lassen oder MF-Namen aus der öffentlichen Seite nehmen.
+    Geprüft wurde maschinell über alle Dateien in `site/`; außer diesem Fall **kein** Gegnername.
+12. **Push steht weiter aus** — alles seit dem 26.09. liegt nur im Klon.
+13. Unverändert aus den Vorwochen: Bilder erzeugen, Jens als GitHub-Collaborator, Einspringer in
+    `kader.js`, Einlasshinweis für Halle **AD**, Beschriftung „Ausnahme" beim Sollstärke-Zähler,
+    Sachfehler im Kommentar von `kader.js` zu Anlage III H.
+
+---
+
 ## 26.10.2026 — Zweite spielfreie Woche, dafür steht die Festspielregel auf neuen Füßen
 
 **Neue Ergebnisse** — **keine.** Zwischen dem 19. und dem 25.10. hat keine der vier Mannschaften

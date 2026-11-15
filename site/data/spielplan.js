@@ -1,11 +1,11 @@
 /* Alle 56 Spiele der D-Klasse 2. Ergebnis eintragen: "ergebnis":"5:3" beim jeweiligen Spiel. */
 window.SPIELPLAN = {
  "quelle": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupPage?championship=BBMM+26%2F27&group=42121",
- "abgerufen": "2026-10-12",
+ "abgerufen": "2026-11-15",
  "liga": "BVBB Mannschaftsmeisterschaft 2026/27 – D-Klasse 2",
  "spiele": [
   {
-   "id": "20260927-RA-1",
+   "id": "20260926-RA-1",
    "tag": "Sa",
    "datum": "2026-09-26",
    "datumDe": "26.09.2026",
@@ -59,7 +59,7 @@ window.SPIELPLAN = {
    "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396236&championship=BBMM+26%2F27&group=42121"
   },
   {
-   "id": "20261001-KL-8",
+   "id": "20261001-AD-8",
    "tag": "Do",
    "datum": "2026-10-01",
    "datumDe": "01.10.2026",
@@ -145,26 +145,26 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "DIBVM V",
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "6:2",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396237&championship=BBMM+26%2F27&group=42121"
   },
   {
-   "id": "20261105-KL-9",
+   "id": "20261105-AD-9",
    "tag": "Do",
    "datum": "2026-11-05",
    "datumDe": "05.11.2026",
-   "zeit": "19:00",
+   "zeit": "19:10",
    "runde": "Vorrunde",
    "nr": "9",
    "halle": "AD",
    "heim": "Vorspiel QSB",
    "gast": "TuS Lichterfelde",
-   "verlegt": false,
+   "verlegt": true,
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "3:5",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396221&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261106-TU-13",
@@ -181,8 +181,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "4:4",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396230&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261107-TM-12",
@@ -199,8 +199,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "6:2",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396216&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261108-DE-14",
@@ -217,8 +217,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "8:0",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396226&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261108-TM-15",
@@ -235,11 +235,11 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "5:3",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396232&championship=BBMM+26%2F27&group=42121"
   },
   {
-   "id": "20261122-TU-11",
+   "id": "20261108-TU-11",
    "tag": "So",
    "datum": "2026-11-08",
    "datumDe": "08.11.2026",
@@ -253,8 +253,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "7:1",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396215&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261114-KF-16",
@@ -271,11 +271,11 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": true,
    "gegner": "SG Gaselan Fürstenwalde II",
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "7:1",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396214&championship=BBMM+26%2F27&group=42121"
   },
   {
-   "id": "20261119-KL-20",
+   "id": "20261119-AD-20",
    "tag": "Do",
    "datum": "2026-11-19",
    "datumDe": "19.11.2026",
@@ -419,7 +419,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20261210-KL-28",
+   "id": "20261210-AD-28",
    "tag": "Do",
    "datum": "2026-12-10",
    "datumDe": "10.12.2026",
@@ -453,6 +453,25 @@ window.SPIELPLAN = {
    "gegner": "SV Berliner Brauereien VIII",
    "ergebnis": "",
    "berichtUrl": ""
+  },
+  {
+   "id": "20261212-BO-2",
+   "tag": "Sa",
+   "datum": "2026-12-12",
+   "datumDe": "12.12.2026",
+   "zeit": "",
+   "runde": "Vorrunde",
+   "nr": "2",
+   "halle": "BO",
+   "heim": "SG BC Tempelhof/Friedenau V",
+   "gast": "Vorspiel QSB",
+   "verlegt": false,
+   "eigenesSpiel": false,
+   "heimspiel": false,
+   "gegner": null,
+   "ergebnis": "",
+   "berichtUrl": "",
+   "terminOffen": true
   },
   {
    "id": "20261213-DI-26",
@@ -491,7 +510,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270107-KL-R4",
+   "id": "20270107-AD-4",
    "tag": "Do",
    "datum": "2027-01-07",
    "datumDe": "07.01.2027",
@@ -509,7 +528,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270108-TU-R1",
+   "id": "20270108-TU-1",
    "tag": "Fr",
    "datum": "2027-01-08",
    "datumDe": "08.01.2027",
@@ -527,7 +546,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270109-TM-R2",
+   "id": "20270109-TM-2",
    "tag": "Sa",
    "datum": "2027-01-09",
    "datumDe": "09.01.2027",
@@ -545,7 +564,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270110-DE-R3",
+   "id": "20270110-DE-3",
    "tag": "So",
    "datum": "2027-01-10",
    "datumDe": "10.01.2027",
@@ -563,7 +582,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270117-DE-R6",
+   "id": "20270117-DE-6",
    "tag": "So",
    "datum": "2027-01-17",
    "datumDe": "17.01.2027",
@@ -581,7 +600,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270117-ED-R7",
+   "id": "20270117-ED-7",
    "tag": "So",
    "datum": "2027-01-17",
    "datumDe": "17.01.2027",
@@ -599,7 +618,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270117-RA-R5",
+   "id": "20270117-RA-5",
    "tag": "So",
    "datum": "2027-01-17",
    "datumDe": "17.01.2027",
@@ -617,7 +636,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270120-KF-R8",
+   "id": "20270120-KF-8",
    "tag": "Mi",
    "datum": "2027-01-20",
    "datumDe": "20.01.2027",
@@ -635,25 +654,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270124-ED-R9",
-   "tag": "So",
-   "datum": "2027-01-24",
-   "datumDe": "24.01.2027",
-   "zeit": "10:00",
-   "runde": "Rueckrunde",
-   "nr": "9",
-   "halle": "ED",
-   "heim": "SG Gaselan Fürstenwalde II",
-   "gast": "Deutsch-Chinesischer BV II",
-   "verlegt": false,
-   "eigenesSpiel": false,
-   "heimspiel": false,
-   "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
-  },
-  {
-   "id": "20270124-DI-R10",
+   "id": "20270124-DI-10",
    "tag": "So",
    "datum": "2027-01-24",
    "datumDe": "24.01.2027",
@@ -671,7 +672,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270124-DE-R11",
+   "id": "20270124-DE-11",
    "tag": "So",
    "datum": "2027-01-24",
    "datumDe": "24.01.2027",
@@ -689,7 +690,25 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270124-RA-R12",
+   "id": "20270124-ED-9",
+   "tag": "So",
+   "datum": "2027-01-24",
+   "datumDe": "24.01.2027",
+   "zeit": "10:00",
+   "runde": "Rueckrunde",
+   "nr": "9",
+   "halle": "ED",
+   "heim": "SG Gaselan Fürstenwalde II",
+   "gast": "Deutsch-Chinesischer BV II",
+   "verlegt": false,
+   "eigenesSpiel": false,
+   "heimspiel": false,
+   "gegner": null,
+   "ergebnis": "",
+   "berichtUrl": ""
+  },
+  {
+   "id": "20270124-RA-12",
    "tag": "So",
    "datum": "2027-01-24",
    "datumDe": "24.01.2027",
@@ -707,7 +726,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270211-KL-R16",
+   "id": "20270211-AD-16",
    "tag": "Do",
    "datum": "2027-02-11",
    "datumDe": "11.02.2027",
@@ -725,7 +744,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270212-TU-R17",
+   "id": "20270212-TU-17",
    "tag": "Fr",
    "datum": "2027-02-12",
    "datumDe": "12.02.2027",
@@ -743,7 +762,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270214-DI-R14",
+   "id": "20270214-DI-14",
    "tag": "So",
    "datum": "2027-02-14",
    "datumDe": "14.02.2027",
@@ -761,7 +780,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270214-DE-R18",
+   "id": "20270214-DE-18",
    "tag": "So",
    "datum": "2027-02-14",
    "datumDe": "14.02.2027",
@@ -779,7 +798,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270214-LY-R19",
+   "id": "20270214-LY-19",
    "tag": "So",
    "datum": "2027-02-14",
    "datumDe": "14.02.2027",
@@ -797,7 +816,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270217-KF-R20",
+   "id": "20270217-KF-20",
    "tag": "Mi",
    "datum": "2027-02-17",
    "datumDe": "17.02.2027",
@@ -815,7 +834,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270221-ED-R15",
+   "id": "20270221-ED-15",
    "tag": "So",
    "datum": "2027-02-21",
    "datumDe": "21.02.2027",
@@ -833,7 +852,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270221-RA-R13",
+   "id": "20270221-RA-13",
    "tag": "So",
    "datum": "2027-02-21",
    "datumDe": "21.02.2027",
@@ -851,7 +870,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270306-TM-R22",
+   "id": "20270306-TM-22",
    "tag": "Sa",
    "datum": "2027-03-06",
    "datumDe": "06.03.2027",
@@ -869,7 +888,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270306-MB-R21",
+   "id": "20270306-MB-21",
    "tag": "Sa",
    "datum": "2027-03-06",
    "datumDe": "06.03.2027",
@@ -887,7 +906,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270307-DI-R23",
+   "id": "20270307-DI-23",
    "tag": "So",
    "datum": "2027-03-07",
    "datumDe": "07.03.2027",
@@ -905,7 +924,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270307-DE-R24",
+   "id": "20270307-DE-24",
    "tag": "So",
    "datum": "2027-03-07",
    "datumDe": "07.03.2027",
@@ -923,7 +942,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270317-KF-R25",
+   "id": "20270317-KF-25",
    "tag": "Mi",
    "datum": "2027-03-17",
    "datumDe": "17.03.2027",
@@ -941,7 +960,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270319-TU-R26",
+   "id": "20270319-TU-26",
    "tag": "Fr",
    "datum": "2027-03-19",
    "datumDe": "19.03.2027",
@@ -959,7 +978,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270321-ED-R28",
+   "id": "20270321-ED-28",
    "tag": "So",
    "datum": "2027-03-21",
    "datumDe": "21.03.2027",
@@ -977,7 +996,7 @@ window.SPIELPLAN = {
    "berichtUrl": ""
   },
   {
-   "id": "20270321-RA-R27",
+   "id": "20270321-RA-27",
    "tag": "So",
    "datum": "2027-03-21",
    "datumDe": "21.03.2027",
@@ -992,25 +1011,6 @@ window.SPIELPLAN = {
    "heimspiel": false,
    "gegner": null,
    "ergebnis": "",
-   "berichtUrl": ""
-  },
-  {
-   "id": "20260926-DI-2",
-   "tag": "",
-   "datum": "",
-   "datumDe": "Termin offen",
-   "zeit": "",
-   "runde": "Vorrunde",
-   "nr": "2",
-   "halle": "DI",
-   "heim": "SG BC Tempelhof/Friedenau V",
-   "gast": "Vorspiel QSB",
-   "verlegt": false,
-   "eigenesSpiel": false,
-   "heimspiel": false,
-   "gegner": null,
-   "ergebnis": "",
-   "terminOffen": true,
    "berichtUrl": ""
   }
  ]

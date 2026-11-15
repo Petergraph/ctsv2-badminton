@@ -26,6 +26,15 @@ Liegt im Ordner `D:\Claude\Projekte\Badminton\Regeln\`. Am 25.10.2026 im Wortlau
 > Spielsaison in höheren Mannschaften eingesetzt, so haben sie **für die untere Mannschaft** ihre
 > Spielberechtigung verloren."
 
+### Entscheidung von Robert, 09.11.2026 — nuLiga ist verbindlich
+
+**Für unsere Planung gilt die Festspielregel so, wie nuLiga sie festlegt. Eine Ausnahme für
+Ersatzspieler*innen gibt es nicht.** Der Vermerk „Festgespielt in Mannschaft N ab TT.MM.JJJJ" ist
+bindend, auch für reine Ersatzspieler*innen ohne Stammmannschaft: ab diesem Datum ist die Person an
+diese Mannschaft gebunden und in keiner tieferen mehr spielberechtigt. Der nachfolgende Abschnitt
+bleibt als Dokumentation des Normtextes stehen, **ist aber nicht die Grundlage, auf der geplant und
+gerechnet wird.**
+
 ### Was daraus folgt — und was NICHT
 
 Die Ordnung unterscheidet zwei Lagen, und das ist der ganze Mechanismus:
@@ -82,14 +91,42 @@ Festspielens. Von drei Umwertungen der Saison betraf eine einen nicht einsatzber
 Rohdaten und vollständiger Bericht außerhalb des Repos: `D:\Claude\Projekte\Badminton\Festspielregel\`
 (`Ergebnis.md`, `Vermerke.json`, `Einsaetze.json`).
 
-### Für uns, Stand 25.10.2026
+### Für uns, Stand 09.11.2026 — nach den nuLiga-Vermerken
 
-- **Jens** (Stammspieler der III) fällt unter Abs. 2. Einsätze oben: 26.09. (I), 30.09. (II),
-  01.10. (II) — der dritte am 01.10. hat ihm die III gekostet. nuLiga-Vermerk korrekt.
-- **Alex und Nils** sind reine Ersatzspieler ohne Stammmannschaft und fallen unter Abs. 1:
-  **unbegrenzt in jeder Mannschaft einsetzbar.** Dass nuLiga Alex seit dem 07.10. als „festgespielt
-  in Mannschaft 4" führt, hat in der BBMM-Ordnung keine Entsprechung.
-- **Karo** ebenso.
+Gebunden ist, wen nuLiga als gebunden führt. In keiner tieferen Mannschaft mehr spielberechtigt:
+
+| Person | nuLiga-Vermerk | gebunden an | nicht mehr einsetzbar in |
+|---|---|---|---|
+| **Jens** (Wandel, Stamm III) | Mannschaft 2 ab 01.10.2026 | **II** | III, IV |
+| **Alex** (Jürgen, Reserve) | Mannschaft 2 ab 04.11.2026 | **II** | III, IV |
+| **Karo** (Wiegleb, Reserve) | Mannschaft 2 ab 04.11.2026 | **II** | III, IV |
+| **Cathy** (Schnak, Reserve) | Mannschaft 2 ab 04.11.2026 | **II** | III, IV |
+| **Nils** (Kaune, Reserve) | Mannschaft 3 ab 07.11.2026 | **III** | IV |
+| **Andreas Erbe** (Stamm IV) | Mannschaft 3 ab 05.11.2026 | **III** | IV — die eigene Mannschaft |
+| Durie, Sven Duncan (Reserve) | Mannschaft 4 ab 07.10.2026 | IV | — |
+| Braun, Arwen Gemma (Reserve) | Mannschaft 3 ab 01.10.2026 | III | IV |
+| Kanis, Laura (Reserve) | Mannschaft 4 ab 09.10.2026 | IV | — |
+| Müller, Janina (Reserve) | Mannschaft 4 ab 08.11.2026 | IV | — |
+
+Nach **oben** bleibt jede*r frei: Alex und Cathy haben am 05.11. in der I gespielt, zulässig.
+
+**Folge für die Zweite:** Alex, Karo und Cathy gehören seit dem 04.11. uns. Die vier Abende, an
+denen II und IV gleichzeitig in der Kuno-Fischer-Straße spielen (14.11., 02.12., 20.01., 17.03.),
+sind damit keine Verteilungsfrage mehr — die IV darf die drei nicht mehr aufstellen.
+
+**Wie nuLiga den Vermerk setzt** (am 09.11.2026 an allen 21 Personen mit Einsätzen nachgerechnet:
+15 Vermerke und 6 begründete Nicht-Vermerke, 21 von 21 exakt reproduziert):
+
+> Zähle für jede Mannschaftsstufe **T** die Einsätze in **T und allen höheren** Mannschaften.
+> Gebunden wird an die **höchste** Stufe T, bei der diese Summe zum ersten Mal **drei** erreicht;
+> das Datum ist das des dritten dieser Einsätze. Ein Vermerk erscheint nur, wenn T von der
+> gemeldeten Mannschaft abweicht.
+
+Beispiel Nils: 27.09. (IV), 01.10. (II), 05.11. (III), 07.11. (III) — für T=II nur ein Einsatz,
+für T=III drei, der dritte am 07.11. Beispiel Alex: für T=II zählen 30.09., 01.10. und 04.11., der
+IV-Einsatz vom 07.10. zählt dafür nicht mit — deshalb ist sein Vermerk vom 07.10. (Mannschaft 4)
+auf den 04.11. (Mannschaft 2) zurückgewandert. Damit sind Vermerke **vorhersagbar**: vor jeder
+Aufstellung durchrechnen, wen der nächste Einsatz bindet.
 
 ## Kein gleichzeitiger Einsatz — Anlage III F. Absatz 2, Fortsetzung
 

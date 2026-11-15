@@ -2,13 +2,14 @@
    Diese Datei wird von Netlify nicht ausgeliefert (publish = "site").
    Wird von der woechentlichen Aufgabe fortgeschrieben. */
 window.RANGLISTE = {
- "stand": "Vorrunde 2026/27, abgerufen 12.10.2026 – neu: drei Festspiel-Vermerke vom 07.10. (Jürgen, Durie, Wiegleb) und einer vom 09.10. (Kanis); Brebecks Abmeldung ist zum 12.10.2026 wirksam. Ränge und Doppelränge unverändert.",
+ "stand": "Vorrunde 2026/27, abgerufen 09.11.2026 – fünf neue bzw. verschobene Festspiel-Vermerke: Jürgen, Wiegleb und Schnak sind seit 04.11. an die II gebunden (vorher Jürgen und Wiegleb an die IV ab 07.10.), Erbe seit 05.11. an die III, Kaune seit 07.11. an die III, Müller seit 08.11. an die IV. Bartoscheck ist zum 07.11.2026 abgemeldet. Neu in der Liste: Knuppe und Song, beide als Nachmeldung spielberechtigt ab 04.11.2026. Ränge und Doppelränge unverändert.",
  "quelle": "nuLiga Vereinsrangliste, clubPools?club=16382&displayTyp=vorrunde&seasonName=2026/27",
  "hinweis": "rang = Einzelrangfolge, doppelrang = eigene Doppelrangfolge (nuLiga zeigt beides als „Rang/Doppel“). Fuer die Herrendoppel-Reihenfolge nach Anlage III E Abs. 3 zaehlt der DOPPELRANG, nicht der Einzelrang. Stammspieler duerfen in KEINER niedrigeren Mannschaft spielen (Anlage III E Abs. 1). Das Feld festgespielt uebernimmt den nuLiga-Vermerk wortgleich: ab diesem Datum ist die Person an die genannte Mannschaft gebunden und in keiner tieferen mehr spielberechtigt.",
  "abgemeldet": [
   "Plaschnick, Denise (18.07.2026)",
   "Ünal, Mouna (18.07.2026)",
-  "Brebeck, Victoria (12.10.2026)"
+  "Brebeck, Victoria (12.10.2026)",
+  "Bartoscheck, Sebastian (07.11.2026)"
  ],
  "herren": [
   {
@@ -91,6 +92,7 @@ window.RANGLISTE = {
    "name": "Kaune, Nils",
    "dame": false,
    "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 3 ab 07.11.2026",
    "spielberechtigtAb": "18.09.2026"
   },
   {
@@ -107,7 +109,9 @@ window.RANGLISTE = {
    "mannschaft": "II",
    "name": "Bartoscheck, Sebastian",
    "dame": false,
-   "stamm": true
+   "stamm": true,
+   "abgemeldetAb": "07.11.2026",
+   "abgemeldet": "07.11.2026"
   },
   {
    "rang": 120,
@@ -124,7 +128,7 @@ window.RANGLISTE = {
    "name": "Jürgen, Alexander",
    "dame": false,
    "stamm": false,
-   "festgespielt": "Festgespielt in Mannschaft 4 ab 07.10.2026"
+   "festgespielt": "Festgespielt in Mannschaft 2 ab 04.11.2026"
   },
   {
    "rang": 140,
@@ -182,6 +186,7 @@ window.RANGLISTE = {
    "name": "Lembke, Sören",
    "dame": false,
    "stamm": false,
+   "sperrfrist": "spielberechtigt ab 10.09.2026",
    "spielberechtigtAb": "29.09.2026"
   },
   {
@@ -190,7 +195,8 @@ window.RANGLISTE = {
    "mannschaft": "IV",
    "name": "Erbe, Andreas",
    "dame": false,
-   "stamm": true
+   "stamm": true,
+   "festgespielt": "Festgespielt in Mannschaft 3 ab 05.11.2026"
   },
   {
    "rang": 210,
@@ -362,7 +368,8 @@ window.RANGLISTE = {
    "mannschaft": "Reserve",
    "name": "Müller, Janina",
    "dame": true,
-   "stamm": false
+   "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 4 ab 08.11.2026"
   },
   {
    "rang": 90,
@@ -379,7 +386,7 @@ window.RANGLISTE = {
    "name": "Wiegleb, Karoline",
    "dame": true,
    "stamm": false,
-   "festgespielt": "Festgespielt in Mannschaft 4 ab 07.10.2026"
+   "festgespielt": "Festgespielt in Mannschaft 2 ab 04.11.2026"
   },
   {
    "rang": 110,
@@ -395,7 +402,18 @@ window.RANGLISTE = {
    "mannschaft": "Reserve",
    "name": "Schnak, Catherine",
    "dame": true,
-   "stamm": false
+   "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 2 ab 04.11.2026"
+  },
+  {
+   "rang": 125,
+   "doppelrang": 125,
+   "mannschaft": "Reserve",
+   "name": "Knuppe, Maya",
+   "dame": true,
+   "stamm": false,
+   "sperrfrist": "spielberechtigt ab 26.10.2026",
+   "spielberechtigtAb": "04.11.2026"
   },
   {
    "rang": 130,
@@ -404,6 +422,16 @@ window.RANGLISTE = {
    "name": "Nehls, Anissa Vivien",
    "dame": true,
    "stamm": true
+  },
+  {
+   "rang": 135,
+   "doppelrang": 135,
+   "mannschaft": "Reserve",
+   "name": "Song, Bingyue",
+   "dame": true,
+   "stamm": false,
+   "sperrfrist": "spielberechtigt ab 26.10.2026",
+   "spielberechtigtAb": "04.11.2026"
   },
   {
    "rang": 140,
