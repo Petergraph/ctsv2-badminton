@@ -19,6 +19,365 @@ nebeneinander lesen kann:
 
 ---
 
+## 23.11.2026 — Drei neue Begegnungen, zweimal 4:4 und einmal 1:7; Katharina ist an die Erste festgespielt und für uns verloren
+
+> **Zuerst:** In GitHub Desktop *Commit to main* und *Push origin* klicken — sonst bleibt dieser Lauf
+> im Arbeitsbaum liegen. Ungepusht sind außerdem noch die Änderungen vom 16. und 18.11.
+
+**Neue Ergebnisse** — drei, davon eine in der D-Klasse 2.
+
+- **II — So 22.11., auswärts bei SG BC Tempelhof/Friedenau V 4:4** (Bericht 396217, 10:00–12:29 Uhr,
+  noch nicht genehmigt). Aufstellung, die Robert am 18.11. gemeldet hatte, war eine andere: statt
+  **Matthias** und **Karo** spielten **Jenny** (von Rosen, Stamm IV) und **Sören** (Lembke, Reserve
+  195/195, erster Einsatz der Saison). Angetreten mit vier Herren und zwei Damen, also vollständig,
+  kein kampfloses Spiel.
+  **1.HD Robert/Jens 21:18, 19:21, 21:15 ✓ · DD Jenny/Gemma 7:21, 6:21 ✗ · OD Alex/Sören 21:11,
+  21:16 ✓ · 1.HE Jens 21:13, 21:12 ✓ · DE Gemma 17:21, 21:23 ✗ · GD Alex/Jenny 20:22, 21:15,
+  19:21 ✗ · 2.HE Robert 18:21, 21:9, 21:17 ✓ · OE Sören 14:21, 16:21 ✗.**
+  Alle vier Herrendisziplinen gewonnen, alle vier Damen- und Mixed-Disziplinen verloren. 348:341
+  Ballpunkte für uns bei 9:10 Sätzen — wir haben mehr Bälle gemacht und einen Satz weniger gewonnen.
+  **Beide Tips vom 18.11. lagen daneben** (Claude 6:2, Robert 5:3); die Unterscheidungsfrage war das
+  Dameneinzel, und dort stand nicht Karo, sondern Gemma. Richtig war Roberts Einschätzung, dass beide
+  Damenspiele weggehen; falsch bei beiden, dass das Mixed bleibt. Das offene Einzel, das Tempelhof in
+  drei Begegnungen nie gewonnen hatte, ging in zweien verloren.
+- **I — Do 19.11., zuhause gegen VfB Kiefholz VIII 4:4** (Bericht 396036, 19:30–21:27 Uhr, noch
+  nicht genehmigt). Eingesetzt: **Eissa** (1.HD, OE), **Kowalski** (1.HD, 1.HE), **Borschevski**
+  (OD, 2.HE), **Lucas** (OD, GD), **Ludwig** (DD, GD) und **Katharina Kippert** (DD, DE).
+  Gewonnen: 1.HD, 1.HE, GD, 2.HE. Auffällig sind die Satzergebnisse von Katharina — 6:21, 0:21 im
+  Damendoppel und 0:21, 0:21 im Einzel. Das sieht nach einer Aufgabe während der Begegnung aus.
+  **Für das Festspiel-Konto macht das keinen Unterschied: nuLiga hat den Einsatz gezählt** (siehe
+  Regelprüfung).
+- **III — Do 19.11., zuhause gegen VSG Altglienicke 1:7** (Bericht 396467, 19:30–22:00 Uhr, noch
+  nicht genehmigt). Eingesetzt: **Sarin** (1.HD, OE), **Eric** (1.HD, 2.HE), **Nils** (OD, 1.HE),
+  **Erbe** (OD, GD), **Janina Müller** (DD, GD) und **Gemma** (DD, DE). Einziger Punkt: das offene
+  Doppel Nils/Erbe 23:21, 21:13. Das 1.HE ging über drei Sätze knapp weg (21:15, 17:21, 17:21), das
+  Damendoppel ebenso (21:10, 18:21, 14:21) — mit zwei gedrehten Spielen wäre es ein 3:5 gewesen.
+- **IV** — seit dem 14.11. nicht gespielt, nächstes Spiel am 02.12.
+
+**Tabellenstand D-Klasse 2** (19 von 56 Begegnungen, Stand 23.11.):
+
+| | Mannschaft | Beg. | Punkte | Spiele |
+|---|---|---|---|---|
+| 1 | TuS Lichterfelde | 5 | 10:0 | 33:7 |
+| 2 | Deutsch-Chinesischer BV II | 5 | 7:3 | 27:13 |
+| 3 | SV Berliner Brauereien VIII | 5 | 7:3 | 25:15 |
+| **4** | **Charlottenburger TSV II** | **5** | **7:3** | **24:16** |
+| 5 | DIBVM V | 5 | 3:7 | 12:28 |
+| 6 | Vorspiel QSB | 4 | 2:6 | 14:18 |
+| 7 | SG BC Tempelhof/Friedenau V | 4 | 2:6 | 11:21 |
+| 8 | SG Gaselan Fürstenwalde II | 5 | 0:10 | 6:34 |
+
+Drei Mannschaften stehen bei 7:3; wir sind unter ihnen die mit der schwächsten Spielbilanz und
+deshalb Vierter statt Dritter. Lichterfelde kommt am **02.12. zu uns** — mit 10:0 und 33:7 die
+einzige Mannschaft der Staffel ohne Punktverlust. Weiter unten hat DIBVM V am 22.11. in
+Fürstenwalde 5:3 gewonnen und damit Tempelhof und QSB überholt.
+
+**Regelprüfung** (Anlage III E/F, Modell und Zitate in REGELN.md).
+
+- **a) Einsätze nach oben — eine Bindung ist eingetreten, und sie kostet uns eine Stammspielerin.**
+  **Katharina Kippert ist seit dem 19.11.2026 an die I festgespielt** (nuLiga-Vermerk „Festgespielt
+  in Mannschaft 1 ab 19.11.2026"). Sie ist in nuLiga Stammspielerin **unserer II**, hat aber am
+  05.11., 09.11. und 19.11. in der I gespielt — der dritte Einsatz oben nimmt ihr die
+  Spielberechtigung für die II, III und IV. Ihr einziger Einsatz bei uns war der 14.11. (DD, GD).
+  **Für die Aufstellung am 02.12. steht sie nicht mehr zur Verfügung, und für den Rest der Saison
+  auch nicht.** Das war im Protokoll vom 18.11. als offener Punkt angekündigt; er ist jetzt
+  entschieden, und zwar gegen uns.
+- **a) weiter — zwei Vermerke sind gewandert, einer ist neu.** **Janina Müller** ist von „Mannschaft 4
+  ab 08.11." auf **„Mannschaft 3 ab 19.11.2026"** gerückt und darf damit nicht mehr in der IV spielen.
+  **Laeticia Ludwig** hat erstmals einen Vermerk: **„Mannschaft 4 ab 19.11.2026"** (11.11. und 14.11.
+  in der IV, 19.11. in der I) — praktisch ohne Folge, weil die IV die unterste Mannschaft ist.
+- **a) Festspiel-Konten für unsere nächste Aufstellung.** Gerechnet nach dem am 09.11. geprüften
+  nuLiga-Modell (Einsätze in der Stufe und allen höheren, Bindung beim dritten):
+  | Person | Konto für die II | nächster Einsatz bei uns |
+  |---|---|---|
+  | **Gemma** (Braun, gebunden an die III) | **2 von 2 verbraucht** (26.09. I, 22.11. II) | **bindet sie an die II und nimmt sie der III** |
+  | **Jenny** (von Rosen, Stamm IV) | 1 (22.11.) | noch frei, der danach bindet |
+  | **Sören** (Lembke, Reserve) | 1 (22.11.) | noch frei, der danach bindet |
+  | **Nils** (Kaune, gebunden an die III) | 1 (01.10.) | noch frei |
+  | **Eric**, **Sarin** (Stamm III) | je 1 (14.11.) | noch frei |
+  | Robert, Hiep, Matthias (Stamm II) · Jens, Alex, Karo, Cathy (gebunden an die II) | — | unbegrenzt |
+  Praktisch heißt das: **Gemma kann am 02.12. spielen, aber sie ist dann für die III weg.** Wer das
+  entscheidet, sollte vorher mit dem Mannschaftsführer der III sprechen.
+- **b) Stammspieler*in in einer niedrigeren Mannschaft — Fehlanzeige.** Alle 18 neuen Einsätze
+  geprüft. Nach unten gespielt hat niemand: in der I waren Kippert (Stamm II) und Ludwig (Reserve)
+  Aushilfen nach oben, in der III Erbe (Stamm IV) und drei Reservespielerinnen, in der II Jens
+  (Stamm III), Jenny (Stamm IV) und drei Reserven. Auch keine der bestehenden Bindungen ist verletzt:
+  Erbe, Nils und Janina Müller haben am 19.11. in der III gespielt, also nicht unter ihrer Bindung.
+- **c) Gleichzeitige Einsätze — Fehlanzeige, aber knapp.** Am **19.11. haben I und III gleichzeitig
+  in der Kuno-Fischer-Straße gespielt** (beide 19:30, Ende 21:27 und 22:00) — der erste Doppeltermin
+  der Saison, der nicht II und IV betraf. Die zwölf eingesetzten Personen sind zwölf verschiedene;
+  keine Überschneidung. **Nächste Doppeltermine: 29.11.** (I in Eberswalde und III in
+  Tempelhof-Mariendorf, beide 10:00 auswärts) **und 02.12.** (II und IV gleichzeitig um 19:30 in der
+  Kuno-Fischer-Straße). Am 02.12. kann niemand in beiden Mannschaften spielen.
+
+**Termine und Hallen.**
+
+- Eine Zeitkorrektur in der Staffel: **19.11., Vorspiel QSB – Deutsch-Chinesischer BV II, 19:00 →
+  19:05**, jetzt mit Verlegt-Vermerk. In `spielplan.js` nachgeführt.
+- **Keine neue Halle, kein Hallenwechsel.** Alle zwölf Hallen der Staffel stehen bereits in
+  `hallen.js`, die Heimhallen in `teams.js` stimmen mit nuLiga überein.
+- **Zum Parser:** nuLiga setzt neben „v" auch „h" und „h/v" in die Zeitspalte. Die bisherige
+  Regex kannte nur „v". Betroffen sind drei Begegnungen, und in allen drei stehen unsere Hallen
+  schon richtig: D-Klasse 2 am 12.12.2026 (Tempelhof V – QSB in BO, „h/v") sowie die III am
+  07.11.2026 (Wedding II – CTSV III in KF, „h/v") und am 21.01.2027 (CTSV III – Wedding II in KF,
+  „h"). Der Vermerk selbst wird in den Datendateien nicht gespeichert.
+- Kontrollzählung bestanden: I, II, III je 14 eigene Begegnungen, IV 16; die Staffeltabelle der
+  D-Klasse 2 hat 56 Zeilen.
+
+**Vereinsrangliste.** Vier Änderungen gegenüber dem 16.11. **Neu in der Herrenliste: Hartling,
+Frederic** (Reserve, 175/175). Zwei Daten stehen bei ihm: Sperrfrist bis 04.11.2026, als Nachmeldung
+aber **erst ab 26.11.2026 spielberechtigt** — es gilt das spätere. Damit 38 Herren und 24 Damen.
+Dazu die drei Festspiel-Vermerke oben (Kippert neu, Müller verschoben, Ludwig neu). **Sören Lembke**
+und **Jenny von Rosen** haben nach ihrem ersten Einsatz noch keinen Vermerk, was zum Modell passt.
+
+**Zuordnung — ein Vorschlag, nicht eingetragen.** `zuordnung.js` ist bei den bisherigen Rufnamen
+vollständig; es fehlt aber ein Eintrag für die zwei Leute, die am 22.11. für uns gespielt haben und
+in der Rufnamen-Tabelle noch gar nicht vorkommen. Vorschlag: **`"Sören": "Lembke, Sören"`** und
+**`"Jenny": "von Rosen, Jenny"`**. Erst nach Roberts Bestätigung eintragen — Rufnamen sind geraten.
+
+**Pseudonymisierung.** Keine Änderung an `klarnamen-schluessel.json`. Der Nachbericht zum 22.11.
+nennt ausschließlich eigene Vornamen; Gegnerspieler kommen darin nicht vor, also war kein neues
+Kürzel zu vergeben.
+
+**Offene Regelfrage.** Die Frage zum offenen Doppel und offenen Einzel ist in REGELN.md **seit dem
+25.10. beantwortet** und nicht mehr als offen markiert: die Additionsregel greift nur, wenn in beiden
+Doppeln je zwei Herren stehen. Es ist also nichts mehr hochzuladen. Für den 22.11. war die Frage
+ohnehin gegenstandslos — in beiden Doppeln standen zwei Herren, und die Aufstellung war korrekt:
+Einzel aufsteigend 70 (Jens), 90 (Robert), 195 (Sören), Doppelrangsummen 160 im 1.HD gegen 335 im OD.
+
+**Geänderte Dateien.** `site/data/spielplan.js` (vier Ergebnisse, Zeitkorrektur 19.11., `abgerufen`),
+`site/data/tabelle.js` (neuer Stand), `site/data/vorberichte.js` (Nachbericht 22.11.),
+`intern/daten/vereinsspiele.js` (drei Ergebnisse, `abgerufen`), `intern/daten/rangliste.js`
+(neu geladen, 38 Herren / 24 Damen), `intern/daten/einsaetze.js` (18 neue Einträge, 110 → 128),
+dieses Protokoll. Unverändert: `hallen.js`, `teams.js`, `zuordnung.js`, `gegner.js`,
+`klarnamen-schluessel.json`.
+
+**Offenes.**
+
+- **Aufstellung der II für Mi 02.12., 19:30, eigene Halle, gegen TuS Lichterfelde** (10:0, 33:7).
+  Katharina fällt weg, Gemma kostet einen Einsatz die III, und die IV spielt zur selben Zeit in
+  derselben Halle. Das ist die engste Personalfrage der Saison bisher.
+- Die drei neuen Spielberichte sind **noch nicht genehmigt**. Erfahrungsgemäß ändert sich daran
+  nichts mehr, aber die Zahlen stehen unter Vorbehalt.
+- Katharinas 0:21, 0:21 im Dameneinzel der I: war das eine Aufgabe? Wenn sie tatsächlich nicht
+  spielbereit war, wäre zu klären, ob der Einsatz zählen darf — der Vermerk hängt daran. Das wäre
+  eine Frage an den Mannschaftsführer der I und notfalls an den Spielausschuss.
+- Frederic Hartling ist ab 26.11. spielberechtigt und mit Rang 175/175 zwischen den Stammspielern
+  der IV einsortiert.
+- **Zur Pseudonymisierung aufgefallen, Entscheidung bei Robert:** In `site/data/teams.js` steht bei
+  jeder der acht Mannschaften der Mannschaftsführer mit Klarnamen — bei Tempelhof/Friedenau V ist das
+  **Carsten Schoetz, der am 22.11. selbst gespielt hat** (1.HD und 2.HE). Das ist kein neuer Eintrag
+  und keine Spielerangabe, sondern das Kontaktfeld aus nuLiga; es widerspricht aber dem Grundsatz,
+  dass Gegnerspieler öffentlich nur als Kürzel erscheinen. Dasselbe gilt potentiell für die anderen
+  sieben. Ungefragt geändert wird daran nichts, weil die Seite das Feld anzeigt.
+
+---
+
+## 18.11.2026 — Handlauf: Gegneranalyse Tempelhof/Friedenau V, Aufstellung für den 22.11., Zuordnung vollständig
+
+> **Zuerst:** In GitHub Desktop *Commit to main* und *Push origin* klicken — die Änderungen vom
+> 16.11. und von heute liegen zusammen im Arbeitsbaum.
+
+**Kein Montagslauf**, sondern eine Sitzung auf Zuruf. Keine neuen Ergebnisse — in der Staffel wurde
+seit dem 14.11. nicht gespielt, der nächste Spieltag ist der 19./22.11.
+
+**Zuordnung bestätigt (Robert, 18.11.).** `intern/daten/zuordnung.js`: **Cathy = Schnak, Catherine**,
+**Eric = Godiveau, Eric**, **Sarin = Bhaskaran, Sarin** eingetragen, Karo und Katharina als bestätigt
+markiert. Die Tabelle ist damit vollständig — das Festspiel-Konto rechnet jetzt für alle.
+
+**Aufstellung der II für So 22.11., 10:00, Halle DI.** Gemeldet von Robert: **Matthias, Jens,
+Robert, Alex + Karo, Gemma.** Vier Herren und zwei Damen, also Sollstärke, keine kampflosen Spiele.
+Regelprüfung: alle sechs spielberechtigt. **Matthias (Pfender) ist in nuLiga Stammspieler der II mit
+Rang 60/60 — und er ist nie aus dem Verein ausgetreten** (bestätigt von Robert am 18.11.: nur
+umgezogen, dieses Wochenende zufällig in Berlin). Sein Eintrag unter `NICHT_IM_VEREIN` war ein
+Irrtum und ist entfernt. **Wichtig: die im Projektstand notierte Abmeldung beim Spielausschuss darf
+NICHT veranlasst werden.** Gemma (Braun) ist seit
+01.10. an die III festgespielt; ein Einsatz bei uns ist einer nach oben und damit zulässig, es wäre
+ihr **zweiter von drei** (der erste war der 26.09. in der I). Der dritte würde sie an die II binden
+und der III nehmen. Hiep, Nils, Cathy und Katharina fallen aus.
+
+**Festgelegte Spielfolge** (Doppelrangsummen und Einzelreihenfolge geprüft): **1.HD
+Matthias/Robert** (150) · **DD Karo/Gemma** · **OD Jens/Alex** (210) · **1.HE Matthias** (60) ·
+**DE Karo** · **GD Alex/Gemma** · **2.HE Jens** (70) · **OE Robert** (90).
+
+Die Doppelpaarungen hat Robert gesetzt, und sie sind besser belegt als mein erster Vorschlag
+(Matthias/Jens plus Robert/Alex): **Matthias/Robert** war in der Vorsaison ein erfolgreiches Paar,
+und **Jens/Alex** haben am 04.11. gegen DIBVM unseren einzigen OD-Sieg der Saison geholt
+(18:21, 21:10, 21:14) — während Robert/Alex am 01.10. bei QSB 0:2 verloren haben. Die Additionsregel
+ist erfüllt: 150 < 210, also Matthias/Robert ins Herrendoppel. Begründung der Verteilung: Tempelhofs
+OD hat in drei Begegnungen **alle sechs Sätze verloren**, keiner knapp — den Punkt holen Jens/Alex
+auch. Umkämpft ist ihr **1.HD** (Konieczny/Schoetz, ihr einziger Doppelsieg der Saison, 24:22 im
+dritten Satz), und dort steht jetzt die eingespielte Paarung. Karo gehört ins Dameneinzel, weil dort
+die einzige wirklich gefährliche Gegnerin steht; Gemma übernimmt mit Alex das Mixed — die Disziplin,
+die Tempelhof nie gewonnen hat. Alex spielt wie in allen sechs bisherigen Einsätzen kein Einzel.
+
+**Gegneranalyse SG BC Tempelhof/Friedenau V** — neu in `intern/daten/gegner.js`, alle drei
+Spielberichte der Saison ausgewertet (396229, 396230, 396216).
+
+- Fünfte Mannschaft eines großen Vereins (Aktive Regionalliga Nord, II Landesliga 1, III
+  Bezirksklasse 2, IV D-Klasse 1). Die V ist aus den hinteren Rängen gebildet: Herren 340–430 von
+  660, Damen 230–250 von 330. Mannschaftsführer **Carsten Schoetz**.
+- **Aufstellung in beiden Novemberspielen Zeichen für Zeichen identisch:** 1.HD Konieczny/Schoetz,
+  OD Hayungs/Roick, 1.HE Konieczny, DE Timmke, GD Roick/Kaiser, 2.HE Schoetz, OE Hayungs,
+  DD Kaiser/Timmke. Am 04.10. dasselbe Muster mit Dr. Heidepriem statt Hayungs und Ernst statt Timmke.
+- **Von ihren sieben Spielpunkten kommen vier von den Damen** (DD 2:1, DE 2:1), zwei von Konieczny,
+  einer von Schoetz. **Offenes Doppel, Mixed und offenes Einzel haben sie nie gewonnen — 0:3, 0:3,
+  0:3.** Alle 18 Sätze in diesen drei Disziplinen verloren, keiner knapp.
+- **Sandra Timmke** ist ihre beste Spielerin: Dameneinzel 2:0 (21:11/21:9 und 21:19/22:20),
+  Damendoppel mit **Simone Kaiser** 2:0. **Klaus Roick** spielt nur Doppel (OD und GD) und hat keines
+  der sechs gewonnen. **Jochen Hayungs** hat alle acht Sätze verloren.
+- **Verstärkung wäre möglich:** Stammspieler der I–IV dürfen nach Anlage III E Abs. 1 nicht in der V
+  spielen, und fünf Reservespieler sind seit dem 07./08./17.11. an die IV festgespielt. Frei wären
+  aber Reservespieler mit den Rängen 240–290, auf dem Papier stärker als ihre eigenen Stammspieler.
+  Bisher haben sie davon keinen Gebrauch gemacht.
+- **Nicht unterschätzen:** drei von drei Begegnungen vollständig angetreten, kein kampfloses Spiel
+  abgegeben, und beim DCBV ein **4:4** geholt — dem Verein, gegen den wir 5:3 gewannen.
+
+**Zwei Tips, zum Nachhalten am Montag.**
+
+- **Claude: 6:2.** Sicher sollten die drei Herreneinzel, OD und Mixed sein. Wahrscheinlichster
+  Punktverlust ist das Damendoppel gegen Kaiser/Timmke, dahinter das offene Doppel (Hayungs könnte
+  stärker sein als seine Bilanz, die Roick als Partner drückt) und das erste Herrendoppel.
+  Das Dameneinzel sehe ich bei uns: Karo ist im DE 4:0, Timmkes beide Siege kamen gegen eine
+  Ersatzspielerin und mit 22:20 im zweiten Satz.
+- **Robert: 5:3.** Beide Damenspiele gehen weg, das Mixed bleibt bei uns, 1.HD und OE sind 50:50.
+
+Die beiden Tips unterscheiden sich in **genau einem Spiel: dem Dameneinzel.** Geht es an Karo,
+steht 6:2; geht es weg, 5:3. Nachzutragen nach dem 22.11.
+
+**Geänderte Dateien.** `intern/daten/gegner.js` (neuer Eintrag Tempelhof V, `erhoben` ergänzt),
+`intern/gegner.html` (verträgt jetzt `vorsaison: null` — vorher brach die Seite daran ab),
+`intern/daten/zuordnung.js`, `site/data/vorberichte.js` (Vorbericht 22.11. um die Einordnung des
+Gegners ergänzt, ohne Klarnamen), dieses Protokoll. Die interne Gegnerseite lädt headless ohne Fehler.
+
+**Nachtrag vom 18.11., nach Roberts Rückmeldung.** `NICHT_IM_VEREIN` ist jetzt **leer** — und das
+ist der richtige Stand: Pfender war nie weg, Bartoscheck ist seit 07.11. regulär abgemeldet, damit
+stimmen Meldung und Wirklichkeit bei beiden. **Die II hat wieder drei verfügbare
+Herren-Stammspieler** (Pfender 60, Nguyen 80, Schultz-Heienbrock 90) statt zwei. Nebenbei zwei
+Fehler in `intern/index.html` behoben: „Gemeldet und verfügbar" zeigte abgemeldete Spieler als
+schlicht „nicht geführt" an (jetzt mit Abmeldedatum), und die Gegnerseite brach bei einem Gegner
+ohne Vorsaison-Daten komplett ab.
+
+**Offen.** Katharina steht bei zwei von zwei Einsätzen nach oben — der 19.11. in der I entscheidet,
+ob sie uns erhalten bleibt.
+
+---
+
+## 16.11.2026 — Drei neue Begegnungen in I und IV, die II ruht; Katharina steht vor dem dritten Einsatz in der I
+
+> **Zuerst:** In GitHub Desktop *Commit to main* und *Push origin* klicken — sonst bleibt die
+> Aktualisierung in diesem Lauf liegen. Der Stand vom 15.11. (Commit `1ce716f`) ist dagegen
+> **gepusht und live**; die Seite zeigt also derzeit korrekt den Stand nach dem 14.11.
+
+**Neue Ergebnisse** — drei, aber keines davon in der D-Klasse 2.
+
+- **I — Mo 09.11., auswärts bei Märkischer SC II 7:1** (Bericht 396026, 19:30–22:00 Uhr,
+  Ballpunkte 396:348, Sätze 14:7 aus unserer Sicht). **Kowalski/Eissa** 1.HD gewonnen
+  (21:18, 15:21, 21:18), **Katharina/Karo** DD gewonnen (18:21, 21:15, 21:14),
+  **Borschevski/Lucas** OD gewonnen (21:14, 19:21, 21:17), **Kowalski** 1.HE verloren (11:21, 9:21
+  — das einzige verlorene Spiel), **Katharina** DE gewonnen (21:19, 21:16), **Lucas/Karo** GD
+  gewonnen (17:21, 21:18, 21:18), **Borschevski** 2.HE gewonnen (21:3, 13:21, 21:15), **Eissa** OE
+  gewonnen (21:4, 21:12). Bericht in nuLiga **noch nicht genehmigt** (letzte Vereinsänderung
+  09.11., 22:06). Bemerkenswert für uns: **Katharina und Karo** haben in der I gespielt — dazu unten
+  unter Regelprüfung.
+- **IV — Mi 11.11., heim 5:3 gegen VSG Rahnsdorf III** (Bericht 396537, Ballpunkte 332:301, Sätze
+  10:8, genehmigt). **Buhrmann/Heusel** 1.HD gewonnen (21:13, 13:21, 21:12), **Kanis/Ludwig** DD
+  verloren, **Nytz/Heyer** OD gewonnen (21:9, 21:14), **Heusel** 1.HE gewonnen, **Kanis** DE
+  verloren, **Buhrmann/Ludwig** GD gewonnen (21:17, 20:22, 21:19), **Nytz** 2.HE verloren,
+  **Heyer** OE gewonnen (21:10, 21:11).
+- **IV — Sa 14.11., heim 4:4 gegen BSV Werder III** (Bericht 396559, Ballpunkte 359:339, Sätze
+  11:8, genehmigt) — dieselben sechs Leute wie drei Tage vorher, in denselben Disziplinen.
+  Gewonnen: DD **Kanis/Ludwig**, DE **Kanis** (21:5, 21:9), GD **Buhrmann/Ludwig**, 2.HE **Nytz**.
+  Verloren: 1.HD in drei Sätzen (20:22, 21:18, 21:23), OD, 1.HE, OE in drei Sätzen (21:18, 21:23,
+  10:21). Vier Spiele zu 4:4, aber nach Ballpunkten vorn — in dieser Liga ein Unentschieden mit
+  Ärgerpotenzial.
+- **II und III ohne Spiel.** Die II war zuletzt am 14.11. dran, die III am 07.11. Nächste
+  Begegnungen: **III Do 19.11., 19:30, KF** gegen VSG Altglienicke (gleicher Abend wie die I),
+  **II So 22.11., 10:00, Halle DI** bei Tempelhof/Friedenau V.
+
+**Tabellenstand D-Klasse 2** — **unverändert** gegenüber dem 15.11.: 15 von 56 Begegnungen
+gewertet, wir **Dritter** mit 6:2 Punkten, 20:12 Spielen, 44:30 Sätzen aus vier Begegnungen.
+TuS Lichterfelde 8:0 (28:4), Brauereien VIII 7:1 (22:10), DCBV II 5:3. Unten QSB 2:4 (drei
+Begegnungen), Tempelhof/Friedenau V 1:5 (drei), DIBVM V 1:7, Gaselan II 0:8. In der Staffel wurde
+seit dem 14.11. nicht gespielt; der nächste Spieltag ist der 19./22.11.
+
+**Regelprüfung** (Anlage III E/F/H) — alle 110 Einsätze aller vier Mannschaften gegen die
+Vereinsrangliste gerechnet.
+
+- **Anlage III E Abs. 1 (Stammspieler*in einer höheren Mannschaft in einer niedrigeren):**
+  **Fehlanzeige.** Kein einziger Fall in der ganzen Saison. Besonders erfreulich: **Andreas Erbe**
+  (Stamm IV, seit 05.11. an die III festgespielt) stand am 11.11. und 14.11. **nicht** in der IV,
+  und **Alex, Karo, Cathy und Nils** sind auch nicht aufgestellt worden — die Sperren sind
+  offenbar angekommen.
+- **Anlage III F Abs. 2 (gleichzeitiger Einsatz):** **Fehlanzeige.** Am 14.11. spielten II und IV
+  beide um 18:30 in der Kuno-Fischer-Straße, aber **keine Person in beiden Mannschaften**. Die
+  einzige Doppelbelegung der Saison bleibt **Erbe am 27.09.** (III um 10:00 in HS, IV um 15:00 in
+  BD) — zeitlich getrennt, also zulässig.
+- **Einsätze nach oben — hier wird es eng:** **Katharina (Kippert)** ist Stammspielerin unserer II
+  und hat jetzt **zwei** Einsätze in der I (05.11. und 09.11.). **Der dritte Einsatz in der I
+  bindet sie an die I** und nimmt uns damit die stärkste Dame für den Rest der Saison
+  (Anlage III F Abs. 2). Nächste Gelegenheit wäre **Do 19.11., 19:30, KF, I gegen VfB Kiefholz
+  VIII** — die I sollte das wissen, bevor sie aufstellt.
+- **Karo (Wiegleb)** hat am 09.11. ihren **ersten** Einsatz in der I gehabt (sie ist seit 04.11. an
+  die II festgespielt; nach oben bleibt sie frei) — **zwei weitere**, dann wäre sie an die I
+  gebunden. **Cathy (Schnak)** steht bei **einem** (05.11.), **Hiep** bei **einem** (01.10.).
+  **Eric** und **Sarin** (beide Stamm III) stehen unverändert bei **je einem** Einsatz in der II —
+  beim **dritten** verlieren sie die Berechtigung für die III.
+- **Festspiel-Formel nachgerechnet und präzisiert.** Die Rechnung aus dem Projektstand trifft
+  jetzt bei **allen 28 eingesetzten Personen** den nuLiga-Vermerk exakt — mit einer Ergänzung, die
+  bisher fehlte: Ein Vermerk erscheint nur, wenn die errechnete Stufe **höher** ist als die
+  gemeldete Mannschaft (bei Reservespieler*innen immer). Ohne diese Einschränkung würde die Formel
+  für die Stammspieler der I (Kowalski, Eissa, Borschevski — je drei bis vier Einsätze in der I)
+  einen Vermerk „Mannschaft 2" erzeugen, den nuLiga nicht setzt. Logisch auch: nach unten dürfen
+  sie ohnehin nicht, da ist nichts zu binden.
+- **Neu in der Statistik:** **Ludwig, Laeticia** (Reserve, Rang 230/230) mit zwei Einsätzen in der
+  IV. Der dritte würde sie an die IV binden — ohne Folgen, weil es darunter keine Mannschaft gibt.
+
+**Termine und Hallen** — vier Änderungen, alle außerhalb unserer eigenen Spiele.
+
+- **III: Heimspiel gegen DIBVM VI von Do 10.12. auf Do 17.12.2026, 19:30 Uhr, KF verlegt.** Damit
+  belegt die III die Kuno-Fischer-Straße an einem zusätzlichen Donnerstag im Dezember.
+- **III auswärts bei TSV Wedding II am 07.11.** nachgetragen: **18:30 Uhr, Halle KF** (Wedding hat
+  sein Heimspiel bei uns ausgetragen), mit Verlegungsvermerk. Stand bisher ohne Uhrzeit in der Datei.
+- **III heim gegen TSV Wedding II am 21.01.2027** hat jetzt eine Uhrzeit: **19:30 Uhr, KF**.
+- **Gruppe 42121:** Die im September ausgefallene Vorrunden-Begegnung **Nr. 2, Tempelhof/Friedenau V
+  gegen Vorspiel QSB**, hat einen Termin bekommen: **Sa 12.12.2026, 18:00 Uhr, Halle BO**. Deshalb
+  haben beide erst drei Begegnungen. Kein eigenes Spiel, aber relevant für die Tabellenlage.
+- **Unsere Termine unverändert:** So 22.11., 10:00, Halle DI bei Tempelhof/Friedenau V; Mi 02.12.,
+  19:30, KF gegen TuS Lichterfelde.
+
+**Geänderte Dateien.** `intern/daten/vereinsspiele.js` (drei Ergebnisse plus Berichtslinks, das
+Ergebnis der II vom 14.11. nachgetragen, Verlegung 10.12. → 17.12., zwei Uhrzeiten, `abgerufen`
+auf 2026-11-16), `intern/daten/einsaetze.js` (**92 → 110** Einträge), `intern/daten/rangliste.js`
+(nur der `stand`-Text — die Liste selbst ist gegenüber dem 09.11. **identisch**: gleiche 37 Herren
+und 24 Damen, gleiche Ränge, gleiche Vermerke), `site/data/spielplan.js` (Termin für die Begegnung
+am 12.12., `abgerufen`), dieses Protokoll.
+
+**Nicht geändert**, weil es nichts zu ändern gab: `site/data/tabelle.js` (Stand identisch),
+`site/data/vorberichte.js` (kein neues Spiel der II, also kein Nachbericht), `site/data/hallen.js`
+und `site/data/teams.js` (keine Halle unserer Gegner hat sich geändert).
+`intern/daten/zuordnung.js` wurde nur **gelesen**.
+
+**Offen.**
+
+1. **Zuordnung.** **Cathy = Schnak, Catherine** ist durch drei Spielberichte der II (30.09.,
+   01.10., 04.11.) und den nuLiga-Vermerk „Festgespielt in Mannschaft 2 ab 04.11.2026" belegt,
+   steht aber weiter leer — ohne Eintrag rechnet das Festspiel-Konto für sie nicht mit.
+   Außerdem fehlen **Eric = Godiveau, Eric** und **Sarin = Bhaskaran, Sarin** in `ZUORDNUNG` ganz,
+   obwohl beide am 14.11. für die II gespielt haben. Robert möge beides bestätigen.
+2. **Zwei Berichte noch nicht genehmigt:** II vom 14.11. (unverändert seit 14.11., 20:36) und I
+   vom 09.11. (09.11., 22:06). Zahlen sind eingetragen, können sich theoretisch noch ändern.
+3. **Der I mitteilen:** Katharina ist bei zwei von zwei Einsätzen nach oben.
+4. **Gegneranalyse Tempelhof/Friedenau V** für den 22.11. steht weiter aus.
+5. Beim Verband im Fenster **15.–23.12.2026**: **Pfender** abmelden, **Jens** als Stammspieler der
+   II ummelden. Bartoscheck ist erledigt (abgemeldet 07.11.).
+6. `intern/index.html`: Festspiel-Konto und „Gemeldet und verfügbar" beschriften
+   Ersatzspieler*innen weiter als unbegrenzt einsetzbar — seit der Entscheidung vom 09.11. falsch.
+7. **Mixed im Bericht 396455** (III bei Wedding, 07.11.): 21:0/21:0 für Wedding bei eingetragenen
+   CTSV-Namen, vermutlich kampflos abgegeben — aus dem Bericht nicht zu belegen.
+
+---
+
 ## 15.11.2026 — Handlauf außerhalb des Montagsrhythmus: 7:1 gegen Gaselan, Platz 3, und der Lauf vom 09.11. endlich veröffentlicht
 
 **Kein Montagslauf**, sondern eine Aktualisierung auf Zuruf. Anlass: Die öffentliche Seite stand

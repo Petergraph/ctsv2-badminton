@@ -109,12 +109,14 @@ geschätzt. Enthält Klarnamen fremder Spieler und gehört deshalb nach <code>in
 
   document.getElementById("inhalt").innerHTML = G.teams.map(function(t){
     var v = t.vorsaison;
-    var kacheln = [
+    var kacheln = (v ? [
       { w: v.liga,            l: "Vorsaison" },
       { w: v.platz + ".",     l: "Platz" },
       { w: v.s+"-"+v.u+"-"+v.n, l: "S-U-N" },
       { w: v.spiele,          l: "Einzelspiele" }
-    ].map(function(k){ return '<div class="kachel"><b style="font-size:1.15rem">'+esc(k.w)+
+    ] : [
+      { w: "–",               l: "Vorsaison nicht erhoben" }
+    ]).map(function(k){ return '<div class="kachel"><b style="font-size:1.15rem">'+esc(k.w)+
       '</b><span>'+esc(k.l)+'</span></div>'; }).join("");
 
     return '<section><h2>'+esc(t.name)+'</h2>' +

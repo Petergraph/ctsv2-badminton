@@ -205,6 +205,11 @@ Einzelbilanzen der Vorsaison für DCBV II und Vorspiel QSB, aus den nuLiga-Spiel
   var V = window.VEREINSSPIELE, RL = window.RANGLISTE, EIN = window.EINSAETZE, ZU = window.ZUORDNUNG;
   var SF = window.SPIELT_FUER || {};
   var WEG = window.NICHT_IM_VEREIN || {};
+  var ABGEMELDET = {};
+  (RL.abgemeldet || []).forEach(function(e){
+    var m = String(e).match(/^(.*?)\s*\(([^)]*)\)\s*$/);
+    if (m) { ABGEMELDET[m[1]] = "abgemeldet " + m[2]; } else { ABGEMELDET[String(e)] = "abgemeldet"; }
+  });
   var GRENZE = 2;
   var RANG = { "I":1, "II":2, "III":3, "IV":4 };
 
@@ -312,8 +317,12 @@ Einzelbilanzen der Vorsaison für DCBV II und Vorspiel QSB, aus den nuLiga-Spiel
 
     var zeilen = gemeldetII.map(function(p){
       var ruf = rufname(p.name);
+      var abgem = /^abgemeldet/.test(p.festgespielt || "") ? p.festgespielt
+              : p.abgemeldet ? "abgemeldet " + p.abgemeldet
+              : ABGEMELDET[p.name] || "";
       var lage = WEG[p.name]
         ? '<span class="warn">nicht mehr im Verein</span> <span class="klein">(in nuLiga nicht abgemeldet)</span>'
+        : abgem ? '<span class="klein">' + esc(abgem) + '</span>'
         : ruf ? '<span class="ok">spielt</span>'
               : '<span class="klein">gemeldet, in unserer Planung nicht geführt</span>';
       return "<tr><td>"+p.rang+"</td><td>"+esc(p.name)+"</td><td>"+

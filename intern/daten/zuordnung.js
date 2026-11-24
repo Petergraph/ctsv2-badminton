@@ -2,17 +2,23 @@
    nuLiga-Rangliste. NUR wenn hier ein Name steht, kann die Seite Einsätze und
    Festspiel-Konto einer Person zuordnen.
 
-   Herren am 26.09.2026 von Robert bestätigt. Damen weiterhin Vermutung. */
+   Herren am 26.09.2026 von Robert bestätigt. Damen sowie Eric und Sarin am 16.11.2026
+   von Robert bestätigt — die Tabelle ist damit vollständig. */
 
 window.ZUORDNUNG = {
+  "Matthias": "Pfender, Matthias",          /* bestätigt — Robert, 18.11.2026: umgezogen, aber weiter
+                                               im Verein. Stammspieler der II, Rang 60/60 — formal
+                                               unser stärkster Herr, nur selten in Berlin. */
   "Robert": "Schultz-Heienbrock, Robert",   /* bestätigt */
   "Jens":   "Wandel, Jens",                 /* bestätigt */
   "Hiep":   "Nguyen, Huu Loc",              /* bestätigt */
   "Alex":   "Jürgen, Alexander",            /* bestätigt — Reserve, Einzelrang 130, Doppelrang 140 */
   "Nils":   "Kaune, Nils",                  /* bestätigt — Nachmeldung, spielberechtigt seit 18.09.2026 */
-  "Karo":   "Wiegleb, Karoline",     /* aus Spielbericht II vom 14.11.2026 belegt */
-  "Katharina": "Kippert, Katharina", /* aus Spielbericht II vom 14.11.2026 belegt — Ersatz aus der I */
-  "Cathy":  ""    /* Vorschlag: "Schnak, Catherine" — bitte prüfen */
+  "Karo":   "Wiegleb, Karoline",     /* bestätigt — Robert, 16.11.2026 */
+  "Katharina": "Kippert, Katharina", /* bestätigt — Robert, 16.11.2026; in nuLiga Stammspielerin UNSERER II */
+  "Cathy":  "Schnak, Catherine",     /* bestätigt — Robert, 16.11.2026 */
+  "Eric":   "Godiveau, Eric",        /* bestätigt — Robert, 16.11.2026; Stamm III, hilft bei uns aus */
+  "Sarin":  "Bhaskaran, Sarin"       /* bestätigt — Robert, 16.11.2026; Stamm III, hilft bei uns aus */
 };
 
 /* ---------------------------------------------------------------------------
@@ -24,14 +30,20 @@ window.ZUORDNUNG = {
    zu glätten.
    --------------------------------------------------------------------------- */
 
-/* Nicht mehr im Verein, in nuLiga aber weiter als Stammspieler der II geführt
-   (anders als Plaschnick/Ünal, die am 18.07.2026 abgemeldet wurden).
-   Solange sie in der Liste stehen, hat die II formal vier Herren-Stammspieler
-   und faktisch zwei. */
-window.NICHT_IM_VEREIN = {
-  "Pfender, Matthias":    { seit: "2026-09-26", quelle: "Robert" },
-  "Bartoscheck, Sebastian": { seit: "2026-09-26", quelle: "Robert" }
-};
+/* Wer in nuLiga als Stammspieler der II geführt wird, aber nicht mehr im Verein ist.
+
+   Stand 18.11.2026: NIEMAND — die Liste ist leer, und das ist der richtige Stand.
+   - Pfender, Matthias: war hier ab 26.09.2026 eingetragen. Das war ein IRRTUM. Er ist nur
+     umgezogen und weiter Mitglied; am 22.11.2026 spielt er für uns. Von einer Abmeldung beim
+     Spielausschuss ist also ausdrücklich ABZUSEHEN — sie stand bis zum 18.11. als Vorhaben im
+     Projektstand.
+   - Bartoscheck, Sebastian: war hier ab 26.09.2026 eingetragen und ist in nuLiga zum
+     07.11.2026 regulär abgemeldet. Damit stimmen Meldung und Wirklichkeit überein, und der
+     Eintrag ist erledigt. In rangliste.js steht er weiter mit dem Status "abgemeldet 07.11.2026".
+
+   Folge: Die II hat wieder DREI verfügbare Herren-Stammspieler (Pfender 60, Nguyen 80,
+   Schultz-Heienbrock 90) statt zwei. */
+window.NICHT_IM_VEREIN = {};
 
 /* Wer tatsächlich für eine andere Mannschaft spielt als gemeldet.
    Jens: in nuLiga Stammspieler der III (Rang 70), spielt aber fest bei uns und

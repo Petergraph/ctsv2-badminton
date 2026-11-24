@@ -1,7 +1,7 @@
 /* Alle 56 Spiele der D-Klasse 2. Ergebnis eintragen: "ergebnis":"5:3" beim jeweiligen Spiel. */
 window.SPIELPLAN = {
  "quelle": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupPage?championship=BBMM+26%2F27&group=42121",
- "abgerufen": "2026-11-15",
+ "abgerufen": "2026-11-23",
  "liga": "BVBB Mannschaftsmeisterschaft 2026/27 – D-Klasse 2",
  "spiele": [
   {
@@ -279,18 +279,18 @@ window.SPIELPLAN = {
    "tag": "Do",
    "datum": "2026-11-19",
    "datumDe": "19.11.2026",
-   "zeit": "19:00",
+   "zeit": "19:05",
    "runde": "Vorrunde",
    "nr": "20",
    "halle": "AD",
    "heim": "Vorspiel QSB",
    "gast": "Deutsch-Chinesischer BV II",
-   "verlegt": false,
+   "verlegt": true,
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "2:6",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396231&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261122-DI-17",
@@ -307,8 +307,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": true,
    "heimspiel": false,
    "gegner": "SG BC Tempelhof/Friedenau V",
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "4:4",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396217&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261122-TM-19",
@@ -325,8 +325,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "3:5",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396225&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261122-ED-18",
@@ -343,8 +343,8 @@ window.SPIELPLAN = {
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
-   "ergebnis": "",
-   "berichtUrl": ""
+   "ergebnis": "3:5",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396213&championship=BBMM+26%2F27&group=42121"
   },
   {
    "id": "20261127-TU-21",
@@ -459,19 +459,19 @@ window.SPIELPLAN = {
    "tag": "Sa",
    "datum": "2026-12-12",
    "datumDe": "12.12.2026",
-   "zeit": "",
+   "zeit": "18:00",
    "runde": "Vorrunde",
    "nr": "2",
    "halle": "BO",
    "heim": "SG BC Tempelhof/Friedenau V",
    "gast": "Vorspiel QSB",
-   "verlegt": false,
+   "verlegt": true,
    "eigenesSpiel": false,
    "heimspiel": false,
    "gegner": null,
    "ergebnis": "",
    "berichtUrl": "",
-   "terminOffen": true
+   "terminOffen": false
   },
   {
    "id": "20261213-DI-26",

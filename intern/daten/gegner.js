@@ -4,7 +4,7 @@
    groupMeetingReport (Spielberichte). "einzel" = Bilanz Siege:Niederlagen in HE bzw. DE. */
 
 window.GEGNER = {
- "erhoben": "27.09.2026",
+ "erhoben": "27.09.2026 (DCBV II, Vorspiel QSB) / 18.11.2026 (Tempelhof/Friedenau V)",
  "teams": [
   {
    "kurz": "DCBV II",
@@ -101,6 +101,116 @@ window.GEGNER = {
     { "name": "Natalis, Marcel",  "rang": 100, "doppel": 100, "einsaetze": 6, "einzel": "0:1", "notiz": "" }
    ],
    "abgaenge": []
+  }
+,
+  {
+    "kurz": "Tempelhof V",
+    "name": "SG BC Tempelhof/Friedenau V",
+    "spielTermin": "2026-11-22",
+    "heimspielFuerUns": false,
+    "verein": {
+      "id": 12138,
+      "gegruendet": null,
+      "halle": "DI",
+      "mf": "Schoetz, Carsten"
+    },
+    "vorsaison": null,
+    "vollstaendig": "3 von 3 Begegnungen der Saison 2026/27 vollstaendig mit vier Herren und zwei Damen angetreten - kein kampfloses Spiel abgegeben.",
+    "kaderProSpiel": "genau 6 Personen, kein Puffer. Am 04.10. zwei andere (Dr. Heidepriem, Ernst) als an den beiden Novemberterminen (Hayungs, Timmke).",
+    "berichteAusgewertet": "3 von 3 der Saison 2026/27 (396229, 396230, 396216). Vorsaison nicht erhoben - clubTeams ignoriert den Saisonparameter, dafuer braeuchte man das BVBB-Archiv 25/26.",
+    "historie": "Fuenfte Herrenmannschaft eines grossen Vereins: Aktive in der Regionalliga Nord, II in der Landesliga 1, III in der Bezirksklasse 2, IV in der D-Klasse 1 (Parallelstaffel zu unserer), V bei uns. Die Rangliste des BC Tempelhof fuehrt 66 Herren und 33 Damen, und die V ist aus den hinteren Raengen gebildet - Herren 340 bis 430, Damen 230 bis 250. Fuenf Hallen (BO, DI, FM o, GH, MH); unser Spiel am 22.11. ist in DI, ihr Heimspiel am 04.10. war in BO. AUFSTELLUNG: in beiden Novemberspielen Zeichen fuer Zeichen identisch - 1.HD Konieczny/Schoetz, OD Hayungs/Roick, 1.HE Konieczny, DE Timmke, GD Roick/Kaiser, 2.HE Schoetz, OE Hayungs, DD Kaiser/Timmke. Am 04.10. dasselbe Muster mit Dr. Heidepriem an Hayungs' Stelle und Ernst an Timmkes. PUNKTEQUELLEN: von ihren sieben Spielpunkten kommen VIER von den Damen (Damendoppel 2:1, Dameneinzel 2:1), zwei von Konieczny, einer von Schoetz. Offenes Doppel, Mixed und offenes Einzel haben sie in drei Begegnungen NIE gewonnen - 0:3, 0:3, 0:3. VERSTAERKUNG MOEGLICH: Stammspieler der I bis IV duerfen nach Anlage III E Abs. 1 nicht in der V spielen, und mehrere Reservespieler sind seit dem 07./08./17.11. an die IV festgespielt (Huterer, Thelen, Speck, Altenhein, Ho) - fuer die V gesperrt. Frei waeren aber Reservespieler mit den Raengen 240 bis 290 (Taegener, Monnerjahn, Knauer, Kappes, Mauson, Stumpf), also auf dem Papier staerker als ihre eigenen Stammspieler. Bisher haben sie davon keinen Gebrauch gemacht.",
+    "gemeldet": [
+      {
+        "name": "Konieczny, Robert",
+        "rang": 340,
+        "doppel": 340,
+        "rolle": "Stamm V",
+        "einsaetze": 3,
+        "einzel": "1:2",
+        "notiz": "Ihre Nummer eins, immer 1.HD und 1.HE. Beim DCBV beides gewonnen (1.HE 21:17/21:12), bei den Brauereien dem Spitzenspieler einen Satz abgenommen (10:21, 22:20, 13:21). Gegen Lichterfelde chancenlos."
+      },
+      {
+        "name": "Schoetz, Carsten",
+        "rang": 350,
+        "doppel": 350,
+        "rolle": "Stamm V, Mannschaftsfuehrer",
+        "einsaetze": 3,
+        "einzel": "1:2",
+        "notiz": "Immer 1.HD und 2.HE. Starker Auftakt gegen Lichterfelde (21:11/21:18), danach zweimal glatt verloren - beim DCBV 17:21 und 1:21. Formschwankung oder Kraftfrage."
+      },
+      {
+        "name": "Hayungs, Jochen",
+        "rang": 360,
+        "doppel": 370,
+        "rolle": "Stamm V",
+        "einsaetze": 2,
+        "einzel": "0:2",
+        "notiz": "NICHT zu verwechseln mit Dr. Heidepriem - nuLiga fuehrt Titel mit, und bei Hayungs steht keiner. Nur die beiden Novemberspiele, dort OD und OE. OE 13:21/11:21 gegen Yang Xuanming (DCBVs staerksten, Einzelrang 80, Vorsaison 7:1) und 13:21/13:21 gegen Van (Brauereien, Tabellenzweiter) - deutlich, aber gegen gute Gegner. ACHTUNG: seine beiden OD-Niederlagen sagen vor allem etwas ueber den Partner Roick, der kein einziges Doppel gewonnen hat. Robert kennt moeglicherweise einen starken Spieler dieses Namens - das OD ist weniger geschenkt, als die 0:3-Bilanz aussieht. Am 04.10. nicht dabei."
+      },
+      {
+        "name": "Roick, Klaus",
+        "rang": 430,
+        "doppel": 410,
+        "rolle": "Stamm V",
+        "einsaetze": 3,
+        "einzel": "-",
+        "notiz": "Reiner Doppelspieler: dreimal OD, dreimal GD, kein Einzel - und keines der sechs Doppel gewonnen. Rangniedrigster der Sechs."
+      },
+      {
+        "name": "Kaiser, Simone",
+        "rang": 230,
+        "doppel": 250,
+        "rolle": "Stamm V, Dame",
+        "einsaetze": 3,
+        "einzel": "0:1",
+        "notiz": "Die nach EIGENER Vereinsmeldung staerkere der beiden Damen: 230/250 gegen Timmkes 250/310 - in beiden Listen vorn. Immer Damendoppel, dazu Mixed (zweimal) oder Dameneinzel (einmal). Mit Timmke im DD zweimal gewonnen; im Mixed mit Roick dreimal verloren. Ihr einziges Einzel war gegen Lichterfelde, den Tabellenfuehrer: 10:21/14:21. Robert kennt sie persoenlich und haelt sie fuer stark."
+      },
+      {
+        "name": "Timmke, Sandra",
+        "rang": 250,
+        "doppel": 310,
+        "rolle": "Stamm V, Dame",
+        "einsaetze": 2,
+        "einzel": "2:0",
+        "notiz": "Beste BILANZ der Mannschaft, aber nicht zwingend die staerkere Dame: die Vereinsrangliste stellt Kaiser vor sie. Dameneinzel 2:0 - 21:11/21:9 beim DCBV gegen eine Ersatzspielerin, 21:19/22:20 bei den Brauereien, also hauchduenn. Noch keine Spitzendame gesehen. Das DD mit Kaiser gewinnt die engen Spiele: 25:23/23:21 und 22:20/21:16 - nervenstark, aber niemand wurde ueberrannt. Am 04.10. nicht dabei."
+      },
+      {
+        "name": "Fuchs, Kerstin",
+        "rang": 240,
+        "doppel": 240,
+        "rolle": "Stamm V, Dame",
+        "einsaetze": 0,
+        "einzel": "-",
+        "notiz": "Gemeldet, aber in dieser Saison noch nicht eingesetzt."
+      }
+    ],
+    "reservepool": [
+      {
+        "name": "Dr. Heidepriem, Raphael",
+        "rang": 370,
+        "doppel": 360,
+        "einsaetze": 1,
+        "einzel": "0:1",
+        "notiz": "Am 04.10. OD und OE. Das offene Einzel endete 0:21/0:21 - nicht angetreten oder aufgegeben. Seither nicht mehr dabei."
+      },
+      {
+        "name": "Ernst, Hanna",
+        "rang": 180,
+        "doppel": 130,
+        "einsaetze": 1,
+        "einzel": "-",
+        "notiz": "DIE VARIABLE FUER DEN 22.11.: Doppelrang 130 - in der Vereinsrangliste weit vor Kaiser (250) und Timmke (310), als Reservespielerin frei einsetzbar. Steht sie in der Halle, ist das Damendoppel eine andere Aufgabe. Am 04.10. DD und GD; im DD mit Kaiser gegen Lichterfelde einen Satz geholt (28:26)."
+      },
+      {
+        "name": "Ernst, Anne",
+        "rang": 90,
+        "doppel": 100,
+        "einsaetze": 0,
+        "einzel": "-",
+        "notiz": "Gemeldet fuer die III - nach Anlage III E Abs. 1 in der V NICHT spielberechtigt. Nur zur Einordnung der Namensgleichheit mit Hanna Ernst."
+      }
+    ],
+    "abgaenge": []
   }
  ]
 };

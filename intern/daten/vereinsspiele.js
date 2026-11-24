@@ -1,9 +1,9 @@
-/* Alle Spiele aller vier Mannschaften. Aus nuLiga, Stand 09.11.2026.
+/* Alle Spiele aller vier Mannschaften. Aus nuLiga, Stand 23.11.2026.
    Wird von der wöchentlichen Aufgabe fortgeschrieben. */
 window.VEREINSSPIELE = {
  "verein": "Charlottenburger TSV",
  "saison": "2026/27",
- "abgerufen": "2026-11-09",
+ "abgerufen": "2026-11-23",
  "quelle": "nuLiga BVBB, Gruppen I=41956, II=42121, III=42137, IV=42155",
  "mannschaften": [
   {
@@ -214,10 +214,10 @@ window.VEREINSSPIELE = {
    "tag": "Sa",
    "datum": "2026-11-07",
    "datumDe": "07.11.2026",
-   "zeit": "",
+   "zeit": "18:30",
    "halle": "KF",
    "daheim": false,
-   "verlegt": false,
+   "verlegt": true,
    "gegner": "TSV Wedding II",
    "ergebnis": "7:1",
    "ergebnisNuliga": "1:7",
@@ -249,9 +249,9 @@ window.VEREINSSPIELE = {
    "daheim": false,
    "verlegt": false,
    "gegner": "Märkischer SC II",
-   "ergebnis": "",
-   "ergebnisNuliga": "",
-   "berichtUrl": ""
+   "ergebnis": "7:1",
+   "ergebnisNuliga": "1:7",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396026&championship=BBMM+26%2F27&group=41956"
   },
   {
    "mannschaft": "IV",
@@ -264,9 +264,9 @@ window.VEREINSSPIELE = {
    "daheim": true,
    "verlegt": false,
    "gegner": "VSG Rahnsdorf III",
-   "ergebnis": "",
-   "ergebnisNuliga": "",
-   "berichtUrl": ""
+   "ergebnis": "5:3",
+   "ergebnisNuliga": "5:3",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396537&championship=BBMM+26%2F27&group=42155"
   },
   {
    "mannschaft": "II",
@@ -279,9 +279,9 @@ window.VEREINSSPIELE = {
    "daheim": true,
    "verlegt": false,
    "gegner": "SG Gaselan Fürstenwalde II",
-   "ergebnis": "",
-   "ergebnisNuliga": "",
-   "berichtUrl": ""
+   "ergebnis": "7:1",
+   "ergebnisNuliga": "7:1",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396214&championship=BBMM+26%2F27&group=42121"
   },
   {
    "mannschaft": "IV",
@@ -294,9 +294,9 @@ window.VEREINSSPIELE = {
    "daheim": true,
    "verlegt": false,
    "gegner": "BSV Werder III",
-   "ergebnis": "",
-   "ergebnisNuliga": "",
-   "berichtUrl": ""
+   "ergebnis": "4:4",
+   "ergebnisNuliga": "4:4",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396559&championship=BBMM+26%2F27&group=42155"
   },
   {
    "mannschaft": "I",
@@ -309,9 +309,9 @@ window.VEREINSSPIELE = {
    "daheim": true,
    "verlegt": false,
    "gegner": "VfB Kiefholz VIII",
-   "ergebnis": "",
-   "ergebnisNuliga": "",
-   "berichtUrl": ""
+   "ergebnis": "4:4",
+   "ergebnisNuliga": "4:4",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396036&championship=BBMM+26%2F27&group=41956"
   },
   {
    "mannschaft": "III",
@@ -324,9 +324,9 @@ window.VEREINSSPIELE = {
    "daheim": true,
    "verlegt": false,
    "gegner": "VSG Altglienicke",
-   "ergebnis": "",
-   "ergebnisNuliga": "",
-   "berichtUrl": ""
+   "ergebnis": "1:7",
+   "ergebnisNuliga": "1:7",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396467&championship=BBMM+26%2F27&group=42137"
   },
   {
    "mannschaft": "II",
@@ -339,9 +339,9 @@ window.VEREINSSPIELE = {
    "daheim": false,
    "verlegt": false,
    "gegner": "SG BC Tempelhof/Friedenau V",
-   "ergebnis": "",
-   "ergebnisNuliga": "",
-   "berichtUrl": ""
+   "ergebnis": "4:4",
+   "ergebnisNuliga": "4:4",
+   "berichtUrl": "https://bvbb-badminton.liga.nu/cgi-bin/WebObjects/nuLigaBADDE.woa/wa/groupMeetingReport?meeting=396217&championship=BBMM+26%2F27&group=42121"
   },
   {
    "mannschaft": "I",
@@ -404,21 +404,6 @@ window.VEREINSSPIELE = {
    "berichtUrl": ""
   },
   {
-   "mannschaft": "III",
-   "liga": "F-Klasse 2",
-   "tag": "Do",
-   "datum": "2026-12-10",
-   "datumDe": "10.12.2026",
-   "zeit": "19:30",
-   "halle": "KF",
-   "daheim": true,
-   "verlegt": false,
-   "gegner": "DIBVM VI",
-   "ergebnis": "",
-   "ergebnisNuliga": "",
-   "berichtUrl": ""
-  },
-  {
    "mannschaft": "II",
    "liga": "D-Klasse 2",
    "tag": "Sa",
@@ -459,6 +444,21 @@ window.VEREINSSPIELE = {
    "daheim": true,
    "verlegt": false,
    "gegner": "BSV Werder II",
+   "ergebnis": "",
+   "ergebnisNuliga": "",
+   "berichtUrl": ""
+  },
+  {
+   "mannschaft": "III",
+   "liga": "F-Klasse 2",
+   "tag": "Do",
+   "datum": "2026-12-17",
+   "datumDe": "17.12.2026",
+   "zeit": "19:30",
+   "halle": "KF",
+   "daheim": true,
+   "verlegt": true,
+   "gegner": "DIBVM VI",
    "ergebnis": "",
    "ergebnisNuliga": "",
    "berichtUrl": ""
@@ -604,7 +604,7 @@ window.VEREINSSPIELE = {
    "tag": "Do",
    "datum": "2027-01-21",
    "datumDe": "21.01.2027",
-   "zeit": "",
+   "zeit": "19:30",
    "halle": "KF",
    "daheim": true,
    "verlegt": false,

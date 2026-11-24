@@ -2,7 +2,7 @@
    Diese Datei wird von Netlify nicht ausgeliefert (publish = "site").
    Wird von der woechentlichen Aufgabe fortgeschrieben. */
 window.RANGLISTE = {
- "stand": "Vorrunde 2026/27, abgerufen 09.11.2026 – fünf neue bzw. verschobene Festspiel-Vermerke: Jürgen, Wiegleb und Schnak sind seit 04.11. an die II gebunden (vorher Jürgen und Wiegleb an die IV ab 07.10.), Erbe seit 05.11. an die III, Kaune seit 07.11. an die III, Müller seit 08.11. an die IV. Bartoscheck ist zum 07.11.2026 abgemeldet. Neu in der Liste: Knuppe und Song, beide als Nachmeldung spielberechtigt ab 04.11.2026. Ränge und Doppelränge unverändert.",
+ "stand": "Vorrunde 2026/27, abgerufen 23.11.2026 – vier Änderungen gegenüber dem 16.11.: NEU in der Herrenliste ist Hartling, Frederic (Reserve, 175/175, Sperrfrist bis 04.11.2026, als Nachmeldung aber erst ab 26.11.2026 spielberechtigt) – damit 38 Herren und 24 Damen (nuLiga zeigt 26 Damen; die beiden am 18.07.2026 abgemeldeten stehen hier nur unter abgemeldet). Drei neue bzw. verschobene Festspiel-Vermerke nach dem 19.11.: Kippert ist an die I gebunden (Mannschaft 1 ab 19.11.2026) und damit für die II verloren; Müller ist von Mannschaft 4 ab 08.11. auf Mannschaft 3 ab 19.11.2026 gewandert; Ludwig hat erstmals einen Vermerk (Mannschaft 4 ab 19.11.2026). Unverändert: Wandel II ab 01.10., Braun III ab 01.10., Durie IV ab 07.10., Kanis IV ab 09.10., Jürgen/Wiegleb/Schnak II ab 04.11., Erbe III ab 05.11., Kaune III ab 07.11. Neu eingesetzt, aber noch ohne Vermerk: Lembke, Sören (Reserve, 195/195) und von Rosen, Jenny (Stamm IV, 200/190), beide am 22.11. in der II.",
  "quelle": "nuLiga Vereinsrangliste, clubPools?club=16382&displayTyp=vorrunde&seasonName=2026/27",
  "hinweis": "rang = Einzelrangfolge, doppelrang = eigene Doppelrangfolge (nuLiga zeigt beides als „Rang/Doppel“). Fuer die Herrendoppel-Reihenfolge nach Anlage III E Abs. 3 zaehlt der DOPPELRANG, nicht der Einzelrang. Stammspieler duerfen in KEINER niedrigeren Mannschaft spielen (Anlage III E Abs. 1). Das Feld festgespielt uebernimmt den nuLiga-Vermerk wortgleich: ab diesem Datum ist die Person an die genannte Mannschaft gebunden und in keiner tieferen mehr spielberechtigt.",
  "abgemeldet": [
@@ -162,6 +162,16 @@ window.RANGLISTE = {
    "name": "Heusel, Jannis",
    "dame": false,
    "stamm": true
+  },
+  {
+   "rang": 175,
+   "doppelrang": 175,
+   "mannschaft": "Reserve",
+   "name": "Hartling, Frederic",
+   "dame": false,
+   "stamm": false,
+   "sperrfrist": "spielberechtigt ab 04.11.2026",
+   "spielberechtigtAb": "26.11.2026"
   },
   {
    "rang": 180,
@@ -326,7 +336,8 @@ window.RANGLISTE = {
    "mannschaft": "II",
    "name": "Kippert, Katharina",
    "dame": true,
-   "stamm": true
+   "stamm": true,
+   "festgespielt": "Festgespielt in Mannschaft 1 ab 19.11.2026"
   },
   {
    "rang": 40,
@@ -369,7 +380,7 @@ window.RANGLISTE = {
    "name": "Müller, Janina",
    "dame": true,
    "stamm": false,
-   "festgespielt": "Festgespielt in Mannschaft 4 ab 08.11.2026"
+   "festgespielt": "Festgespielt in Mannschaft 3 ab 19.11.2026"
   },
   {
    "rang": 90,
@@ -513,7 +524,8 @@ window.RANGLISTE = {
    "mannschaft": "Reserve",
    "name": "Ludwig, Laeticia",
    "dame": true,
-   "stamm": false
+   "stamm": false,
+   "festgespielt": "Festgespielt in Mannschaft 4 ab 19.11.2026"
   },
   {
    "rang": 240,
